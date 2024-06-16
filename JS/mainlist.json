@@ -62,8 +62,6 @@
         ]
  
     },
-
-
 	"My Last Stand":{
 		"name":"My Last Stand",
 		"ytcode":"WFaAavH7sGk",
@@ -74,6 +72,11 @@
 			{
 				"name":"Quaoz",
 				"link":"https://www.youtube.com/watch?v=WFaAavH7sGk"
+
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/UQ9kP8LIBIo"
 
 			}
 		],
@@ -203,6 +206,10 @@
 			{
 				"name":"Eurikuj",
 				"link":"na"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/Ba_s_SuxfBs"
 			}
 		],
 		"progresses":[
@@ -351,6 +358,10 @@
 			{
 				"name":"Quaoz",
 				"link":"https://www.youtube.com/watch?v=EQq3wpX56Hw"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/yzfj0kebFVc"
 			}
 		],
 		"progresses":[
@@ -429,9 +440,12 @@
 				"link":"https://www.youtube.com/watch?v=HOvNfHAsB98"
 			},
 			{
-
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=_GWGlzrOTz4"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/oLC-2jUwgtQ"
 			}
 		],
 		"progresses":[
