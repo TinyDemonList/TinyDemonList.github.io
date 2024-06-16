@@ -1,0 +1,472 @@
+{
+	"VooBu":{
+		"levels":[
+			"Poobot",
+			"Pootra"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Quaoz":{
+		"levels":[
+			"Antivirus",
+			"My Last Stand",
+			"The End",
+			"Hazardz",
+			"Absolute Agony",
+			"Fever Dream",
+			"Happy Dashing III"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Eurikuj":{
+		"levels":[
+			"Poobot",
+			"Two point too",
+			"Smiley Face",
+			"Shartscapes",
+			"The FP Trial",
+			"Grandma Pickles Cell",
+			"Severus",
+			"Plastic Straw Turtle",
+			"Silent Decode 2",
+			"Sigma Balls",
+			"9 secs of straight F",
+			"Blue Balls",
+			"Flibogogabgilab",
+			"Dexxx071s Meat",
+			"Bottom of the tdl"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"ScratchMan":{
+		"levels":[
+			"First Location",
+			"The FP Trial",
+			"Happy Dashing III",
+			"Dual Spaz",
+			"Inconspicuous Maze",
+			"FCBT",
+			"Galvanization",
+			"7yr olds only",
+			"Sigma Balls",
+			"Abstract of Art",
+			"Dark World",
+			"9 secs of straight F",
+			"Blue Balls",
+			"Flibogogabgilab",
+			"Dexxx071s Meat",
+			"Bottom of the tdl",
+			"celompetrec"
+			
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Lexxxy":{
+		"levels":[
+			"Two point too",
+			"My Flesh",
+			"Brad Garlinghouse Ch"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"QwertyQwertz":{
+		"levels":[
+			"Smiley Face",
+			"Spaced Out",
+			"Squidward Testickles",
+			"Plastic Straw Turtle",
+			"Sigma Balls"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Lantern":{
+		"levels":[
+			"Smiley Face",
+			"Quiet",
+			"Spaced Out",
+			"CyclelolcyclE",
+			"My Meat",
+			"Squidward Testickles",
+			"Dark Flames",
+			"Forty"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"tFluffy":{
+		"levels":[
+			"Smiley Face"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Cinasek":{
+		"levels":[
+			"Shartscapes",
+			"Bruh is Calling"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"TechnoKaj":{
+		"levels":[
+			"CyclelolcyclE",
+			"Severus"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Ken Carson":{
+		"levels":[
+			"easy challenge",
+			"ABCDEFG",
+			"Seconds",
+			"7yr olds only",
+			"WAVIXSpam",
+			"AHHH",
+			"celompetrec",
+			"9 secs of straight F",
+			"Blue Balls",
+			"Flibogogabgilab",
+			"Dexxx071s Meat"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Dexxx071":{
+		"levels":[
+			"My Meat",
+			"Foe Toes",
+			"Dexxx071s Meat"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Robot_Man":{
+		"levels":[
+			"Squidward Testickles",
+			"T",
+			"Seconds",
+			"Dark 14955",
+			"T Minor",
+			"Sigma Balls",
+			"Abstract of Art",
+			"The Gamer Wave",
+			"Jump Trials",
+			"Wavely lvl buffed",
+			"Unnamed 12",
+			"celompetrec",
+			"9 secs of straight F",
+			"Blue Balls",
+			"Flibogogabgilab",
+			"Dexxx071s Meat"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"kowman":{
+		"levels":[
+			"Grandma Pickles Cell",
+			"here we suffer",
+			"here to suffer",
+			"crazy pickle land"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"MxGaming01":{
+		"levels":[
+			"Spike Maze",
+			"MXGaming Never Clear",
+			"Amar Schlecken",
+			"Bottom of the tdl"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Wvsp":{
+		"levels":[
+			"Life Below",
+			"Silent Decode 2",
+			"Lavender Destroyed"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"YzGuysie":{
+		"levels":[
+			"Forty",
+			"I Have Depression",
+			"Tesco Hard",
+			"Silent Decode 2",
+			"Unnamed 12"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Slinky":{
+		"levels":[
+			"Dean Pendry",
+			"Black Hole Sun"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"VampireFlutist":{
+		"levels":[
+			"SCOH",
+			"Femscapes",
+			"WAVIXSpam",
+			"AHHH",
+			"celompetrec"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Fiesty":{
+		"levels":[
+			"Tesco Hard"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Fred Bylon":{
+		"levels":[
+			"Fast Paced Death 3",
+			"Rainbow Glitch",
+			"Bolly",
+			"Cracked",
+			"9 secs of straight F"
+		],
+		"progs":[
+				"none"
+		]
+	},
+	"Woldrickduckyson":{
+		"levels":[
+			"Fast Paced Death 3",
+			"celompetrec"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"lightnn":{
+		"levels":[
+			"Scissorphrenic",
+			"You're So Defeated"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"ThatSigmaGD":{
+		"levels":[
+			"Cop Party"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"WcoolKid":{
+		"levels":[
+			"Cop Party",
+			"Dark 14955",
+			"7yr olds only",
+			"5 senconds fo swign",
+			"Unnamed 12",
+			"Bottom of the tdl"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Maxushii":{
+		"levels":[
+			"Happy Dashing III",
+			"FCBT",
+			"Flibogogabgilab"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"OMEGA.exe":{
+		"levels":[
+			"Seconds",
+			"Blue Balls",
+			"Flibogogabgilab"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"AverageFurry":{
+		"levels":[
+			"Dual Spaz"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Silent Clubstep":{
+		"levels":[
+			"Silent Decode 2"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Lemon shark":{
+		"levels":[
+			"Femscapes"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Red Yoshi":{
+		"levels":[
+			"Galvanization"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"A Unicorn":{
+		"levels":[
+			"7yr olds only",
+			"Dexxx071s Meat"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Wysie":{
+		"levels":[
+			"Sigma Balls"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Garlic Bread":{
+		"levels":[
+			"I Have Depression",
+			"Sigma Balls",
+			"WAVIXSpam"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"meowthjr":{
+		"levels":[
+			"Sigma Balls",
+			"The Gamer Wave",
+			"Femboy Paradise"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"RxssGD":{
+		"levels":[
+			"Abstract of Art",
+			"5 Year Old"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"epic_juba":{
+		"levels":[
+			"The Gamer Wave",
+			"Dark World"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"zany":{
+		"levels":[
+			"Am I Russian",
+			"Dexxx071s Meat"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Trilazer":{
+		"levels":[
+			"5 senconds fo swign",
+			"Blue Balls"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Spacer":{
+		"levels":[
+			"celompetrec",
+			"Blue Balls"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Vixity":{
+		"levels":[
+			"celompetrec",
+			"9 secs of straight F",
+			"Blue Balls"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Zedder":{
+		"levels":[
+			"Think About"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Epic GD":{
+		"levels":[
+			"Think About",
+			"Blue Balls",
+			"Dexxx071s Meat"
+		],
+		"progs":[
+			"none"
+		]
+	}
+}

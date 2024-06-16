@@ -1,0 +1,9 @@
+.trigger_popup_fricc {
+    cursor: pointer;
+    text-align:left;
+    display: inline;
+    font-size: 20px;
+}
+.trigger_popup_fricc:hover {
+    color:lightseagreen;
+}
