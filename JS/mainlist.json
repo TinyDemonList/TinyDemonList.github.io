@@ -149,6 +149,22 @@
 			"none"
 		]
 	},
+	"Tidal Change":{
+		"name":"Tidal Change",
+		"ytcode":"H6ITIDqt_6g",
+		"minimumPercent": 50,
+		"publisher":"Aspect",
+		"id":"105619697",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=H6ITIDqt_6g"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Quiet":{
 		"name":"Quiet",
 		"ytcode":"DHdB1kwo2Uk",
