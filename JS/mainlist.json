@@ -765,6 +765,21 @@
 			"none"
 		]
 	},
+	"Epileptic Fun":{
+		"name":"Epileptic Fun",
+		"ytcode":"aI8XEfPMwxI",
+		"minimumPercent": 50,
+		"publisher":"kowman",
+		"list":[
+			{
+				"name":"kowman",
+				"link":"https://www.youtube.com/watch?v=aI8XEfPMwxI"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Seconds":{
 		"name":"Seconds",
 		"ytcode":"V7553HWG0ow",
