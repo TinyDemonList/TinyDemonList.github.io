@@ -335,7 +335,11 @@
 			},
 			{
 				"name":"Eurikuj",
-				"limk":"na"
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=_GWGlzrOTz4"
 			}
 		],
 		"progresses":[
@@ -352,6 +356,11 @@
 			{
 				"name":"Quaoz",
 				"link":"https://www.youtube.com/watch?v=HOvNfHAsB98"
+			},
+			{
+
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=_GWGlzrOTz4"
 			}
 		],
 		"progresses":[
