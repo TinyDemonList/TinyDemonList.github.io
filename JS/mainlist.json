@@ -177,6 +177,22 @@
 			"none"
 		]
 	},
+	"Shadow Inferno":{
+		"name":"Shadow Inferno",
+		"ytcode":"TgPppVv3O4I",
+		"minimumPercent": 50,
+		"publisher":"MXGaming01",
+		"id":"106613301",
+		"list":[
+			{
+				"name":"MXGaming01",
+				"link":"https://www.youtube.com/watch?v=_TgPppVv3O4I"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Spaced Out":{
 		"name":"Spaced Out",
 		"ytcode":"gl6BTLRzwTc",
@@ -191,22 +207,6 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Shadow Inferno":{
-		"name":"Shadow Inferno",
-		"ytcode":"TgPppVv3O4I",
-		"minimumPercent": 50,
-		"publisher":"MXGaming01",
-		"id":"106613301",
-		"list":[
-			{
-				"name":"MXGaming01",
-				"link":"https://www.youtube.com/watch?v=_TgPppVv3O4I"
 			}
 		],
 		"progresses":[
