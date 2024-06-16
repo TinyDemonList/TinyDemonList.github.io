@@ -423,7 +423,11 @@
 			}
 		],
 		"progresses":[
-			"none"
+			{
+		        "name":"VampireFlutist",
+                "percent":64,
+                "link":"na"
+            }
 		]
 	},
 	"MXGaming Never Clear":{

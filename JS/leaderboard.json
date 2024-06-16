@@ -278,7 +278,10 @@
 			"Galvanization"
 		],
 		"progs":[
-				"none"
+			{
+				"name":"Squidward Testickles",
+				"percent":64
+			}
 		]
 	},
 	"Fiesty":{
