@@ -36,23 +36,7 @@
 			"none"
 		]
 
-	"Shadow Inferno":{
-		"name":"Shadow Inferno",
-		"ytcode":"WFaAavH7sGk",
-		"minimumPercent": 50,
-		"publisher":"MXGaming01",
-		"id":"106613301",
-		"list":[
-			{
-				"name":"MXGaming01",
-				"link":"https://youtu.be/TgPppVv3O4I"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	
-	},
+		
 	"My Last Stand":{
 		"name":"My Last Stand",
 		"ytcode":"WFaAavH7sGk",
