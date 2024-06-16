@@ -1232,46 +1232,6 @@
 			"none"
 		]
 	},
-	"Abstract of Art":{
-		"name":"Abstract of Art",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"RxssGD",
-		"id":"105769783",
-		"list":[
-			{
-				"name":"RxssGD",
-				"link":"na"
-			},
-			{
-				"name":"Robot_Man",
-				"link":"na"
-			},
-			{
-				"name":"Abstract of Art",
-				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"5 Year Old":{
-		"name":"5 Year Old",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"RxssGD",
-		"id":"105786994",
-		"list":[
-			{
-				"name":"RxssGD",
-				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"The Gamer Wave":{
 		"name":"The Gamer Wave",
 		"ytcode":"Nn3M74LdsgA",
