@@ -35,25 +35,7 @@
 		"progresses":[
 			"none"
 		]
-	},
-	"Pootra":{
-		"name":"Pootra",
-		"ytcode":"90-ecqKfdCc",
-		"minimumPercent": 50,
-		"publisher":"VooBu",
-		"id":"105581306",
-		"list":[
-			{
-				"name":"VooBu",
-				"link":"https://www.youtube.com/watch?v=90-ecqKfdCc"
 
-			}
-		],
-		"progresses":[
-			"none"
-		]
-
-	},
 	"Shadow Inferno":{
 		"name":"Shadow Inferno",
 		"ytcode":"WFaAavH7sGk",
