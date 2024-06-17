@@ -383,7 +383,10 @@
 			"Bottom of the tdl",
 			"Dexxx071s Meat",
 			"Galvanization",
-			"celompetrec"
+			"celompetrec",
+			"Blue Balls",
+			"Flibogogabgilab",
+			"Seconds"
 		],
 		"progs":[
 				"none"
@@ -602,6 +605,14 @@
 	"Jaiden1":{
 		"levels":[
 			"No Room For Error"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"Sneedle":{
+		"levels":[
+			"Bottom of the tdl"
 		],
 		"progs":[
 			"none"
