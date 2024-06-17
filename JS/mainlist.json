@@ -1926,6 +1926,30 @@
 			"none"
 		]
 	},
+	"El Pistolero":{
+		"name":"El Pistolero",
+		"ytcode":"018ByZ88kY4",
+		"minimumPercent": 50,
+		"publisher":"epic_juba",
+		"id":"106654127",
+		"list":[
+			{
+				"name":"epic_juba",
+				"link":"https://www.youtube.com/watch?v=018ByZ88kY4"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=EMmCqwqhPAs"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Dark World":{
 		"name":"Dark World",
 		"ytcode":"2sQbKgdpCgw",
