@@ -168,7 +168,9 @@
 			"Absolute Agony",
 			"My Last Stand",
 			"Fever Dream",
-			"WAVIXSpam"
+			"WAVIXSpam",
+			"Amar Schlecken",
+			"No Room For Error"
 		],
 		"progs":[
 				"none"
@@ -577,6 +579,14 @@
 	"Aspect":{
 		"levels":[
 			"Bottom of the tdl"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"someone":{
+		"levels":[
+			"No Room For Error"
 		],
 		"progs":[
 			"none"
