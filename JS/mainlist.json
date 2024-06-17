@@ -1346,42 +1346,6 @@
 			"none"
 		]
 	},
-	"The Gamer Wave":{
-		"name":"The Gamer Wave",
-		"ytcode":"Nn3M74LdsgA",
-		"minimumPercent": 50,
-		"publisher":"epic_juba",
-		"id":"105562082",
-		"list":[
-			{
-				"name":"epic_juba",
-				"link":"https://www.youtube.com/watch?v=Nn3M74LdsgA"
-			},
-			{
-				"name":"meowthjr",
-				"link":"na"
-			},
-			{
-				"name":"Robot_Man",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"Jump Trials":{
 		"name":"Jump Trials",
 		"ytcode":"kKM3WREyjmo",
@@ -1486,6 +1450,42 @@
 			"none"
 		]
 	},
+	"The Gamer Wave":{
+		"name":"The Gamer Wave",
+		"ytcode":"Nn3M74LdsgA",
+		"minimumPercent": 50,
+		"publisher":"epic_juba",
+		"id":"105562082",
+		"list":[
+			{
+				"name":"epic_juba",
+				"link":"https://www.youtube.com/watch?v=Nn3M74LdsgA"
+			},
+			{
+				"name":"meowthjr",
+				"link":"na"
+			},
+			{
+				"name":"Robot_Man",
+				"link":"na"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			},
+			{
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"crazy pickle land":{
 		"name":"crazy pickle land",
 		"ytcode":"yC5MQoBCRgo",
@@ -1504,46 +1504,6 @@
 			{
 				"name":"Quaoz",
 				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Galvanization":{
-		"name":"Galvanization",
-		"ytcode":"iR3RLTbs6A4",
-		"minimumPercent": 50,
-		"publisher":"Red Yoshi",
-		"id":"105640523",
-		"list":[
-			{
-				"name":"Red Yoshi",
-				"link":"iR3RLTbs6A4"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/riQl4eNb13E"
-			},
-			{
-				"name":"epic_juba",
-				"link":"https://youtu.be/1uEhwVd5deA"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
 			}
 		],
 		"progresses":[
@@ -1675,6 +1635,46 @@
 			},
 			{
 				"name":"WcoolKid",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Galvanization":{
+		"name":"Galvanization",
+		"ytcode":"iR3RLTbs6A4",
+		"minimumPercent": 50,
+		"publisher":"Red Yoshi",
+		"id":"105640523",
+		"list":[
+			{
+				"name":"Red Yoshi",
+				"link":"iR3RLTbs6A4"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/riQl4eNb13E"
+			},
+			{
+				"name":"epic_juba",
+				"link":"https://youtu.be/1uEhwVd5deA"
+			},
+			{
+				"name":"VampireFlutist",
 				"link":"na"
 			},
 			{
