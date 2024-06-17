@@ -701,30 +701,6 @@
 			}
 		]
 	},
-	"SCOH":{
-		"name":"SCOH",
-		"ytcode":"SxSuY1T50pw",
-		"minimumPercent": 50,
-		"publisher":"VampireFlutist",
-		"id":"106104215",
-		"list":[
-			{
-				"name":"VampireFlutist",
-				"link":"https://www.youtube.com/watch?v=SxSuY1T50pw"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://youtu.be/5OQKWd--2B4"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=lIaaPeOpBsU"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"ABCDEFG":{
 		"name":"ABCDEFG",
 		"ytcode":"gxWmkENqUB8",
@@ -783,26 +759,6 @@
 			{
 				"name":"Robot_Man",
 				"link":"https://www.youtube.com/watch?v=M1zsaK3vWss"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://youtu.be/5OQKWd--2B4"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"here we suffer":{
-		"name":"here we suffer",
-		"ytcode":"eOQvnBE4jOk",
-		"minimumPercent": 50,
-		"publisher":"kowman",
-		"id":"105618612",
-		"list":[
-			{
-				"name":"kowman",
-				"link":"https://www.youtube.com/watch?v=eOQvnBE4jOk"
 			},
 			{
 				"name":"QwertyQwertz",
@@ -915,6 +871,26 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=Lq5fdvSMKS8"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"here we suffer":{
+		"name":"here we suffer",
+		"ytcode":"eOQvnBE4jOk",
+		"minimumPercent": 50,
+		"publisher":"kowman",
+		"id":"105618612",
+		"list":[
+			{
+				"name":"kowman",
+				"link":"https://www.youtube.com/watch?v=eOQvnBE4jOk"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://youtu.be/5OQKWd--2B4"
 			}
 		],
 		"progresses":[
@@ -1145,6 +1121,30 @@
 			"none"
 		]
 	},
+	"SCOH":{
+		"name":"SCOH",
+		"ytcode":"SxSuY1T50pw",
+		"minimumPercent": 50,
+		"publisher":"VampireFlutist",
+		"id":"106104215",
+		"list":[
+			{
+				"name":"VampireFlutist",
+				"link":"https://www.youtube.com/watch?v=SxSuY1T50pw"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://youtu.be/5OQKWd--2B4"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=lIaaPeOpBsU"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"FCBT":{
 		"name":"FCBT",
 		"ytcode":"NxSWqXgDj98",
@@ -1260,46 +1260,6 @@
 			{
 				"name":"Robot_Man",
 				"link":"eUs7_8-Y8EE"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Galvanization":{
-		"name":"Galvanization",
-		"ytcode":"iR3RLTbs6A4",
-		"minimumPercent": 50,
-		"publisher":"Red Yoshi",
-		"id":"105640523",
-		"list":[
-			{
-				"name":"Red Yoshi",
-				"link":"iR3RLTbs6A4"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/riQl4eNb13E"
-			},
-			{
-				"name":"epic_juba",
-				"link":"https://youtu.be/1uEhwVd5deA"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
 			},
 			{
 				"name":"QwertyQwertz",
@@ -1544,6 +1504,46 @@
 			{
 				"name":"Quaoz",
 				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Galvanization":{
+		"name":"Galvanization",
+		"ytcode":"iR3RLTbs6A4",
+		"minimumPercent": 50,
+		"publisher":"Red Yoshi",
+		"id":"105640523",
+		"list":[
+			{
+				"name":"Red Yoshi",
+				"link":"iR3RLTbs6A4"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/riQl4eNb13E"
+			},
+			{
+				"name":"epic_juba",
+				"link":"https://youtu.be/1uEhwVd5deA"
+			},
+			{
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
 			}
 		],
 		"progresses":[
