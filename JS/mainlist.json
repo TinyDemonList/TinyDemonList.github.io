@@ -666,7 +666,11 @@
 			}
 		],
 		"progresses":[
-			"none"
+			{
+				"name":"Fiesty",
+				"percent":53,
+				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
+			}
 		]
 	},
 	"SCOH":{
