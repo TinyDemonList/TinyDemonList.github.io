@@ -945,6 +945,26 @@
 			"none"
 		]
 	},
+	"here to suffer":{
+		"name":"here to suffer",
+		"ytcode":"hCmn3y0iF18",
+		"minimumPercent": 50,
+		"publisher":"kowman",
+		"id":"105591603",
+		"list":[
+			{
+				"name":"kowman",
+				"link":"https://www.youtube.com/watch?v=_hCmn3y0iF18"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"No Room For Error":{
 		"name":"No Room For Error",
 		"ytcode":"fk_PfD6fgJY",
@@ -959,26 +979,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=BtMr4JejGGI"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Cop Party":{
-		"name":"Cop Party",
-		"ytcode":"fR2ZzgHt0V4",
-		"minimumPercent": 50,
-		"publisher":"ThatSigmaGD",
-		"id":"106204796",
-		"list":[
-			{
-				"name":"ThatSigmaGD",
-				"link":"https://www.youtube.com/watch?v=fR2ZzgHt0V4"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"https://www.youtube.com/watch?v=97aWobdxdow"
 			}
 		],
 		"progresses":[
@@ -1450,26 +1450,6 @@
 			"none"
 		]
 	},
-	"here to suffer":{
-		"name":"here to suffer",
-		"ytcode":"hCmn3y0iF18",
-		"minimumPercent": 50,
-		"publisher":"kowman",
-		"id":"105591603",
-		"list":[
-			{
-				"name":"kowman",
-				"link":"https://www.youtube.com/watch?v=_hCmn3y0iF18"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"Cracked":{
 		"name":"Cracked",
 		"ytcode":"I0-dwOPPTdM",
@@ -1551,7 +1531,7 @@
 		"ytcode":"oy6kNjN_RrY",
 		"minimumPercent": 50,
 		"publisher":"Zany",
-		"id":"105575786",
+		"id":"105576087",
 		"list":[
 			{
 				"name":"Zany",
