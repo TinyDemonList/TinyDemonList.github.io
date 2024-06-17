@@ -1450,42 +1450,6 @@
 			"none"
 		]
 	},
-	"The Gamer Wave":{
-		"name":"The Gamer Wave",
-		"ytcode":"Nn3M74LdsgA",
-		"minimumPercent": 50,
-		"publisher":"epic_juba",
-		"id":"105562082",
-		"list":[
-			{
-				"name":"epic_juba",
-				"link":"https://www.youtube.com/watch?v=Nn3M74LdsgA"
-			},
-			{
-				"name":"meowthjr",
-				"link":"na"
-			},
-			{
-				"name":"Robot_Man",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"crazy pickle land":{
 		"name":"crazy pickle land",
 		"ytcode":"yC5MQoBCRgo",
@@ -1528,6 +1492,42 @@
 			{
 				"name":"Quaoz",
 				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"The Gamer Wave":{
+		"name":"The Gamer Wave",
+		"ytcode":"Nn3M74LdsgA",
+		"minimumPercent": 50,
+		"publisher":"epic_juba",
+		"id":"105562082",
+		"list":[
+			{
+				"name":"epic_juba",
+				"link":"https://www.youtube.com/watch?v=Nn3M74LdsgA"
+			},
+			{
+				"name":"meowthjr",
+				"link":"na"
+			},
+			{
+				"name":"Robot_Man",
+				"link":"na"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			},
+			{
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
 			}
 		],
 		"progresses":[
@@ -1646,6 +1646,38 @@
 			"none"
 		]
 	},
+	"AHHH":{
+		"name":"AHHH",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"Epic GD",
+		"id":"105616391",
+		"list":[
+			{
+				"name":"Ken Carson",
+				"link":"na"
+			},
+			{
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Galvanization":{
 		"name":"Galvanization",
 		"ytcode":"iR3RLTbs6A4",
@@ -1680,38 +1712,6 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"AHHH":{
-		"name":"AHHH",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"Epic GD",
-		"id":"105616391",
-		"list":[
-			{
-				"name":"Ken Carson",
-				"link":"na"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
 			}
 		],
 		"progresses":[
