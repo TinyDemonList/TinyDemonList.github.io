@@ -18,7 +18,6 @@
 	"progresses":[
 		"none"
 	]
-
 },
 	"Poobot":{
 		"name":"Poobot",
@@ -240,7 +239,7 @@
 			"none"
 		]
 	},
-	"0":{
+	"Zero":{
 		"name":"0",
 		"ytcode":"wSxp4NqZ9I8",
 		"minimumPercent": 50,
