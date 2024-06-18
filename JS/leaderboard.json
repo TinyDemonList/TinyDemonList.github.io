@@ -421,7 +421,8 @@
 			"celompetrec",
 			"Blue Balls",
 			"Flibogogabgilab",
-			"Seconds"
+			"Seconds",
+			"El Pistolero"
 		],
 		"progs":[
 				"none"
@@ -634,6 +635,19 @@
 			"Bottom of the tdl",
 			"Happy Dashing III",
 			"Think About"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"notsomeone":{
+		"levels":[
+			"9 secs of straight F",
+			"Happy Dashing III",
+			"Think About",
+			"Blue Balls",
+			"Flibogogabgilab",
+			"Dexxx071s Meat"
 		],
 		"progs":[
 			"none"
