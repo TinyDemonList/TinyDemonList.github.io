@@ -720,6 +720,26 @@
 			"none"
 		]
 	},
+	"waev":{
+		"name":"waev",
+		"ytcode":"XB1OrTnbUCs",
+		"minimumPercent": 50,
+		"publisher":"Eurikuj",
+		"id":"85157817",
+		"list":[
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=XB1OrTnbUCs"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=bZzvyfYwBIU"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"I Have Depression":{
 		"name":"I Have Depression",
 		"ytcode":"MSdqKldZiz4",
@@ -804,8 +824,8 @@
 				"link":"https://youtu.be/M0xLcfOsESQ"
 			},
 			{
-				"name":"woldrickduckyson",
-				"link":"na"
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=MK882pV6kBo"
 			}
 		],
 		"progresses":[
@@ -1863,6 +1883,10 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=HsPHXFT_d4A"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
 			}
 		],
 		"progresses":[
