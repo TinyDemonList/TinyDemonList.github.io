@@ -792,6 +792,26 @@
 			"none"
 		]
 	},
+	"Slash":{
+		"name":"Slash",
+		"ytcode":"M0xLcfOsESQ",
+		"minimumPercent": 50,
+		"publisher":"Fred Bylon and Callum",
+		"id":"106727338",
+		"list":[
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/M0xLcfOsESQ"
+			},
+			{
+				"name":"woldrickduckyson",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Tesco Hard":{
 		"name":"Tesco Hard",
 		"ytcode":"lWRuhpiaE2c",
