@@ -1785,6 +1785,26 @@
 			"none"
 		]
 	},
+	"Spagooo":{
+		"name":"Spagooo",
+		"ytcode":"T5RF6Lao6lY",
+		"minimumPercent": 50,
+		"publisher":"Fred Bylon",
+		"id":"106732300",
+		"list":[
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/T5RF6Lao6lY"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=ozCofFvYBhs"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"The Gamer Wave":{
 		"name":"The Gamer Wave",
 		"ytcode":"Nn3M74LdsgA",
