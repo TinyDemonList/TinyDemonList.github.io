@@ -83,7 +83,7 @@ function appendData(data) {
             </section>
             <hr/></button>
         `;
-        
+
       }else{
         div.setAttribute("class", "card")
         div.innerHTML = `
@@ -117,7 +117,7 @@ function appendData(data) {
       column.appendChild(div);
       allLevels.appendChild(column);
       counter++;
-    
+
     }
   }
   let thing = document.createElement("p")

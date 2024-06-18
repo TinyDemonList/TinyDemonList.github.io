@@ -2,7 +2,7 @@ let coll = [];
 coll = document.getElementsByClassName("collapsible");
 try {
   setTimeout(function(){
- 	for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 100; i++) {
   coll[i].addEventListener("click", function() {
 
     this.classList.toggle("active");

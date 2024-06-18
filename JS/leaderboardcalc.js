@@ -141,5 +141,4 @@ async function display(thisuser) {
   }
 }
 
-// Initialize data when the script is loaded
 initializeData();
