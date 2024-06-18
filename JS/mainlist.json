@@ -249,6 +249,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=wSxp4NqZ9I8"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=6VOhVUIVyMc"
 			}
 		],
 		"progresses":[
@@ -401,6 +405,10 @@
 			{
 				"name":"Ken Carson",
 				"link":"https://www.youtube.com/watch?v=tdjUHi3Rlm0"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=zRtSjGSdKR0"
 			}
 		],
 		"progresses":[
@@ -822,6 +830,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/5OQKWd--2B4"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=NNUxI8f6INw"
 			}
 		],
 		"progresses":[
@@ -1042,6 +1054,34 @@
 			{
 				"name":"Quaoz",
 				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"5 senconds fo swign":{
+		"name":"5 senconds fo swign",
+		"ytcode":"XeX2L2py6L8",
+		"minimumPercent": 50,
+		"publisher":"Trilazer",
+		"id":"105594073",
+		"list":[
+			{
+				"name":"Trilazer",
+				"link":"https://www.youtube.com/watch?v=XeX2L2py6L8"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"na"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
 			},
 			{
 				"name":"Cinasek",
@@ -1741,34 +1781,6 @@
 			"none"
 		]
 	},
-	"5 senconds fo swign":{
-		"name":"5 senconds fo swign",
-		"ytcode":"XeX2L2py6L8",
-		"minimumPercent": 50,
-		"publisher":"Trilazer",
-		"id":"105594073",
-		"list":[
-			{
-				"name":"Trilazer",
-				"link":"https://www.youtube.com/watch?v=XeX2L2py6L8"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"na"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"Wavely lvl buffed":{
 		"name":"Wavely lvl buffed",
 		"ytcode":"i9VmfaVKjbw",
@@ -1831,6 +1843,46 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=HsPHXFT_d4A"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Dark World":{
+		"name":"Dark World",
+		"ytcode":"2sQbKgdpCgw",
+		"minimumPercent": 50,
+		"publisher":"epic_juba",
+		"id":"105634473",
+		"list":[
+			{
+				"name":"epic_juba",
+				"link":"https://www.youtube.com/watch?v=2sQbKgdpCgw"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
 			}
 		],
 		"progresses":[
@@ -2031,46 +2083,6 @@
 			{
 				"name":"Cinasek",
 				"link":"https://youtu.be/xXgAYMEzcPg"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Dark World":{
-		"name":"Dark World",
-		"ytcode":"2sQbKgdpCgw",
-		"minimumPercent": 50,
-		"publisher":"epic_juba",
-		"id":"105634473",
-		"list":[
-			{
-				"name":"epic_juba",
-				"link":"https://www.youtube.com/watch?v=2sQbKgdpCgw"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
 			}
 		],
 		"progresses":[
