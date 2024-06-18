@@ -9,6 +9,10 @@
 		{
 			"name":"VooBu",
 			"link":"https://www.youtube.com/watch?v=90-ecqKfdCc"
+		},
+		{
+			"name":"tFluffy",
+			"link":"https://www.youtube.com/watch?v=dTQ44_VmS_0"
 		}
 	],
 	"progresses":[
@@ -236,6 +240,22 @@
 			"none"
 		]
 	},
+	"0":{
+		"name":"0",
+		"ytcode":"wSxp4NqZ9I8",
+		"minimumPercent": 50,
+		"publisher":"Silent Clubstep and ScratchMan",
+		"id":"105778169",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=wSxp4NqZ9I8"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Spaced Out":{
 		"name":"Spaced Out",
 		"ytcode":"gl6BTLRzwTc",
@@ -258,6 +278,10 @@
 			{
 				"name":"Quaoz",
 				"link":"https://youtu.be/WcmGZeZVfZs?si=gyBO3uei5gecCDW6"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -503,6 +527,10 @@
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/MgoLoMH8CUY"
 				
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -591,6 +619,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=9cLiC5GkRqQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -715,6 +747,10 @@
 			{
 				"name":"Slinky",
 				"link":"https://www.youtube.com/watch?v=Ec3lEpzt5jQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -739,6 +775,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/5OQKWd--2B4"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -911,6 +951,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/5OQKWd--2B4"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -947,6 +991,10 @@
 			{
 				"name":"Lexxxy",
 				"link":"https://www.youtube.com/watch?v=grQi3cCfHM4"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -967,6 +1015,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -991,6 +1043,10 @@
 			{
 				"name":"Quaoz",
 				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1047,6 +1103,10 @@
 			{
 				"name":"kowman",
 				"link":"https://www.youtube.com/watch?v=aI8XEfPMwxI"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1155,6 +1215,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"na"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1324,6 +1388,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1372,6 +1440,10 @@
 			{
 				"name":"Quaoz",
 				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1476,6 +1548,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1612,6 +1688,10 @@
 			{
 				"name":"Quaoz",
 				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1680,6 +1760,10 @@
 			{
 				"name":"Quaoz",
 				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
@@ -1944,6 +2028,10 @@
 			{
 				"name":"Fred Bylon",
 				"link":"https://youtu.be/leG4TsNBTd4"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[
