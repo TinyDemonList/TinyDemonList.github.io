@@ -87,6 +87,26 @@
 			"none"
 		]
 	},
+	"First Location":{
+		"name":"First Location",
+		"ytcode":"OtcLFGKmo1k",
+		"minimumPercent": 50,
+		"publisher":"ScratchMan",
+		"id":"105573951",
+		"list":[
+			{
+				"name":"ScratchMan",
+				"link":"https://www.youtube.com/watch?v=OtcLFGKmo1k"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=QUPoLdcjL0Q"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Two point too":{
 		"name":"Two point too",
 		"ytcode":"IY3yt-giAWU",
@@ -105,22 +125,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=K_nHE2QzUqQ"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"First Location":{
-		"name":"First Location",
-		"ytcode":"OtcLFGKmo1k",
-		"minimumPercent": 50,
-		"publisher":"ScratchMan",
-		"id":"105573951",
-		"list":[
-			{
-				"name":"ScratchMan",
-				"link":"https://www.youtube.com/watch?v=OtcLFGKmo1k"
 			}
 		],
 		"progresses":[
