@@ -1893,6 +1893,26 @@
 			"none"
 		]
 	},
+	"Funni Chall":{
+		"name":"Funni Chall",
+		"ytcode":"nzguIA04qhg",
+		"minimumPercent": 50,
+		"publisher":"Sneedle",
+		"id":"106702533",
+		"list":[
+			{
+				"name":"Sneedle",
+				"link":"https://youtu.be/nzguIA04qhg?si=YDU-I1nihA5fnMVb"
+			},
+			{
+				"name":"meowthjr",
+				"link":"https://youtu.be/F93r269ku08?si=HXmtDsNAo8GLbDY5"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Spagooo":{
 		"name":"Spagooo",
 		"ytcode":"T5RF6Lao6lY",
