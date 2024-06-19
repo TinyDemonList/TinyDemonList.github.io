@@ -1076,6 +1076,22 @@
 			"none"
 		]
 	},
+	"Ghost Wave II":{
+		"name":"Ghost Wave II",
+		"ytcode":"vTYVgOfA4s8",
+		"minimumPercent": 50,
+		"publisher":"VampireFlutist",
+		"id":"106061001",
+		"list":[
+			{
+				"name":"VampireFlutist",
+				"link":"https://youtu.be/vTYVgOfA4s8?si=kCWyxXw6rRdM3gs-"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"No Room For Error":{
 		"name":"No Room For Error",
 		"ytcode":"fk_PfD6fgJY",
