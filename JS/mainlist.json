@@ -227,6 +227,22 @@
 			"none"
 		]
 	},
+	"old man circles":{
+		"name":"old man circles",
+		"ytcode":"gEpRxE5c9sk",
+		"minimumPercent": 50,
+		"publisher":"QwertyQwertz",
+		"id":"106742496",
+		"list":[
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=gEpRxE5c9sk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Shadow Inferno":{
 		"name":"Shadow Inferno",
 		"ytcode":"TgPppVv3O4I",
