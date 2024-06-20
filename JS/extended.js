@@ -108,16 +108,23 @@ function appendData(data) {
       listOfVictors.setAttribute("class", "content")
       for (let i = 0; i < level.list.length; i++) {
         let victor = document.createElement("div");
-        victor.innerHTML = `
-          <h6> ${level.list[i].name} - <a href = "${level.list[i].link}" target = "_blank">${level.list[i].link}</h6>
-        `;
+        if(i == 0){
+          victor.innerHTML = `
+          <h6>ID: ${level.id}</h6>
+            <h5>Completions<br></h5>
+            <h6> ${level.list[i].name} - <a href = "${level.list[i].link}" target = "_blank">${level.list[i].link}</h6>
+          `;
+        }else{
+          victor.innerHTML = `
+            <h6> ${level.list[i].name} - <a href = "${level.list[i].link}" target = "_blank">${level.list[i].link}</h6>
+          `;
+        }
         listOfVictors.appendChild(victor);
       }
       div.appendChild(listOfVictors);
       column.appendChild(div);
       allLevels.appendChild(column);
       counter++;
-
     }
   }
   let thing = document.createElement("p")
