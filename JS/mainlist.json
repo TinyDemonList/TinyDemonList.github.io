@@ -2253,6 +2253,22 @@
 			"none"
 		]
 	},
+	"stalemate":{
+		"name":"stalemate",
+		"ytcode":"7ZpC_M-b3xU",
+		"minimumPercent": 50,
+		"publisher":"Epic GD",
+		"id":"106799407",
+		"list":[
+			{
+				"name":"Epic GD",
+				"link":"https://youtu.be/7ZpC_M-b3xU?si=Xi954nliV1YDv5fp"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Dark World":{
 		"name":"Dark World",
 		"ytcode":"2sQbKgdpCgw",
