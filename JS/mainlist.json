@@ -1137,7 +1137,11 @@
 			}
 		],
 		"progresses":[
-			"none"
+			{
+		        "name":"Sneedle",
+                "percent":59,
+                "link":"na"
+            }
 		]
 	},
 	"Brad Garlinghouse Ch":{

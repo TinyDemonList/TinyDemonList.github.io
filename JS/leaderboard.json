@@ -735,7 +735,10 @@
 			"El Pistolero"
 		],
 		"progs":[
-			"none"
+			{
+				"name":"you're so defeated",
+				"percent":59
+			}
 		]
 	},
 	"notsomeone":{
