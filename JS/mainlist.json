@@ -107,26 +107,6 @@
 			"none"
 		]
 	},
-	"Life Below":{
-		"name":"Life Below",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"Wvsp",
-		"id":"105512073",
-		"list":[
-			{
-				"name":"Wvsp",
-				"link":"na"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/3ZD6knKsX6c"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"Two point too":{
 		"name":"Two point too",
 		"ytcode":"IY3yt-giAWU",
@@ -557,6 +537,26 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=ciFxETi5sS4"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Life Below":{
+		"name":"Life Below",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"Wvsp",
+		"id":"105512073",
+		"list":[
+			{
+				"name":"Wvsp",
+				"link":"na"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/3ZD6knKsX6c"
 			}
 		],
 		"progresses":[
