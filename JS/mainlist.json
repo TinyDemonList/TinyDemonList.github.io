@@ -435,6 +435,22 @@
 			"none"
 		]
 	},
+	"powerave":{
+		"name":"powerave",
+		"ytcode":"VXNf8I3b4Kk",
+		"minimumPercent": 50,
+		"publisher":"Supzix",
+		"id":"106579750",
+		"list":[
+			{
+				"name":"Supzix",
+				"link":"https://youtu.be/VXNf8I3b4Kk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Absolute Agony":{
 		"name":"Absolute Agony",
 		"ytcode":"EQq3wpX56Hw",
