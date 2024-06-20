@@ -38,5 +38,85 @@
     "progresses":[
         "none"
     ]
+},
+"Bottom of the tdl":{
+    "name":"Bottom of the tdl",
+    "ytcode":"8GXXcg3AYo0",
+    "minimumPercent": 50,
+    "publisher":"MxGaming01",
+    "id":"106326259",
+    "list":[
+        {
+            "name":"MxGaming01",
+            "link":"https://www.youtube.com/watch?v=8GXXcg3AYo0"
+        },
+        {
+            "name":"WcoolKid",
+            "link":"na"
+        },
+        {
+            "name":"Eurikuj",
+            "link":"na"
+        },
+        {
+            "name":"ScratchMan",
+            "link":"na"
+        },
+        {
+            "name":"kowman",
+            "link":"na"
+        },
+        {
+            "name":"Aspect",
+            "link":"na"
+        },
+        {
+            "name":"Fred Bylon",
+            "link":"https://www.youtube.com/watch?v=xEtPruFBWDM"
+        },
+        {
+            "name":"VampireFlutist",
+            "link":"na"
+        },
+        {
+            "name":"QwertyQwertz",
+            "link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+        },
+        {
+            "name":"Fiesty",
+            "link":"https://www.youtube.com/live/uj8Iax4IZEQ"
+        },
+        {
+            "name":"Sneedle",
+            "link":"https://youtu.be/P4DHvXaug2Q"
+        },
+        {
+            "name":"Cinasek",
+            "link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+        },
+        {
+            "name":"Quaoz",
+            "link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+        },
+        {
+            "name":"DaringDare910",
+            "link":"https://youtube.com/watch?v=FVhrVPKgzYQ&si=Xf_u7AxNc83dIs-I"
+        },
+        {
+            "name":"Epic GD",
+            "link":"na"
+        },
+        {
+            "name":"Npesta",
+            "link":"https://youtu.be/CAaHNS_b3C8"
+        },
+        {
+            "name":"tFluffy",
+            "link":"https://youtu.be/qSF6tBHePsE"
+        }
+    ],
+    "progresses":[
+        "none"
+    ]
 }
 }
