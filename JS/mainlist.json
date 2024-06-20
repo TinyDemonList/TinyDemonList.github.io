@@ -660,6 +660,22 @@
 			"none"
 		]
 	},
+	"Cheese Pizza":{
+		"name":"Cheeze Pizza",
+		"ytcode":"PR2DtulLP5o",
+		"minimumPercent": 50,
+		"publisher":"ThatPizzaGod",
+		"id":"106784080",
+		"list":[
+			{
+				"name":"ThatPizzaGod",
+				"link":"https://www.youtube.com/shorts/PR2DtulLP5o"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Pingwin nie wbije":{
 		"name":"Pingwin nie wbije",
 		"ytcode":"FWISct0cUMU",
