@@ -1,44 +1,4 @@
 {
-"no this is":{
-    "name":"no this is",
-    "ytcode":"HKUw9fnvBA4",
-    "minimumPercent": 50,
-    "publisher":"QwertyQwertz",
-    "id":"106785352",
-    "list":[
-        {
-            "name":"QwertyQwertz",
-            "link":"https://www.youtube.com/watch?v=HKUw9fnvBA4"
-        },
-        {
-            "name":"Fred Bylon",
-            "link":"na"
-        },
-        {
-            "name":"Epic GD",
-            "link":"na"
-        },
-        {
-            "name":"tFluffy",
-            "link":"https://youtu.be/IWM5r3poFwI"
-        },
-        {
-            "name":"DaringDare910",
-            "link":"https://youtu.be/uyX7OF9E3Ck?si=q7v6I67xFaLf-JT3"
-        },
-        {
-            "name":"MXGaming01",
-            "link":"na"
-        },
-        {
-            "name":"Eurikuj",
-            "link":"na"
-        }
-    ],
-    "progresses":[
-        "none"
-    ]
-},
 "Bottom of the tdl":{
     "name":"Bottom of the tdl",
     "ytcode":"8GXXcg3AYo0",
@@ -113,6 +73,46 @@
         {
             "name":"tFluffy",
             "link":"https://youtu.be/qSF6tBHePsE"
+        }
+    ],
+    "progresses":[
+        "none"
+    ]
+},
+"no this is":{
+    "name":"no this is",
+    "ytcode":"HKUw9fnvBA4",
+    "minimumPercent": 50,
+    "publisher":"QwertyQwertz",
+    "id":"106785352",
+    "list":[
+        {
+            "name":"QwertyQwertz",
+            "link":"https://www.youtube.com/watch?v=HKUw9fnvBA4"
+        },
+        {
+            "name":"Fred Bylon",
+            "link":"na"
+        },
+        {
+            "name":"Epic GD",
+            "link":"na"
+        },
+        {
+            "name":"tFluffy",
+            "link":"https://youtu.be/IWM5r3poFwI"
+        },
+        {
+            "name":"DaringDare910",
+            "link":"https://youtu.be/uyX7OF9E3Ck?si=q7v6I67xFaLf-JT3"
+        },
+        {
+            "name":"MXGaming01",
+            "link":"na"
+        },
+        {
+            "name":"Eurikuj",
+            "link":"na"
         }
     ],
     "progresses":[
