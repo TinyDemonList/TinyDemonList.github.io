@@ -455,6 +455,22 @@
 			"none"
 		]
 	},
+	"CVS Pharmacy":{
+		"name":"CVS Pharmacy",
+		"ytcode":"Wblu_TBDLsU",
+		"minimumPercent": 50,
+		"publisher":"Trilazer",
+		"id":"106654184",
+		"list":[
+			{
+				"name":"Trilazer",
+				"link":"https://youtu.be/Wblu_TBDLsU"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"easy challenge":{
 		"name":"easy challenge",
 		"ytcode":"tdjUHi3Rlm0",
