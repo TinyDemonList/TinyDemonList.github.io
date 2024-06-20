@@ -872,5 +872,14 @@
 		"progs":[
 			"none"
 		]
+	},
+	"Dykb":{
+		"levels":[
+			"Think About",
+			"stalemate"
+		],
+		"progs":[
+			"none"
+		]
 	}
 }
