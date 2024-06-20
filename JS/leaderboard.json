@@ -732,13 +732,11 @@
 			"Flibogogabgilab",
 			"LIMBO V99",
 			"Blue Balls",
-			"El Pistolero"
+			"El Pistolero",
+			"You're So Defeated"
 		],
 		"progs":[
-			{
-				"name":"you're so defeated",
-				"percent":59
-			}
+			"none"
 		]
 	},
 	"notsomeone":{
