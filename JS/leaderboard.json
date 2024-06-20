@@ -848,7 +848,8 @@
 	},
 	"Supzix":{
 		"levels":[
-			"powerave"
+			"powerave",
+			"SCOH"
 		],
 		"progs":[
 			"none"
