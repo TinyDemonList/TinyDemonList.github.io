@@ -235,6 +235,22 @@
 			"none"
 		]
 	},
+	"Lambo":{
+		"name":"Lambo",
+		"ytcode":"KAONInhziMM",
+		"minimumPercent": 50,
+		"publisher":"Aspect",
+		"id":"106311081",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/KAONInhziMM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Shadow Inferno":{
 		"name":"Shadow Inferno",
 		"ytcode":"TgPppVv3O4I",
