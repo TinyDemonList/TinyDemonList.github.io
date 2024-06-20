@@ -817,7 +817,21 @@
 	},
 	"DeepStrider2":{
 		"levels":[
-			"The Gamer Wave"
+			"The Gamer Wave",
+			"Galvanization",
+			"ACUACUACUACUACUACU",
+			"Unnamed 12"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"edio":{
+		"levels":[
+			"ACUACUACUACUACUACU",
+			"9 secs of straight F",
+			"Happy Dashing III",
+			"Happy Dashing III"
 		],
 		"progs":[
 			"none"
