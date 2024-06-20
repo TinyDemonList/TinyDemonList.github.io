@@ -786,5 +786,13 @@
 		"progs":[
 			"none"
 		]
+	},
+	"ThatPizzaGod":{
+		"levels":[
+			"FCBT"
+		],
+		"progs":[
+			"none"
+		]
 	}
 }
