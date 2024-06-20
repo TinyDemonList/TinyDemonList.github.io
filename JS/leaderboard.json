@@ -241,7 +241,9 @@
 			"LIMBO V99",
 			"Blue Balls",
 			"Think About",
-			"9 secs of straight F"
+			"9 secs of straight F",
+			"Nature",
+			"Harrowing Corridor"
 		],
 		"progs":[
 				"none"
@@ -708,7 +710,8 @@
 	},
 	"Jaiden1":{
 		"levels":[
-			"No Room For Error"
+			"No Room For Error",
+			"Harrowing Corridor"
 		],
 		"progs":[
 			"none"
@@ -732,7 +735,8 @@
 			"Think About",
 			"Blue Balls",
 			"Flibogogabgilab",
-			"Dexxx071s Meat"
+			"Dexxx071s Meat",
+			"Nature"
 		],
 		"progs":[
 			"none"

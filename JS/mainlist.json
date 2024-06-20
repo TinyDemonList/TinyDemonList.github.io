@@ -539,6 +539,26 @@
 			"none"
 		]
 	},
+	"Nature":{
+		"name":"Nature",
+		"ytcode":"m6kFLZXQvqg",
+		"minimumPercent": 50,
+		"publisher":"notsomeone",
+		"id":"106700364",
+		"list":[
+			{
+				"name":"notsomeone",
+				"link":"https://www.youtube.com/watch?v=m6kFLZXQvqg"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/fu1Id87Qcac"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Squidward Testickles":{
 		"name":"Squidward Testickles",
 		"ytcode":"-6Pv04lt4Y8",
@@ -814,6 +834,26 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/5OQKWd--2B4"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Harrowing Corridor":{
+		"name":"Harrowing Corridor",
+		"ytcode":"TqhaG0N7Wmc",
+		"minimumPercent": 50,
+		"publisher":"Jaiden1",
+		"id":"106704150",
+		"list":[
+			{
+				"name":"Jaiden1",
+				"link":"https://www.youtube.com/watch?v=TqhaG0N7Wmc"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=94o-qT-_mu0"
 			}
 		],
 		"progresses":[
