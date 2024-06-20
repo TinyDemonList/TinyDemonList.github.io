@@ -2184,6 +2184,10 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=d1BHZjLHjTU"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
 			}
 		],
 		"progresses":[
@@ -2316,34 +2320,6 @@
 			{
 				"name":"WcoolKid",
 				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"stalemate":{
-		"name":"stalemate",
-		"ytcode":"7ZpC_M-b3xU",
-		"minimumPercent": 50,
-		"publisher":"Epic GD",
-		"id":"106799407",
-		"list":[
-			{
-				"name":"Epic GD",
-				"link":"https://youtu.be/7ZpC_M-b3xU?si=Xi954nliV1YDv5fp"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/g1KKNfO6icg"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://www.youtube.com/watch?v=JG2dW6sNCFQ"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=f3q2N3htdAU"
 			}
 		],
 		"progresses":[
@@ -2869,6 +2845,42 @@
 			{
 				"name":"Sneedle",
 				"link":"https://youtu.be/KAiS_XOxzwE?si=9nEiLGT0SSb42lRy"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"stalemate":{
+		"name":"stalemate",
+		"ytcode":"7ZpC_M-b3xU",
+		"minimumPercent": 50,
+		"publisher":"Epic GD",
+		"id":"106799407",
+		"list":[
+			{
+				"name":"Epic GD",
+				"link":"https://youtu.be/7ZpC_M-b3xU?si=Xi954nliV1YDv5fp"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/g1KKNfO6icg"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://www.youtube.com/watch?v=JG2dW6sNCFQ"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://www.youtube.com/watch?v=f3q2N3htdAU"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
 			}
 		],
 		"progresses":[
@@ -2913,6 +2925,10 @@
 			},
 			{
 				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"kowman",
 				"link":"na"
 			}
 		],
