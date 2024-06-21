@@ -1,4 +1,64 @@
 {
+	"El Pistolero":{
+		"name":"El Pistolero",
+		"ytcode":"018ByZ88kY4",
+		"minimumPercent": 50,
+		"publisher":"epic_juba",
+		"id":"106654127",
+		"list":[
+			{
+				"name":"epic_juba",
+				"link":"https://www.youtube.com/watch?v=018ByZ88kY4"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=EMmCqwqhPAs"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/leG4TsNBTd4"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=d1BHZjLHjTU"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/fpI6Gj_zItQ?si=a8qypCkD3Zxau61T"
+			},
+			{
+				"name":"Sneedle",
+				"link":"https://youtu.be/KAiS_XOxzwE?si=9nEiLGT0SSb42lRy"
+			},
+			{
+				"name":"Dyln",
+				"link":"https://www.youtube.com/watch?v=C1op7Js9Kaw"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"9 secs of straight F":{
 		"name":"9 secs of straight F",
 		"ytcode":"BZvjxZvwGtI",
