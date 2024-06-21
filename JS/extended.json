@@ -1,4 +1,44 @@
 {
+    "stalemate":{
+		"name":"stalemate",
+		"ytcode":"7ZpC_M-b3xU",
+		"minimumPercent": 50,
+		"publisher":"Epic GD",
+		"id":"106799407",
+		"list":[
+			{
+				"name":"Epic GD",
+				"link":"https://youtu.be/7ZpC_M-b3xU?si=Xi954nliV1YDv5fp"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/g1KKNfO6icg"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://www.youtube.com/watch?v=JG2dW6sNCFQ"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://www.youtube.com/watch?v=f3q2N3htdAU"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			},
+			{
+				"name":"Dyln",
+				"link":"https://youtu.be/B8FZJyNX33M"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=SgOk0seXrvo"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
     "LIMBO V99":{
 		"name":"LIMBO V99",
 		"ytcode":"QH8n9QwE-z0",
