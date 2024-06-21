@@ -879,7 +879,16 @@
 	"Dyln":{
 		"levels":[
 			"Think About",
-			"stalemate"
+			"stalemate",
+			"Swinging it"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"PPCOOL":{
+		"levels":[
+			"ACUACUACUACUACUACU"
 		],
 		"progs":[
 			"none"

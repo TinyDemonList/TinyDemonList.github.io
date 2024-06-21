@@ -1640,6 +1640,22 @@
 			"none"
 		]
 	},
+	"Swinging it":{
+		"name":"Swinging it",
+		"ytcode":"BpqLcM4QZ2w",
+		"minimumPercent": 50,
+		"publisher":"Dyln",
+		"id":"106812963",
+		"list":[
+			{
+				"name":"Dyln",
+				"link":"https://www.youtube.com/watch?v=BpqLcM4QZ2w"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Unnamed 12":{
 		"name":"Unnamed 12",
 		"ytcode":"YGHwuFx9W8I",
@@ -2131,6 +2147,22 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=d1BHZjLHjTU"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"ACUACUACUACUACUACU":{
+		"name":"ACUACUACUACUACUACU",
+		"ytcode":"J-7Aph-4CJ8",
+		"minimumPercent": 50,
+		"publisher":"PPCOOL",
+		"id":"106809430",
+		"list":[
+			{
+				"name":"PPCOOL",
+				"link":"https://youtu.be/J-7Aph-4CJ8"
 			}
 		],
 		"progresses":[
@@ -2971,189 +3003,5 @@
 			"none"
 		]
 
-	},
-	"Flibgogabgilab":{
-		"name":"Flibgogabgilab",
-		"ytcode":"655PRVLHe5Y",
-		"minimumPercent": 50,
-		"publisher":"Maxushii",
-		"id":"105556284",
-		"list":[
-			{
-				"name":"Maxushii",
-				"link":"https://www.youtube.com/watch?v=655PRVLHe5Y"
-			},
-			{
-				"name":"OMEGA.exe",
-				"link":"na"
-			},
-			{
-				"name":"Epic GD",
-				"link":"na"
-			},
-			{
-				"name":"Ken Carson",
-				"link":"na"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"MXGaming01",
-				"link":"na"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/xZ23cAQyE3Y"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"someone",
-				"link":"https://www.youtube.com/watch?v=9cKu57BlWeI"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=EnrKBYVCfAw"
-			},
-			{
-				"name":"Epic GD",
-				"link":"na"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/qSF6tBHePsE"
-			},
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/KAiS_XOxzwE?si=9nEiLGT0SSb42lRy"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Dexxx071s Meat":{
-		"name":"Dexxx071s Meat",
-		"ytcode":"qRSXIldFYx4",
-		"minimumPercent": 50,
-		"publisher":"Zany",
-		"id":"105582807",
-		"list":[
-			{
-				"name":"Zany",
-				"link":"https://www.youtube.com/watch?v=qRSXIldFYx4"
-			},
-			{
-				"name":"Dexxx071",
-				"link":"na"
-			},
-			{
-				"name":"Epic GD",
-				"link":"na"
-			},
-			{
-				"name":"A Unicorn",
-				"link":"na"
-			},
-			{
-				"name":"Ken Carson",
-				"link":"na"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/IkeXtyDDr-4"
-			},
-			{
-				"name":"MXGaming01",
-				"link":"na"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"someone",
-				"link":"https://www.youtube.com/watch?v=TkO6_fNvbx0"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=qJc_bXuphsE"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/qSF6tBHePsE"
-			},
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/KAiS_XOxzwE?si=9nEiLGT0SSb42lRy"
-			},
-			{
-				"name":"lolsman05",
-				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
 	}
 }
