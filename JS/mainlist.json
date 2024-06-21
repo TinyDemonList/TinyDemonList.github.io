@@ -87,6 +87,22 @@
 			"none"
 		]
 	},
+	"Neverave":{
+		"name":"Neverave",
+		"ytcode":"EQui3EBoWhg",
+		"minimumPercent": 50,
+		"publisher":"Supzix",
+		"id":"106838105",
+		"list":[
+			{
+				"name":"Supzix",
+				"link":"https://www.youtube.com/watch?v=EQui3EBoWhg"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"First Location":{
 		"name":"First Location",
 		"ytcode":"OtcLFGKmo1k",
@@ -2819,23 +2835,6 @@
 			{
 				"name":"Dyln",
 				"link":"https://www.youtube.com/watch?v=WmbjtK1QPM4"
-			}
-			
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"LOLZZ":{
-		"name":"LOLZZ",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"lolsman05",
-		"id":"106811147",
-		"list":[
-			{
-				"name":"lolsman05",
-				"link":"na"
 			}
 			
 		],
