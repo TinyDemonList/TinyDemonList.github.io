@@ -107,6 +107,22 @@
 			"none"
 		]
 	},
+	"Sonek":{
+		"name":"Sonek",
+		"ytcode":"wvrpLuSQMvI",
+		"minimumPercent": 50,
+		"publisher":"Dyln",
+		"id":"106846045",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=wvrpLuSQMvI"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"First Location":{
 		"name":"First Location",
 		"ytcode":"OtcLFGKmo1k",
@@ -2751,74 +2767,6 @@
 			{
 				"name":"DaringDare910",
 				"link":"https://www.youtube.com/watch?v=7_Iwy-0vspk"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Galvanization":{
-		"name":"Galvanization",
-		"ytcode":"iR3RLTbs6A4",
-		"minimumPercent": 50,
-		"publisher":"Red Yoshi",
-		"id":"105640523",
-		"list":[
-			{
-				"name":"Red Yoshi",
-				"link":"iR3RLTbs6A4"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/riQl4eNb13E"
-			},
-			{
-				"name":"epic_juba",
-				"link":"https://youtu.be/1uEhwVd5deA"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=HsPHXFT_d4A"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=4WHWhiBVoXE"
-			},
-			{
-				"name":"DeepStrider2",
-				"link":"na"
 			}
 		],
 		"progresses":[
