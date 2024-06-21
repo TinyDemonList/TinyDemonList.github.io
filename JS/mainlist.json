@@ -2585,6 +2585,26 @@
 			"none"
 		]
 	},
+	"Club With No Step":{
+		"name":"Club With No Step",
+		"ytcode":"FhSrUYGPimc",
+		"minimumPercent": 50,
+		"publisher":"DaringDare910",
+		"id":"106852408",
+		"list":[
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/FhSrUYGPimc?si=VY27a6Y8xMVRXniG"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"https://www.youtube.com/watch?v=o_WqmuObP1c"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"WAVIXSpam":{
 		"name":"WAVIXSpam",
 		"ytcode":"PWfU-qd-Y94",
@@ -2795,82 +2815,6 @@
 			{
 				"name":"DeepStrider2",
 				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"celompetrec":{
-		"name":"celompetrec",
-		"ytcode":"_0T8Zlzm6qk",
-		"minimumPercent": 50,
-		"publisher":"Woldrickduckyson",
-		"id":"105508664",
-		"list":[
-			{
-				"name":"Woldrickduckyson",
-				"link":"https://www.youtube.com/watch?v=_0T8Zlzm6qk"
-			},
-			{
-				"name":"Spacer",
-				"link":"na"
-			},
-			{
-				"name":"Vixity",
-				"link":"na"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"Ken carson",
-				"link":"na"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"MXGaming01",
-				"link":"na"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/YiyInfxSWLw"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=zq9ZHyu0ZAY"
 			}
 		],
 		"progresses":[
