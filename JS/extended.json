@@ -1,4 +1,96 @@
 {
+	"Blue Balls":{
+		"name":"Blue Balls",
+		"ytcode":"Ge4MvQUhJ1E",
+		"minimumPercent": 50,
+		"publisher":"Epic GD",
+		"id":"105480549",
+		"list":[
+			{
+				"name":"Epic GD",
+				"link":"https://www.youtube.com/watch?v=Ge4MvQUhJ1E"
+			},
+			{
+				"name":"Spacer",
+				"link":"na"
+			},
+			{
+				"name":"Trilazer",
+				"link":"na"
+			},
+			{
+				"name":"OMEGA.exe",
+				"link":"na"
+			},
+			{
+				"name":"Vixity",
+				"link":"na"
+			},
+			{
+				"name":"Ken Carson",
+				"link":"na"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			},
+			{
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/4lnETU9cKQA"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"someone",
+				"link":"https://www.youtube.com/watch?v=7wIEk_n0q_E"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtube.com/watch?v=T6vgYetUkAU&si=BQ4jzh78NIH-DtNg"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/qSF6tBHePsE"
+			},
+			{
+				"name":"Sneedle",
+				"link":"https://youtu.be/KAiS_XOxzwE?si=9nEiLGT0SSb42lRy"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
     "stalemate":{
 		"name":"stalemate",
 		"ytcode":"7ZpC_M-b3xU",
