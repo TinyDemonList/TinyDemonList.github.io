@@ -399,6 +399,24 @@
 			"none"
 		]
 	},
+	
+	"Averwave":{
+		"name":"Averwave",
+		"ytcode":"zqWuaSlW87M",
+		"minimumPercent": 50,
+		"publisher":"Supzix",
+		"id":"105587319",
+		"list":[
+			{
+				"name":"Supzix",
+				"link":"https://youtu.be/35P99az9lAw"
+			},
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	
 	"CyclelolcyclE":{
 		"name":"CyclelolcyclE",
 		"ytcode":"kemdsPXpvyM",
