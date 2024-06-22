@@ -735,6 +735,22 @@
 			"none"
 		]
 	},
+	"exen never clear":{
+		"name":"exen never clear",
+		"ytcode":"hUDNsZhmBuk",
+		"minimumPercent": 50,
+		"publisher":"epiccoolman66",
+		"id":"106886508",
+		"list":[
+			{
+				"name":"Sneedle",
+				"link":"https://youtu.be/hUDNsZhmBuk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Nature":{
 		"name":"Nature",
 		"ytcode":"m6kFLZXQvqg",
@@ -2790,50 +2806,6 @@
 			{
 				"name":"WcoolKid",
 				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Dark World":{
-		"name":"Dark World",
-		"ytcode":"2sQbKgdpCgw",
-		"minimumPercent": 50,
-		"publisher":"epic_juba",
-		"id":"105634473",
-		"list":[
-			{
-				"name":"epic_juba",
-				"link":"https://www.youtube.com/watch?v=2sQbKgdpCgw"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/coVLwbBeWUw?si=hG3feN2jaVNY-40Z"
 			}
 		],
 		"progresses":[
