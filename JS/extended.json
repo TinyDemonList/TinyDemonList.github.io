@@ -1,4 +1,56 @@
 {
+	"AHHH":{
+		"name":"AHHH",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"Epic GD",
+		"id":"105616391",
+		"list":[
+			{
+				"name":"Ken Carson",
+				"link":"na"
+			},
+			{
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/DIe4kpiNicY"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://www.youtube.com/watch?v=7_Iwy-0vspk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Galvanization":{
 		"name":"Galvanization",
 		"ytcode":"iR3RLTbs6A4",
