@@ -44,8 +44,7 @@
 			"T Minor",
 			"No Room For Error",
 			"Unnamed 12",
-			"The Gamer Wave",
-			"Galvanization"
+			"The Gamer Wave"
 		],
 		"progs":[
 				"none"
@@ -75,7 +74,6 @@
 			"El Pistolero",
 			"AHHH",
 			"Unnamed 12",
-			"Galvanization",
 			"WAVIXSpam",
 			"waev",
 			"Happy Dashing III",
@@ -116,7 +114,6 @@
 			"Dual Spaz",
 			"Inconspicuous Maze",
 			"FCBT",
-			"Galvanization",
 			"7yr olds only",
 			"Sigma Balls",
 			"Dark World",
@@ -177,7 +174,6 @@
 			"Bolly",
 			"Jump Trials",
 			"The Gamer Wave",
-			"Galvanization",
 			"T Minor",
 			"Black Hole Sun",
 			"Femscapes",
@@ -343,7 +339,6 @@
 			"crazy pickle land",
 			"Lavender Destroyed",
 			"Cracked",
-			"Galvanization",
 			"The Gamer Wave",
 			"Sigma Balls",
 			"7yr olds only",
@@ -436,7 +431,6 @@
 			"Bottom of the tdl",
 			"The Gamer Wave",
 			"Think About",
-			"Galvanization",
 			"Spagooo",
 			"LIMBO V99",
 			"stalemate",
@@ -511,7 +505,6 @@
 			"9 secs of straight F",
 			"Bolly",
 			"The Gamer Wave",
-			"Galvanization",
 			"Ghost Wave II"
 		],
 		"progs":[
@@ -532,7 +525,6 @@
 			"celompetrec",
 			"AHHH",
 			"Blue Balls",
-			"Galvanization",
 			"The Gamer Wave",
 			"Unnamed 12",
 			"WAVIXSpam",
@@ -581,7 +573,6 @@
 			"FCBT",
 			"Bottom of the tdl",
 			"Dexxx071s Meat",
-			"Galvanization",
 			"celompetrec",
 			"Blue Balls",
 			"Flibogogabgilab",
@@ -630,7 +621,6 @@
 			"9 secs of straight F",
 			"El Pistolero",
 			"celompetrec",
-			"Galvanization",
 			"AHHH",
 			"WAVIXSpam",
 			"The Gamer Wave",
@@ -678,14 +668,6 @@
 			"none"
 		]
 	},
-	"Red Yoshi":{
-		"levels":[
-			"Galvanization"
-		],
-		"progs":[
-			"none"
-		]
-	},
 	"A Unicorn":{
 		"levels":[
 			"7yr olds only",
@@ -728,7 +710,6 @@
 		"levels":[
 			"The Gamer Wave",
 			"Dark World",
-			"Galvanization",
 			"El Pistolero"
 		],
 		"progs":[
@@ -865,7 +846,6 @@
 			"celompetrec",
 			"El Pistolero",
 			"Think About",
-			"Galvanization",
 			"AHHH",
 			"no this is",
 			"stalemate",
@@ -919,7 +899,6 @@
 	"DeepStrider2":{
 		"levels":[
 			"The Gamer Wave",
-			"Galvanization",
 			"Unnamed 12"
 		],
 		"progs":[
@@ -968,7 +947,8 @@
 			"9 secs of straight F",
 			"El Pistolero",
 			"Chill Out",
-			"Club With No Step"
+			"Club With No Step",
+			"FCBT"
 		],
 		"progs":[
 			"none"
