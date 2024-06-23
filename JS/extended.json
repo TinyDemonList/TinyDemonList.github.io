@@ -479,6 +479,22 @@
 			"none"
 		]
 	},
+	"Uno":{
+		"name":"Uno",
+		"ytcode":"DZXqrKzw5fI",
+		"minimumPercent": 50,
+		"publisher":"Chasmo_155",
+		"id":"106931887",
+		"list":[
+			{
+				"name":"Chasmo_155",
+				"link":"https://www.youtube.com/watch?v=DZXqrKzw5fI"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"DeepCod Wave":{
 		"name":"DeepCod Wave",
 		"ytcode":"zXDaoy3uDFA",
