@@ -1016,6 +1016,34 @@
 			"none"
 		]
 	},
+	"Cracked":{
+		"name":"Cracked",
+		"ytcode":"I0-dwOPPTdM",
+		"minimumPercent": 50,
+		"publisher":"Fred Bylon",
+		"id":"105497992",
+		"list":[
+			{
+				"name":"Fred Bylon",
+				"link":"https://www.youtube.com/watch?v=_I0-dwOPPTdM"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=5ifmYohUW2s"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/45bcAdJSQLM?si=6r4L4dvf5Cmw4tyM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Pingwin nie wbije":{
 		"name":"Pingwin nie wbije",
 		"ytcode":"FWISct0cUMU",
@@ -2574,22 +2602,6 @@
 			{
 				"name":"DaringDare910",
 				"link":"https://www.youtube.com/watch?v=NzHKnIWai1A"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Hard Time":{
-		"name":"Hard Time",
-		"ytcode":"EL6bip2A4tY",
-		"minimumPercent": 50,
-		"publisher":"Eurikuj",
-		"id":"73189594",
-		"list":[
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=EL6bip2A4tY"
 			}
 		],
 		"progresses":[
