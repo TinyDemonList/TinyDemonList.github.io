@@ -251,6 +251,22 @@
 			"none"
 		]
 	},
+	"natsumio Challenge":{
+		"name":"natsumio Challenge",
+		"ytcode":"BnhSG4wpU7c",
+		"minimumPercent": 50,
+		"publisher":"Zenos",
+		"id":"106065873",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Quiet":{
 		"name":"Quiet",
 		"ytcode":"DHdB1kwo2Uk",
@@ -2586,26 +2602,6 @@
 			{
 				"name":"DaringDare910",
 				"link":"https://youtu.be/ummeNiRlAy8?si=uqSavWeirpIJovbv"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Jump Trials":{
-		"name":"Jump Trials",
-		"ytcode":"kKM3WREyjmo",
-		"minimumPercent": 50,
-		"publisher":"Robot_Man",
-		"id":"104723880",
-		"list":[
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
 			}
 		],
 		"progresses":[

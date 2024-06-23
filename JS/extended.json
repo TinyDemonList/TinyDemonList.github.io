@@ -1,4 +1,24 @@
 {
+	"Jump Trials":{
+		"name":"Jump Trials",
+		"ytcode":"kKM3WREyjmo",
+		"minimumPercent": 50,
+		"publisher":"Robot_Man",
+		"id":"104723880",
+		"list":[
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Bolly":{
 		"name":"Bolly",
 		"ytcode":"_k1klEIVjQc",
