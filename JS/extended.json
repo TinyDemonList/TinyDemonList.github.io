@@ -1,4 +1,56 @@
 {
+	"WAVIXSpam":{
+		"name":"WAVIXSpam",
+		"ytcode":"PWfU-qd-Y94",
+		"minimumPercent": 50,
+		"publisher":"VampireFlutist",
+		"id":"105553893",
+		"list":[
+			{
+				"name":"VampireFlutist",
+				"link":"https://www.youtube.com/watch?v=PWfU-qd-Y94"
+			},
+			{
+				"name":"Garlic Bread",
+				"link":"na"
+			},
+			{
+				"name":"Ken Carson",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/Ol9Wk70plcg"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=HsPHXFT_d4A"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Dark World":{
 		"name":"Dark World",
 		"ytcode":"2sQbKgdpCgw",
