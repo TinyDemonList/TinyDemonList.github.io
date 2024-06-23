@@ -251,26 +251,6 @@
 			"none"
 		]
 	},
-	"natsumio Challenge":{
-		"name":"natsumio Challenge",
-		"ytcode":"BnhSG4wpU7c",
-		"minimumPercent": 50,
-		"publisher":"Zenos",
-		"id":"106065873",
-		"list":[
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=YxYw3urfO8s"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"Quiet":{
 		"name":"Quiet",
 		"ytcode":"DHdB1kwo2Uk",
@@ -337,6 +317,26 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=a-cym1mnbzE"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"natsumio Challenge":{
+		"name":"natsumio Challenge",
+		"ytcode":"BnhSG4wpU7c",
+		"minimumPercent": 50,
+		"publisher":"Zenos",
+		"id":"106065873",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=YxYw3urfO8s"
 			}
 		],
 		"progresses":[
