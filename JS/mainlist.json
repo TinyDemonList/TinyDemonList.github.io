@@ -123,6 +123,22 @@
 			"none"
 		]
 	},
+	"I'll Cry Forever":{
+		"name":"I'll Cry Forever",
+		"ytcode":"56jR7B79H9M",
+		"minimumPercent": 50,
+		"publisher":"Dexxx071",
+		"id":"85967140",
+		"list":[
+			{
+				"name":"Dexxx071",
+				"link":"https://www.youtube.com/watch?v=56jR7B79H9M"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Sonek":{
 		"name":"Sonek",
 		"ytcode":"wvrpLuSQMvI",
@@ -177,6 +193,22 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=K_nHE2QzUqQ"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"bal 4":{
+		"name":"bal 4",
+		"ytcode":"ntrSldy5nNI",
+		"minimumPercent": 50,
+		"publisher":"tFluffy",
+		"id":"77941532",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=ntrSldy5nNI"
 			}
 		],
 		"progresses":[
@@ -301,6 +333,22 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/KAONInhziMM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Astral":{
+		"name":"Astral",
+		"ytcode":"jt5kFJJcWGc",
+		"minimumPercent": 50,
+		"publisher":"Aspect",
+		"id":"106552286",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=jt5kFJJcWGc"
 			}
 		],
 		"progresses":[
@@ -537,6 +585,22 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=ivZkfA4ooJE"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Femboy Forever":{
+		"name":"Femboy Forever",
+		"ytcode":"kVB_E2JQ7Ss",
+		"minimumPercent": 50,
+		"publisher":"meowthjr",
+		"id":"106708994",
+		"list":[
+			{
+				"name":"meowthjr",
+				"link":"https://www.youtube.com/watch?v=kVB_E2JQ7Ss"
 			}
 		],
 		"progresses":[
@@ -920,6 +984,22 @@
 			"none"
 		]
 	},
+	"mg never clear":{
+		"name":"mg never clear",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"MarcelGD",
+		"id":"105826183",
+		"list":[
+			{
+				"name":"MarcelGD",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Pingwin nie wbije":{
 		"name":"Pingwin nie wbije",
 		"ytcode":"FWISct0cUMU",
@@ -1028,6 +1108,22 @@
 			"none"
 		]
 	},
+	"firechall":{
+		"name":"firechall",
+		"ytcode":"pvqfD9MacxA",
+		"minimumPercent": 50,
+		"publisher":"skurczybyk aeonpowietrze",
+		"id":"106925866",
+		"list":[
+			{
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/pvqfD9MacxA"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Dark Flames":{
 		"name":"Dark Flames",
 		"ytcode":"vwIwhqaFY8c",
@@ -1042,6 +1138,22 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/5OQKWd--2B4"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"lolsman06":{
+		"name":"lolsman06",
+		"ytcode":"pj734CqlI4g",
+		"minimumPercent": 50,
+		"publisher":"skurczybyk aeonpowietrze",
+		"id":"106848790",
+		"list":[
+			{
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/pj734CqlI4g"
 			}
 		],
 		"progresses":[
@@ -1124,6 +1236,22 @@
 			"none"
 		]
 	},
+	"I snare your soul":{
+		"name":"I snare your soul",
+		"ytcode":"cPSAf31Avtk",
+		"minimumPercent": 50,
+		"publisher":"MxGaming01",
+		"id":"106873882",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://www.youtube.com/watch?v=cPSAf31Avtk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"I Have Depression":{
 		"name":"I Have Depression",
 		"ytcode":"MSdqKldZiz4",
@@ -1182,6 +1310,26 @@
 		],
 		"progresses":[
 			"none"
+		]
+	},
+	"fwaeh":{
+		"name":"fwaeh",
+		"ytcode":"xNNoIGI4DOQ",
+		"minimumPercent": 50,
+		"publisher":"Ken Carson",
+		"id":"106863458",
+		"list":[
+			{
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/xNNoIGI4DOQ"
+			}
+		],
+		"progresses":[
+			{
+				"name":"Fiesty",
+				"percent":53,
+				"link":"https://www.youtube.com/live/uj8Iax4IZEQ"
+			}
 		]
 	},
 	"Dean Pendry":{
@@ -1258,6 +1406,26 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=v8EH1GeW_10"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Rizzler Funk":{
+		"name":"Rizzler Funk",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"PPCOOL",
+		"id":"106862561",
+		"list":[
+			{
+				"name":"PPCOOL",
+				"link":"https://medal.tv/games/geometry-dash/clips/i7mVjxns5amtWLzn5/d1337kZB2oAL?invite=cr-MSxMN2ksMjAwNTM1NzcxLA"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"https://www.youtube.com/watch?v=3rK5PBoPUXM"
 			}
 		],
 		"progresses":[
@@ -1514,6 +1682,22 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/SsdspCTLVNo"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"The Nightmare 2":{
+		"name":"The Nightmare 2",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"PPCOOL",
+		"id":"106855352",
+		"list":[
+			{
+				"name":"PPCOOL",
+				"link":"https://medal.tv/games/geometry-dash/clips/i7it1ADMDwEGfeJyy/d1337OxrbJOU?invite=cr-MSxuWjUsMjAwNTM1NzcxLA"
 			}
 		],
 		"progresses":[
@@ -2422,414 +2606,6 @@
 			{
 				"name":"Cinasek",
 				"link":"https://youtu.be/xXgAYMEzcPg"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Bolly":{
-		"name":"Bolly",
-		"ytcode":"_k1klEIVjQc",
-		"minimumPercent": 50,
-		"publisher":"Fred Bylon",
-		"id":"105578197",
-		"list":[
-			{
-				"name":"Fred Bylon",
-				"link":"https://www.youtube.com/watch?v=_k1klEIVjQc"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=FvuY2dZ7Mcg"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/--8D17rzQHk?si=NdLQxSDOhnN29YEO"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Cracked":{
-		"name":"Cracked",
-		"ytcode":"I0-dwOPPTdM",
-		"minimumPercent": 50,
-		"publisher":"Fred Bylon",
-		"id":"105497992",
-		"list":[
-			{
-				"name":"Fred Bylon",
-				"link":"https://www.youtube.com/watch?v=_I0-dwOPPTdM"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=5ifmYohUW2s"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Lavender Destroyed":{
-		"name":"Lavender Destroyed",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"Epic GD",
-		"id":"105577135",
-		"list":[
-			{
-				"name":"Wvsp",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=FvuY2dZ7Mcg"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"crazy pickle land":{
-		"name":"crazy pickle land",
-		"ytcode":"yC5MQoBCRgo",
-		"minimumPercent": 50,
-		"publisher":"kowman",
-		"id":"105561710",
-		"list":[
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=d1BHZjLHjTU"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"ACUACUACUACUACUACU":{
-		"name":"ACUACUACUACUACUACU",
-		"ytcode":"J-7Aph-4CJ8",
-		"minimumPercent": 50,
-		"publisher":"PPCOOL",
-		"id":"106809430",
-		"list":[
-			{
-				"name":"PPCOOL",
-				"link":"https://youtu.be/J-7Aph-4CJ8"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=JNLnpdkmf5w"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/reUKweWjomQ?si=qnl0cU8FxxZ3HeD0"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Am I Russian":{
-		"name":"Am I Russian",
-		"ytcode":"oy6kNjN_RrY",
-		"minimumPercent": 50,
-		"publisher":"Zany",
-		"id":"105576087",
-		"list":[
-			{
-				"name":"Zany",
-				"link":"https://www.youtube.com/watch?v=oy6kNjN_RrY"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=d1BHZjLHjTU"
-			},
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/uXQveRo3J1o"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/hgYdoECuAx0?si=qIUlGEzwlk3Vv_4J"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=qNMgJrmynbc"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Funni Chall":{
-		"name":"Funni Chall",
-		"ytcode":"nzguIA04qhg",
-		"minimumPercent": 50,
-		"publisher":"Sneedle",
-		"id":"106702533",
-		"list":[
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/nzguIA04qhg?si=YDU-I1nihA5fnMVb"
-			},
-			{
-				"name":"meowthjr",
-				"link":"https://youtu.be/F93r269ku08?si=HXmtDsNAo8GLbDY5"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=SgOk0seXrvo"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=2MX3nSDHSeU"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Spagooo":{
-		"name":"Spagooo",
-		"ytcode":"T5RF6Lao6lY",
-		"minimumPercent": 50,
-		"publisher":"Fred Bylon",
-		"id":"106732300",
-		"list":[
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/T5RF6Lao6lY"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=ozCofFvYBhs"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=d1BHZjLHjTU"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/EDm15nP9ovo?si=Bqy0ApWa6vj2ppqo"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"The Gamer Wave":{
-		"name":"The Gamer Wave",
-		"ytcode":"Nn3M74LdsgA",
-		"minimumPercent": 50,
-		"publisher":"epic_juba",
-		"id":"105562082",
-		"list":[
-			{
-				"name":"epic_juba",
-				"link":"https://www.youtube.com/watch?v=Nn3M74LdsgA"
-			},
-			{
-				"name":"meowthjr",
-				"link":"na"
-			},
-			{
-				"name":"kowman",
-				"link":"na"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=HsPHXFT_d4A"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
-			},
-			{
-				"name":"ThatPizzaGod",
-				"link":"https://www.youtube.com/shorts/hTbvFs7qMO4"
-			},
-			{
-				"name":"DeepStrider2",
-				"link":"na"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=XO4otI1nROU"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Wavely lvl buffed":{
-		"name":"Wavely lvl buffed",
-		"ytcode":"i9VmfaVKjbw",
-		"minimumPercent": 50,
-		"publisher":"Robot_Man",
-		"id":"104769462",
-		"list":[
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Club With No Step":{
-		"name":"Club With No Step",
-		"ytcode":"FhSrUYGPimc",
-		"minimumPercent": 50,
-		"publisher":"DaringDare910",
-		"id":"106852408",
-		"list":[
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/FhSrUYGPimc?si=VY27a6Y8xMVRXniG"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"https://www.youtube.com/watch?v=o_WqmuObP1c"
-			},
-			{
-				"name":"Dyln",
-				"link":"https://www.youtube.com/watch?v=mw-pT4kFEWk"
-			},
-			{
-				"name":"skurczybyk aeonpowietrze",
-				"link":"https://www.youtube.com/watch?v=Yzh0a7Ga3KM"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=qNMgJrmynbc"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
 			}
 		],
 		"progresses":[

@@ -127,7 +127,8 @@
 			"El Pistolero",
 			"LIMBO V99",
 			"SeaShellSellingSally",
-			"Club With No Step"
+			"Club With No Step",
+			"Rizzler Funk"
 		],
 		"progs":[
 				"none"
@@ -322,7 +323,9 @@
 			"here to suffer",
 			"Brad Garlinghouse Ch",
 			"You're So Defeated",
-			"final lolzman"
+			"final lolzman",
+			"Astral",
+			"bal 4"
 		],
 		"progs":[
 				"none"
@@ -421,7 +424,8 @@
 			"Dexxx071s Meat",
 			"Quiet",
 			"SeaShellSellingSally",
-			"Cheese Pizza Sequel"
+			"Cheese Pizza Sequel",
+			"I'll Cry Forever"
 		],
 		"progs":[
 				"none"
@@ -711,7 +715,8 @@
 			"Sigma Balls",
 			"The Gamer Wave",
 			"Femboy Paradise",
-			"Funni Chall"
+			"Funni Chall",
+			"Femboy Forever"
 		],
 		"progs":[
 			"none"
@@ -828,7 +833,9 @@
 			"You're So Defeated",
 			"Am I Russian",
 			"Xtinct Challenge XII",
-			"exen never clear"
+			"exen never clear",
+			"DeepCod Wave",
+			"the end"
 		],
 		"progs":[
 			"none"
@@ -965,7 +972,8 @@
 			"El Pistolero",
 			"Chill Out",
 			"Club With No Step",
-			"FCBT"
+			"FCBT",
+			"eyes open"
 		],
 		"progs":[
 			"none"
@@ -973,7 +981,9 @@
 	},
 	"PPCOOL":{
 		"levels":[
-			"ACUACUACUACUACUACU"
+			"ACUACUACUACUACUACU",
+			"Rizzler Funk",
+			"The Nightmare 2"
 		],
 		"progs":[
 			"none"
@@ -986,7 +996,10 @@
 			"LOLZZ",
 			"Happy Dashing III",
 			"Club With No Step",
-			"exen never clear"
+			"exen never clear",
+			"fwaeh",
+			"lolsman06",
+			"firechall"
 		],
 		"progs":[
 			"none"
@@ -998,6 +1011,22 @@
 			"Flibogogabgilab",
 			"Bottom of the tdl",
 			"no this is"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"MarcelGD":{
+		"levels":[
+			"mg never clear"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"GDTomon":{
+		"levels":[
+			"Silent wavestep"
 		],
 		"progs":[
 			"none"
