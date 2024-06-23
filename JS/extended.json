@@ -1,4 +1,64 @@
 {
+	"Sigma Balls":{
+		"name":"Sigma Balls",
+		"ytcode":"NGvXfXao_ng",
+		"minimumPercent": 50,
+		"publisher":"Wysie",
+		"id":"105561150",
+		"list":[
+			{
+				"name":"Wysie",
+				"link":"na"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			},
+			{
+				"name":"Garlic Bread",
+				"link":"na"
+			},
+			{
+				"name":"meowthjr",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"na"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://www.youtube.com/watch?v=Cja-TEvN8zY"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"https://youtu.be/VFe_BzrwiA0?si=7kQNpDOe7OShgAoH"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=VPExW8I-h4M"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/ummeNiRlAy8?si=uqSavWeirpIJovbv"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Jump Trials":{
 		"name":"Jump Trials",
 		"ytcode":"kKM3WREyjmo",
@@ -453,6 +513,22 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Magnesia":{
+		"name":"Magnesia",
+		"ytcode":"en_qdfmQEMs",
+		"minimumPercent": 50,
+		"publisher":"Eurikuj",
+		"id":"76570961",
+		"list":[
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=en_qdfmQEMs"
 			}
 		],
 		"progresses":[
