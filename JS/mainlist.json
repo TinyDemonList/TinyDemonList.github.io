@@ -155,6 +155,22 @@
 			"none"
 		]
 	},
+	"natsumio Challenge":{
+		"name":"natsumio Challenge",
+		"ytcode":"BnhSG4wpU7c",
+		"minimumPercent": 50,
+		"publisher":"Zenos",
+		"id":"106065873",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"First Location":{
 		"name":"First Location",
 		"ytcode":"OtcLFGKmo1k",
@@ -209,22 +225,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=ntrSldy5nNI"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"natsumio Challenge":{
-		"name":"natsumio Challenge",
-		"ytcode":"BnhSG4wpU7c",
-		"minimumPercent": 50,
-		"publisher":"Zenos",
-		"id":"106065873",
-		"list":[
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
 			}
 		],
 		"progresses":[
