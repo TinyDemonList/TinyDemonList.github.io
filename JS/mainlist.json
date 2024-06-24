@@ -81,6 +81,7 @@
 		]
 
 	},
+
 	"My Last Stand":{
 		"name":"My Last Stand",
 		"ytcode":"WFaAavH7sGk",
@@ -97,6 +98,22 @@
 				"name":"tFluffy",
 				"link":"https://youtu.be/UQ9kP8LIBIo"
 
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"natsumio Challenge":{
+		"name":"natsumio Challenge",
+		"ytcode":"BnhSG4wpU7c",
+		"minimumPercent": 50,
+		"publisher":"Zenos",
+		"id":"106065873",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
 			}
 		],
 		"progresses":[
@@ -149,22 +166,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=wvrpLuSQMvI"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"natsumio Challenge":{
-		"name":"natsumio Challenge",
-		"ytcode":"BnhSG4wpU7c",
-		"minimumPercent": 50,
-		"publisher":"Zenos",
-		"id":"106065873",
-		"list":[
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
 			}
 		],
 		"progresses":[
