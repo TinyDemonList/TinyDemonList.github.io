@@ -215,6 +215,22 @@
 			"none"
 		]
 	},
+	"natsumio Challenge":{
+		"name":"natsumio Challenge",
+		"ytcode":"BnhSG4wpU7c",
+		"minimumPercent": 50,
+		"publisher":"Zenos",
+		"id":"106065873",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Smiley Face":{
 		"name":"Smiley Face",
 		"ytcode":"TD09JNCpPJc",
@@ -317,22 +333,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=a-cym1mnbzE"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"natsumio Challenge":{
-		"name":"natsumio Challenge",
-		"ytcode":"BnhSG4wpU7c",
-		"minimumPercent": 50,
-		"publisher":"Zenos",
-		"id":"106065873",
-		"list":[
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
 			}
 		],
 		"progresses":[
