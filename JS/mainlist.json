@@ -623,6 +623,22 @@
 			"none"
 		]
 	},
+	"Cheese Pizza 3":{
+		"name":"Cheese Pizza 3",
+		"ytcode":"mDslJetIF-A",
+		"minimumPercent": 50,
+		"publisher":"ThatPizzaGod",
+		"id":"106947092",
+		"list":[
+			{
+				"name":"ThatPizzaGod",
+				"link":"https://www.youtube.com/watch?v=mDslJetIF-A"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Absolute Agony":{
 		"name":"Absolute Agony",
 		"ytcode":"EQq3wpX56Hw",
@@ -2570,50 +2586,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=e6DFAZaoAB4"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"T Minor":{
-		"name":"T Minor",
-		"ytcode":"eUs7_8-Y8EE",
-		"minimumPercent": 50,
-		"publisher":"Robot_Man",
-		"id":"105680195",
-		"list":[
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=VPExW8I-h4M"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=yI5s9uW2Q_I"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"edio",
-				"link":"https://youtu.be/b97nfxr6P3c?si=44L-8bEFgG7S03NF"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=dBIf26flhSU"
 			}
 		],
 		"progresses":[
