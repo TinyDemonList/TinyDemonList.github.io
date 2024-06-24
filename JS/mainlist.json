@@ -1776,6 +1776,30 @@
 			"none"
 		]
 	},
+	"Jump Trials":{
+		"name":"Jump Trials",
+		"ytcode":"kKM3WREyjmo",
+		"minimumPercent": 50,
+		"publisher":"Robot_Man",
+		"id":"104723880",
+		"list":[
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/0eUWXB-hVEw?si=rmsZ4Qo_M7UbdsiT"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"You're So Defeated":{
 		"name":"You're So Defeated",
 		"ytcode":"ftQZOJh1SlI",
@@ -2590,58 +2614,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=dBIf26flhSU"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"7yr olds only":{
-		"name":"7yr olds only",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"Ken Carson",
-		"id":"105585729",
-		"list":[
-			{
-				"name":"Ken Carson",
-				"link":"na"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"na"
-			},
-			{
-				"name":"A Unicorn",
-				"link":"na"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"MxGaming01",
-				"link":"na"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=VPExW8I-h4M"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=NzHKnIWai1A"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=EKdQY3pBgyw"
 			}
 		],
 		"progresses":[
