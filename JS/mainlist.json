@@ -1,4 +1,20 @@
 {
+	"Skibidi toilet lore":{
+		"name":"Skibidi toilet lore",
+		"ytcode":"Gw6iw22U8e8",
+		"minimumPercent": 50,
+		"publisher":"Cinasek",
+		"id":"107018347",
+		"list":[
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/Gw6iw22U8e8"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"FML":{
 		"name":"FML",
 		"ytcode":"V9uSAxKygx8",
@@ -2487,30 +2503,6 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Xtinct Challenge XII":{
-		"name":"Xtinct Challenge XII",
-		"ytcode":"9jdX-j64YjI",
-		"minimumPercent": 50,
-		"publisher":"Sneedle",
-		"id":"105482778",
-		"list":[
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/9jdX-j64YjI"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/dMMsdmGWn-o?si=3S68NlU5W4aa1jEy"
 			}
 		],
 		"progresses":[
