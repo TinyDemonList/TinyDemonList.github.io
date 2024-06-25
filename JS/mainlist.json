@@ -156,6 +156,22 @@
 			"none"
 		]
 	},
+	"Slaughterer II":{
+		"name":"Slaughterer II",
+		"ytcode":"U3ZP00KBx2c",
+		"minimumPercent": 50,
+		"publisher":"Aspect",
+		"id":"105724776",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/U3ZP00KBx2c"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"I'll Cry Forever":{
 		"name":"I'll Cry Forever",
 		"ytcode":"56jR7B79H9M",
@@ -2459,50 +2475,6 @@
 			{
 				"name":"epic_juba",
 				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"SCOH":{
-		"name":"SCOH",
-		"ytcode":"SxSuY1T50pw",
-		"minimumPercent": 50,
-		"publisher":"VampireFlutist",
-		"id":"106104215",
-		"list":[
-			{
-				"name":"VampireFlutist",
-				"link":"https://www.youtube.com/watch?v=SxSuY1T50pw"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://youtu.be/5OQKWd--2B4"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=lIaaPeOpBsU"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Supzix",
-				"link":"https://youtu.be/hjSZbtohApY"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
 			}
 		],
 		"progresses":[
