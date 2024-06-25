@@ -798,6 +798,10 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/_AX43SsB0XY"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=8xtnPRxgSsk"
 			}
 		],
 		"progresses":[
@@ -857,7 +861,11 @@
 			}
 		],
 		"progresses":[
-			"none"
+			{
+				"name":"Fiesty",
+				"percent":74,
+				"link":"https://www.youtube.com/watch?v=8xtnPRxgSsk"
+			}
 		]
 	},
 	"Nature":{
@@ -966,7 +974,11 @@
 			}
 		],
 		"progresses":[
-			"none"
+			{
+				"name":"Fiesty",
+				"percent":51,
+				"link":"https://www.youtube.com/watch?v=8xtnPRxgSsk"
+			}
 		]
 	},
 	"Foe Toes":{
@@ -1221,6 +1233,22 @@
 			"none"
 		]
 	},
+	"Shitty":{
+		"name":"Shitty",
+		"ytcode":"6qDguPtiupc",
+		"minimumPercent": 50,
+		"publisher":"MxGaming01",
+		"id":"106978121",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/6qDguPtiupc"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Forty":{
 		"name":"Forty",
 		"ytcode":"v1br3xTysOA",
@@ -1251,6 +1279,22 @@
 			{
 				"name":"Eurikuj",
 				"link":"https://www.youtube.com/watch?v=qNMgJrmynbc"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"femboy reppelent":{
+		"name":"femboy reppelent",
+		"ytcode":"4yLekoObWVE",
+		"minimumPercent": 50,
+		"publisher":"skurczybyk aeonpowietrze",
+		"id":"106944268",
+		"list":[
+			{
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/4yLekoObWVE"
 			}
 		],
 		"progresses":[
@@ -1383,6 +1427,10 @@
 			{
 				"name":"skurczybyk aeonpowietrze",
 				"link":"https://youtu.be/xNNoIGI4DOQ"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/6r7wv1fYbH0"
 			}
 		],
 		"progresses":[
@@ -2177,6 +2225,26 @@
 			"none"
 		]
 	},
+	"Inferno party":{
+		"name":"Inferno party",
+		"ytcode":"R6CAvMCEUts",
+		"minimumPercent": 50,
+		"publisher":"lightnn",
+		"id":"106967411",
+		"list":[
+			{
+				"name":"lightnn",
+				"link":"https://youtu.be/R6CAvMCEUts?si=sNGezjSzp97Pg9O6"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"https://youtu.be/XOvj9kVUJgo"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Dual Spaz":{
 		"name":"Dual Spaz",
 		"ytcode":"jiSxjP6EaT8",
@@ -2361,6 +2429,26 @@
 			"none"
 		]
 	},
+	"Mad Dash":{
+		"name":"Mad Dash",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"DeepStrider2",
+		"id":"106985475",
+		"list":[
+			{
+				"name":"DeepStrider2",
+				"link":"na"
+			},
+			{
+				"name":"epic_juba",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"SCOH":{
 		"name":"SCOH",
 		"ytcode":"SxSuY1T50pw",
@@ -2423,170 +2511,6 @@
 			{
 				"name":"DaringDare910",
 				"link":"https://youtu.be/dMMsdmGWn-o?si=3S68NlU5W4aa1jEy"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"FCBT":{
-		"name":"FCBT",
-		"ytcode":"NxSWqXgDj98",
-		"minimumPercent": 50,
-		"publisher":"Maxushii",
-		"id":"106210672",
-		"list":[
-			{
-				"name":"Maxushii",
-				"link":"https://www.youtube.com/watch?v=NxSWqXgDj98"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"na"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://youtu.be/SCpO6iyPAIY"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"ThatPizzaGod",
-				"link":"https://www.youtube.com/shorts/91UqkIaCdSs"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=JNLnpdkmf5w"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/g6jQ_aExYlo?si=30ukNJ_wZo-jC1l8"
-			},
-			{
-				"name":"Dyln",
-				"link":"https://www.youtube.com/watch?v=6sBxxf-OlV0"
-			},
-			{
-				"name":"edio",
-				"link":"https://youtu.be/b97nfxr6P3c?si=44L-8bEFgG7S03NF"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Silent Decode 2":{
-		"name":"Silent Decode 2",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"Silent Clubstep",
-		"id":"105549704",
-		"list":[
-			{
-				"name":"Silent Clubstep",
-				"link":"na"
-			},
-			{
-				"name":"Wvsp",
-				"link":"na"
-			},
-			{
-				"name":"YzGuysie",
-				"link":"na"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Femscapes":{
-		"name":"Femscapes",
-		"ytcode":"qJjnFYCV94Y",
-		"minimumPercent": 50,
-		"publisher":"Lemon shark",
-		"id":"105976988",
-		"list":[
-			{
-				"name":"Lemon Shark",
-				"link":"https://www.youtube.com/watch?v=qJjnFYCV94Y"
-			},
-			{
-				"name":"VampireFlutist",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=RfWYOQRZEok"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Black Hole Sun":{
-		"name":"Black Hole Sun",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"Slinky",
-		"id":"105585068",
-		"list":[
-			{
-				"name":"Slinky",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=VPExW8I-h4M"
-			},
-			{
-				"name":"edio",
-				"link":"https://youtu.be/yJfyhbqnhvM?si=SAh-D6N11rW8HQDF"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=e6DFAZaoAB4"
 			}
 		],
 		"progresses":[

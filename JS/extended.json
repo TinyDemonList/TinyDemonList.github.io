@@ -1,4 +1,168 @@
 {
+	"FCBT":{
+		"name":"FCBT",
+		"ytcode":"NxSWqXgDj98",
+		"minimumPercent": 50,
+		"publisher":"Maxushii",
+		"id":"106210672",
+		"list":[
+			{
+				"name":"Maxushii",
+				"link":"https://www.youtube.com/watch?v=NxSWqXgDj98"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"na"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/SCpO6iyPAIY"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+			},
+			{
+				"name":"ThatPizzaGod",
+				"link":"https://www.youtube.com/shorts/91UqkIaCdSs"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=JNLnpdkmf5w"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/g6jQ_aExYlo?si=30ukNJ_wZo-jC1l8"
+			},
+			{
+				"name":"Dyln",
+				"link":"https://www.youtube.com/watch?v=6sBxxf-OlV0"
+			},
+			{
+				"name":"edio",
+				"link":"https://youtu.be/b97nfxr6P3c?si=44L-8bEFgG7S03NF"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Silent Decode 2":{
+		"name":"Silent Decode 2",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"Silent Clubstep",
+		"id":"105549704",
+		"list":[
+			{
+				"name":"Silent Clubstep",
+				"link":"na"
+			},
+			{
+				"name":"Wvsp",
+				"link":"na"
+			},
+			{
+				"name":"YzGuysie",
+				"link":"na"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Femscapes":{
+		"name":"Femscapes",
+		"ytcode":"qJjnFYCV94Y",
+		"minimumPercent": 50,
+		"publisher":"Lemon shark",
+		"id":"105976988",
+		"list":[
+			{
+				"name":"Lemon Shark",
+				"link":"https://www.youtube.com/watch?v=qJjnFYCV94Y"
+			},
+			{
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=RfWYOQRZEok"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Black Hole Sun":{
+		"name":"Black Hole Sun",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"Slinky",
+		"id":"105585068",
+		"list":[
+			{
+				"name":"Slinky",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=VPExW8I-h4M"
+			},
+			{
+				"name":"edio",
+				"link":"https://youtu.be/yJfyhbqnhvM?si=SAh-D6N11rW8HQDF"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=e6DFAZaoAB4"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"T Minor":{
 		"name":"T Minor",
 		"ytcode":"eUs7_8-Y8EE",
@@ -57,6 +221,14 @@
 			{
 				"name":"Eurikuj",
 				"link":"https://www.youtube.com/watch?v=6s7CiV2QvfY"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/G-ouMuMdlqQ?si=42kjy64SwdMND-9z"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/1JLiSpO-kEI"
 			}
 		],
 		"progresses":[
@@ -1407,6 +1579,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
+			},
+			{
+				"name":"Martin Cuber",
+				"link":"https://www.youtube.com/watch?v=PC8NllZ1P1A"
 			}
 		],
 		"progresses":[
