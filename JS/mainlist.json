@@ -1,4 +1,20 @@
 {
+	"Living Millennium":{
+		"name":"Living Millennium",
+		"ytcode":"cplX9l1Bubs",
+		"minimumPercent": 50,
+		"publisher":"Akurii",
+		"id":"103836046",
+		"list":[
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/cplX9l1Bubs?si=amXoZpac4IUoZy7x"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Skibidi toilet lore":{
 		"name":"Skibidi toilet lore",
 		"ytcode":"Gw6iw22U8e8",
@@ -2451,22 +2467,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=UwQNXOa42n8"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"O M G":{
-		"name":"O M G",
-		"ytcode":"MtgVgpanvTk",
-		"minimumPercent": 50,
-		"publisher":"Chamso_155",
-		"id":"106998668",
-		"list":[
-			{
-				"name":"Chamso_155",
-				"link":"https://www.youtube.com/watch?v=MtgVgpanvTk"
 			}
 		],
 		"progresses":[
