@@ -1,4 +1,132 @@
 {
+	"Swinging it":{
+		"name":"Swinging it",
+		"ytcode":"BpqLcM4QZ2w",
+		"minimumPercent": 50,
+		"publisher":"Dyln",
+		"id":"106812963",
+		"list":[
+			{
+				"name":"Dyln",
+				"link":"https://www.youtube.com/watch?v=BpqLcM4QZ2w"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Feelin A Party":{
+		"name":"Feelin A Party",
+		"ytcode":"WNNLC2DLOO8",
+		"minimumPercent": 50,
+		"publisher":"Sneedle",
+		"id":"106985531",
+		"list":[
+			{
+				"name":"Sneedle",
+				"link":"https://youtu.be/WNNLC2DLOO8"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Unnamed 12":{
+		"name":"Unnamed 12",
+		"ytcode":"YGHwuFx9W8I",
+		"minimumPercent": 50,
+		"publisher":"Robot_Man",
+		"id":"104553568",
+		"list":[
+			{
+				"name":"YzGuysie",
+				"link":"na"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Quaoz",
+				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=HsPHXFT_d4A"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"ThatPizzaGod",
+				"link":"https://www.youtube.com/shorts/95kvSNnf43U"
+			},
+			{
+				"name":"DeepStrider2",
+				"link":"na"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=f-gQDPl9OBM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Mad Dash":{
+		"name":"Mad Dash",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"DeepStrider2",
+		"id":"106985475",
+		"list":[
+			{
+				"name":"DeepStrider2",
+				"link":"na"
+			},
+			{
+				"name":"epic_juba",
+				"link":"na"
+			},
+			{
+				"name":"cinder block",
+				"link":"na"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://www.youtube.com/watch?v=SJSGN_MKJhk"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"SCOH":{
 		"name":"SCOH",
 		"ytcode":"SxSuY1T50pw",

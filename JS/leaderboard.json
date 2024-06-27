@@ -483,7 +483,11 @@
 			"Chill Out",
 			"no this is",
 			"Shitty",
-			"fwaeh"
+			"fwaeh",
+			"Glitched Wave",
+			"the end",
+			"Mad Dash",
+			"No Room For Error"
 		],
 		"progs":[
 				"none"
@@ -582,7 +586,9 @@
 			"Swinging it",
 			"Xtinct Challenge XII",
 			"Club With No Step",
-			"SeaShellSellingSally"
+			"SeaShellSellingSally",
+			"CVS Pharmacy",
+			"exen never clear"
 		],
 		"progs":[
 			{
@@ -903,7 +909,8 @@
 			"Xtinct Challenge XII",
 			"exen never clear",
 			"DeepCod Wave",
-			"the end"
+			"the end",
+			"Feelin A Party"
 		],
 		"progs":[
 			"none"
@@ -950,7 +957,9 @@
 			"exen never clear",
 			"7yr olds only",
 			"Xtinct Challenge XII",
-			"L o l"
+			"L o l",
+			"Mad Dash",
+			"Shitty"
 		],
 		"progs":[
 			"none"
@@ -1054,7 +1063,8 @@
 		"levels":[
 			"ACUACUACUACUACUACU",
 			"Rizzler Funk",
-			"The Nightmare 2"
+			"The Nightmare 2",
+			"Cheese Pizza Sequel"
 		],
 		"progs":[
 			"none"
@@ -1071,7 +1081,9 @@
 			"fwaeh",
 			"lolsman06",
 			"firechall",
-			"femboy reppelent"
+			"femboy reppelent",
+			"i love gd colon chal",
+			"Shitty"
 		],
 		"progs":[
 			"none"
@@ -1108,7 +1120,16 @@
 	"Chamso_155":{
 		"levels":[
 			"Uno",
-			"L o l"
+			"L o l",
+			"O M G"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"cinder block":{
+		"levels":[
+			"Mad Dash"
 		],
 		"progs":[
 			"none"

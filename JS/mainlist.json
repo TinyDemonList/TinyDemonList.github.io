@@ -718,6 +718,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=ivZkfA4ooJE"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=cYfa-M78sic"
 			}
 		],
 		"progresses":[
@@ -898,6 +902,10 @@
 			{
 				"name":"skurczybyk aeonpowietrze",
 				"link":"https://youtu.be/dcABP4xfkZI"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=cYfa-M78sic"
 			}
 		],
 		"progresses":[
@@ -922,6 +930,22 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/fu1Id87Qcac"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Glitched Wave":{
+		"name":"Glitched Wave",
+		"ytcode":"7AHNh8qwSw0",
+		"minimumPercent": 50,
+		"publisher":"MxGaming01",
+		"id":"107056050",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/7AHNh8qwSw0"
 			}
 		],
 		"progresses":[
@@ -982,6 +1006,10 @@
 			{
 				"name":"Dexxx071",
 				"link":"na"
+			},
+			{
+				"name":"PPCOOL",
+				"link":"https://medal.tv/games/geometry-dash/clips/i9kJSYoAbWrIn0NZP/d1337kZzfBjL?invite=cr-MSxYQjUsMjAwNTM1NzcxLA"
 			}
 		],
 		"progresses":[
@@ -1283,6 +1311,14 @@
 			{
 				"name":"MxGaming01",
 				"link":"https://youtu.be/6qDguPtiupc"
+			},
+			{
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/tNeTE0KV4lM"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://www.youtube.com/watch?v=A3vs3cmY264"
 			}
 		],
 		"progresses":[
@@ -1391,6 +1427,22 @@
 			{
 				"name":"MxGaming01",
 				"link":"https://www.youtube.com/watch?v=cPSAf31Avtk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"i love gd colon chal":{
+		"name":"i love gd colon chal",
+		"ytcode":"nXqUZzbktag",
+		"minimumPercent": 50,
+		"publisher":"skurczybyk aeonpowietrze",
+		"id":"105742362",
+		"list":[
+			{
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/nXqUZzbktag"
 			}
 		],
 		"progresses":[
@@ -2067,6 +2119,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"na"
 			}
 		],
 		"progresses":[
@@ -2389,100 +2445,16 @@
 			"none"
 		]
 	},
-	"Swinging it":{
-		"name":"Swinging it",
-		"ytcode":"BpqLcM4QZ2w",
+	"O M G":{
+		"name":"O M G",
+		"ytcode":"MtgVgpanvTk",
 		"minimumPercent": 50,
-		"publisher":"Dyln",
-		"id":"106812963",
+		"publisher":"Chamso_155",
+		"id":"106998668",
 		"list":[
 			{
-				"name":"Dyln",
-				"link":"https://www.youtube.com/watch?v=BpqLcM4QZ2w"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Unnamed 12":{
-		"name":"Unnamed 12",
-		"ytcode":"YGHwuFx9W8I",
-		"minimumPercent": 50,
-		"publisher":"Robot_Man",
-		"id":"104553568",
-		"list":[
-			{
-				"name":"YzGuysie",
-				"link":"na"
-			},
-			{
-				"name":"WcoolKid",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=HsPHXFT_d4A"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"ThatPizzaGod",
-				"link":"https://www.youtube.com/shorts/95kvSNnf43U"
-			},
-			{
-				"name":"DeepStrider2",
-				"link":"na"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=f-gQDPl9OBM"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Mad Dash":{
-		"name":"Mad Dash",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"DeepStrider2",
-		"id":"106985475",
-		"list":[
-			{
-				"name":"DeepStrider2",
-				"link":"na"
-			},
-			{
-				"name":"epic_juba",
-				"link":"na"
+				"name":"Chamso_155",
+				"link":"https://www.youtube.com/watch?v=MtgVgpanvTk"
 			}
 		],
 		"progresses":[
