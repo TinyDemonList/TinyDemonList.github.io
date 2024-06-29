@@ -9,6 +9,10 @@
 			{
 				"name":"Akurii",
 				"link":"https://youtu.be/cplX9l1Bubs?si=amXoZpac4IUoZy7x"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/tOQSnu7tPUM"
 			}
 		],
 		"progresses":[
@@ -580,26 +584,6 @@
 			"none"
 		]
 	},
-	"Averwave":{
-		"name":"Averwave",
-		"ytcode":"35P99az9lAw",
-		"minimumPercent": 50,
-		"publisher":"Supzix",
-		"id":"106362467",
-		"list":[
-			{
-				"name":"Supzix",
-				"link":"https://www.youtube.com/watch?v=35P99az9lAw"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=rCvfPv0-4e4"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"CyclelolcyclE":{
 		"name":"CyclelolcyclE",
 		"ytcode":"kemdsPXpvyM",
@@ -618,6 +602,10 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=N8gldfpmKDM"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/4Jbur_6rTL4"
 			}
 		],
 		"progresses":[
@@ -634,6 +622,34 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=H6ITIDqt_6g"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/4Jbur_6rTL4"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Averwave":{
+		"name":"Averwave",
+		"ytcode":"35P99az9lAw",
+		"minimumPercent": 50,
+		"publisher":"Supzix",
+		"id":"106362467",
+		"list":[
+			{
+				"name":"Supzix",
+				"link":"https://www.youtube.com/watch?v=35P99az9lAw"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=rCvfPv0-4e4"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/4Jbur_6rTL4"
 			}
 		],
 		"progresses":[
@@ -658,6 +674,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=ivZkfA4ooJE"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/4Jbur_6rTL4"
 			}
 		],
 		"progresses":[
@@ -674,6 +694,14 @@
 			{
 				"name":"meowthjr",
 				"link":"https://www.youtube.com/watch?v=kVB_E2JQ7Ss"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/4Jbur_6rTL4"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/TvdLV1dLeqg"
 			}
 		],
 		"progresses":[
@@ -690,6 +718,14 @@
 			{
 				"name":"ThatPizzaGod",
 				"link":"https://www.youtube.com/watch?v=mDslJetIF-A"
+			},
+			{
+				"name":"PPCOOL",
+				"link":"https://medal.tv/games/geometry-dash/clips/i9MKUZhwQp40Fq5XO/d1337uz7xlrl?invite=cr-MSxLRjcsMjAwNTM1NzcxLA"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/4Jbur_6rTL4"
 			}
 		],
 		"progresses":[

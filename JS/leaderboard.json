@@ -339,7 +339,9 @@
 			"bal 4",
 			"Slaughterer II",
 			"Skibidi toilet lore",
-			"I'll Cry Forever"
+			"I'll Cry Forever",
+			"Living Millennium",
+			"Femboy Forever"
 		],
 		"progs":[
 				"none"
@@ -487,7 +489,9 @@
 			"Glitched Wave",
 			"the end",
 			"Mad Dash",
-			"No Room For Error"
+			"No Room For Error",
+			"Silent wavestep",
+			"LOLZZ"
 		],
 		"progs":[
 				"none"
@@ -869,7 +873,9 @@
 			"Jump Trials",
 			"Glitched Wave",
 			"No Room For Error",
-			"9 secs of straight F"
+			"9 secs of straight F",
+			"Glitched Wave",
+			"No Room For Error"
 			
 		],
 		"progs":[
@@ -910,7 +916,9 @@
 			"exen never clear",
 			"DeepCod Wave",
 			"the end",
-			"Feelin A Party"
+			"Feelin A Party",
+			"celompetrec",
+			"Silent wavestep"
 		],
 		"progs":[
 			"none"
@@ -1065,7 +1073,8 @@
 			"ACUACUACUACUACUACU",
 			"Rizzler Funk",
 			"The Nightmare 2",
-			"Cheese Pizza Sequel"
+			"Cheese Pizza Sequel",
+			"Cheese Pizza 3"
 		],
 		"progs":[
 			"none"
@@ -1138,11 +1147,24 @@
 	},
 	"Akurii":{
 		"levels":[
-			"Living Millennium"
+			"Living Millennium",
+			"Cheese Pizza 3",
+			"Femboy Forever",
+			"powerave",
+			"Tidal Change",
+			"CyclelolcyclE",
+			"Averwave"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"TrickeryGD":{
+		"levels":[
+			"Silent wavestep"
 		],
 		"progs":[
 			"none"
 		]
 	}
-	
 }
