@@ -947,6 +947,22 @@
 			"none"
 		]
 	},
+	"sakupen spam":{
+		"name":"sakupen spam",
+		"ytcode":"uJchvP6Zobs",
+		"minimumPercent": 50,
+		"publisher":"epiccoolman66",
+		"id":"107160512",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/uJchvP6Zobs"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Fever Dream":{
 		"name":"Fever Dream",
 		"ytcode":"HOvNfHAsB98",
@@ -2518,30 +2534,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=4jsfKFw-Cbc"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Inconspicuous Maze":{
-		"name":"Inconspicuous Maze",
-		"ytcode":"ttOivOdlcf8",
-		"minimumPercent": 50,
-		"publisher":"ScratchMan",
-		"id":"105755697",
-		"list":[
-			{
-				"name":"ScratchMan",
-				"link":"https://www.youtube.com/watch?v=ttOivOdlcf8"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/4PrTaLccSjk?si=V0EOtW9FQ5-mZQSn"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=2512pbqXAvM"
 			}
 		],
 		"progresses":[

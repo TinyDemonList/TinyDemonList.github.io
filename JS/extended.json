@@ -1,4 +1,28 @@
 {
+	"Inconspicuous Maze":{
+		"name":"Inconspicuous Maze",
+		"ytcode":"ttOivOdlcf8",
+		"minimumPercent": 50,
+		"publisher":"ScratchMan",
+		"id":"105755697",
+		"list":[
+			{
+				"name":"ScratchMan",
+				"link":"https://www.youtube.com/watch?v=ttOivOdlcf8"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/4PrTaLccSjk?si=V0EOtW9FQ5-mZQSn"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=2512pbqXAvM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Plastic Straw Turtle":{
 		"name":"Plastic Straw Turtle",
 		"ytcode":"9QIkpA4ym-A",
