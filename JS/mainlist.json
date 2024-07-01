@@ -1,4 +1,20 @@
 {
+	"Dance":{
+		"name":"Dance",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"Llqne",
+		"id":"87627264",
+		"list":[
+			{
+				"name":"Llqne",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Living Millennium":{
 		"name":"Living Millennium",
 		"ytcode":"cplX9l1Bubs",
@@ -154,6 +170,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://youtu.be/BnhSG4wpU7c?si=nuKe_b_B0vujcOCS"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=b9QO_-yE7mc"
 			}
 		],
 		"progresses":[
@@ -174,6 +194,10 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/45UqzeEcC_U"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://www.youtube.com/watch?v=0kvyVVRd2so"
 			}
 		],
 		"progresses":[
@@ -246,6 +270,10 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=QUPoLdcjL0Q"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://www.youtube.com/watch?v=1DLVTeTH950"
 			}
 		],
 		"progresses":[
@@ -322,6 +350,10 @@
 			{
 				"name":"Quaoz",
 				"link":"https://youtu.be/asoYboWKwxY?si=N3ebr8_EYnBCIttm"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/3VBP6qY_oAE"
 			}
 		],
 		"progresses":[
@@ -346,6 +378,10 @@
 			{
 				"name":"Dexxx071",
 				"link":"https://youtu.be/DZmApsXd9ZE"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://www.youtube.com/watch?v=0kvyVVRd2so"
 			}
 		],
 		"progresses":[
@@ -530,6 +566,10 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=JNLnpdkmf5w"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/2Oz9bSpeUeE"
 			}
 		],
 		"progresses":[
@@ -962,6 +1002,14 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=cYfa-M78sic"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"https://www.youtube.com/watch?v=gNJX1nwVZXk"
+			},
+			{
+				"name":"Silent Clubstep",
+				"link":"https://www.youtube.com/watch?v=Mgr_ge6E4vE"
 			}
 		],
 		"progresses":[
@@ -1002,6 +1050,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=VXfDp6YfMbk"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=pm6k0Mi7tVs"
 			}
 		],
 		"progresses":[
@@ -1351,6 +1403,14 @@
 			{
 				"name":"skurczybyk aeonpowietrze",
 				"link":"https://youtu.be/pj734CqlI4g"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/bqEdpY4y2qE"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://www.youtube.com/watch?v=lPqB3UrqhXQ"
 			}
 		],
 		"progresses":[
@@ -1499,6 +1559,10 @@
 			{
 				"name":"skurczybyk aeonpowietrze",
 				"link":"https://youtu.be/nXqUZzbktag"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/wQWFYHTw96s?si=Bvk12HQ4ZTRjUWe9"
 			}
 		],
 		"progresses":[
@@ -1559,6 +1623,10 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/Q_MJzy0ENAk"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"na"
 			}
 		],
 		"progresses":[
@@ -1639,6 +1707,10 @@
 			{
 				"name":"Dyln",
 				"link":"https://www.youtube.com/watch?v=s3fJJVzI46w"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=pm6k0Mi7tVs"
 			}
 		],
 		"progresses":[
@@ -2471,34 +2543,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=2512pbqXAvM"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Plastic Straw Turtle":{
-		"name":"Plastic Straw Turtle",
-		"ytcode":"9QIkpA4ym-A",
-		"minimumPercent": 50,
-		"publisher":"Eurikuj",
-		"id":"90246747",
-		"list":[
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=9QIkpA4ym-A"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"na"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=UwQNXOa42n8"
 			}
 		],
 		"progresses":[

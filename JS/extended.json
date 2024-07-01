@@ -1,4 +1,32 @@
 {
+	"Plastic Straw Turtle":{
+		"name":"Plastic Straw Turtle",
+		"ytcode":"9QIkpA4ym-A",
+		"minimumPercent": 50,
+		"publisher":"Eurikuj",
+		"id":"90246747",
+		"list":[
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=9QIkpA4ym-A"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"na"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=UwQNXOa42n8"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"O M G":{
 		"name":"O M G",
 		"ytcode":"MtgVgpanvTk",
@@ -105,6 +133,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=f-gQDPl9OBM"
+			},
+			{
+				"name":"TrickeryGD",
+				"link":"https://www.youtube.com/watch?v=rhAfJNmZFUk"
 			}
 		],
 		"progresses":[
@@ -1013,6 +1045,14 @@
 			{
 				"name":"Eurikuj",
 				"link":"https://www.youtube.com/watch?v=RfWYOQRZEok"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
+			},
+			{
+				"name":"TrickeryGD",
+				"link":"https://www.youtube.com/watch?v=I_eqXGIo0dg"
 			}
 		],
 		"progresses":[
@@ -1049,6 +1089,14 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=r3MqMEMRT_g"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"https://www.youtube.com/watch?v=SP9UuZLrRsQ"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
 			}
 		],
 		"progresses":[
@@ -1125,6 +1173,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=V1RexXnk7is"
+			},
+			{
+				"name":"TrickeryGD",
+				"link":"https://www.youtube.com/watch?v=etQKalKxLzU"
 			}
 		],
 		"progresses":[
@@ -1212,6 +1264,10 @@
 			},
 			{
 				"name":"MxGaming01",
+				"link":"na"
+			},
+			{
+				"name":"kowman",
 				"link":"na"
 			}
 		],
@@ -1530,6 +1586,10 @@
 			{
 				"name":"MxGaming01",
 				"link":"na"
+			},
+			{
+				"name":"kowman",
+				"link":"na"
 			}
 		],
 		"progresses":[
@@ -1614,6 +1674,10 @@
 			{
 				"name":"Dyln",
 				"link":"https://www.youtube.com/watch?v=-Yut9mlMCss"
+			},
+			{
+				"name":"TrickeryGD",
+				"link":"https://www.youtube.com/watch?v=lz1IsyjObrw"
 			}
 		],
 		"progresses":[
@@ -1758,6 +1822,10 @@
 			{
 				"name":"Eurikuj",
 				"link":"na"
+			},
+			{
+				"name":"TrickeryGD",
+				"link":"https://www.youtube.com/watch?v=dvtq483LSdM"
 			}
 		],
 		"progresses":[
@@ -2015,6 +2083,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=B3qB3gkjYQs"
+			},
+			{
+				"name":"TrickeryGD",
+				"link":"https://www.youtube.com/watch?v=y308G1zP_zg"
 			}
 		],
 		"progresses":[
@@ -2107,6 +2179,10 @@
 		{
 			"name":"Silent Clubstep",
 			"link":"na"
+		},
+		{
+			"name":"TrickeryGD",
+			"link":"https://youtu.be/i_m4S89p1x8"
 		}
     ],
     "progresses":[
@@ -2131,7 +2207,15 @@
 		{
             "name":"Fred Bylon",
             "link":"https://youtu.be/hlsPDVGXjAA"
-        }
+        },
+		{
+			"name":"kowman",
+			"link":"na"
+		},
+		{
+			"name":"TrickeryGD",
+			"link":"https://youtu.be/CfCJSCNpKG4"
+		}
     ],
     "progresses":[
         "none"
@@ -2176,10 +2260,18 @@
             "name":"Fiesty",
             "link":"https://www.youtube.com/watch?v=SgOk0seXrvo"
         },
-	{
-	    "name":"Martin Cuber",
-	    "link":"https://youtu.be/17bUmt27SvE"
-	}
+		{
+	    	"name":"Martin Cuber",
+	    	"link":"https://youtu.be/17bUmt27SvE"
+		},
+		{
+			"name":"kowman",
+			"link":"na"
+		},
+		{
+			"name":"TrickeryGD",
+			"link":"https://youtu.be/rlsi3624ii0"
+		}
     ],
     "progresses":[
         "none"
