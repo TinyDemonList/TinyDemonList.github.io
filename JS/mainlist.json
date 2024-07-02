@@ -2216,6 +2216,22 @@
 			"none"
 		]
 	},
+	"I hate timings":{
+		"name":"I hate timings",
+		"ytcode":"ZxUPJHrgisc",
+		"minimumPercent": 50,
+		"publisher":"MxGaming01",
+		"id":"107283227",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/ZxUPJHrgisc"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Ghost Wave II":{
 		"name":"Ghost Wave II",
 		"ytcode":"vTYVgOfA4s8",
@@ -2518,38 +2534,6 @@
 			{
 				"name":"ScratchMan",
 				"link":"na"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Dark 14955":{
-		"name":"Dark 14955",
-		"ytcode":"Z7Llcg1KMG0",
-		"minimumPercent": 50,
-		"publisher":"WcoolKid",
-		"id":"105632369",
-		"list":[
-			{
-				"name":"WcoolKid",
-				"link":"https://www.youtube.com/watch?v=Z7Llcg1KMG0"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"na"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=4jsfKFw-Cbc"
 			}
 		],
 		"progresses":[
