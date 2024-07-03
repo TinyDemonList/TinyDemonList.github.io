@@ -112,7 +112,8 @@
 			"Femscapes",
 			"L o l",
 			"Uno",
-			"Pootra"
+			"Pootra",
+			"The Cavern"
 		],
 		"progs":[
 				"none"
@@ -510,7 +511,8 @@
 			"Hazardz",
 			"exen never clear",
 			"Harrowing Corridor",
-			"I hate timings"
+			"I hate timings",
+			"Bloodbath"
 		],
 		"progs":[
 				"none"
@@ -614,7 +616,13 @@
 			"exen never clear",
 			"natsumio Challenge",
 			"Glitched Wave",
-			"Chill Out"
+			"Chill Out",
+			"Pappieris Challenge",
+			"i love gd colon chal",
+			"Harrowing Corridor",
+			"Glitched Wave",
+			"ABCDEFG",
+			"Rizzler Funk"
 		],
 		"progs":[
 			{
@@ -899,7 +907,9 @@
 			"9 secs of straight F",
 			"Glitched Wave",
 			"No Room For Error",
-			"sakupen spam"
+			"sakupen spam",
+			"idkk",
+			"Dxst Challenge"
 			
 		],
 		"progs":[
@@ -1119,7 +1129,8 @@
 			"firechall",
 			"femboy reppelent",
 			"i love gd colon chal",
-			"Shitty"
+			"Shitty",
+			"dyln challange"
 		],
 		"progs":[
 			"none"
@@ -1182,7 +1193,9 @@
 			"Smiley Face",
 			"Quiet",
 			"Neverave",
-			"First Location"
+			"First Location",
+			"The Eminence",
+			"EGOIST"
 		],
 		"progs":[
 			"none"
@@ -1208,6 +1221,22 @@
 	"Llqne":{
 		"levels":[
 			"Dance"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"natsumi":{
+		"levels":[
+			"pinny b day challenge"
+		],
+		"progs":[
+			"none"
+		]
+	},
+	"codrn_gd":{
+		"levels":[
+			"Zach Challenge"
 		],
 		"progs":[
 			"none"
