@@ -1,20 +1,4 @@
 {
-	"Bloodbath":{
-		"name":"Bloodbath",
-		"ytcode":"9Dl4P2TYbB8",
-		"minimumPercent": 50,
-		"publisher":"Sneedle",
-		"id":"107217843",
-		"list":[
-			{
-				"name":"MxGaming01",
-				"link":"https://youtu.be/9Dl4P2TYbB8"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"Lavender Destroyed":{
 		"name":"Lavender Destroyed",
 		"ytcode":"na",
@@ -329,6 +313,26 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=UwQNXOa42n8"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"I hate timings":{
+		"name":"I hate timings",
+		"ytcode":"ZxUPJHrgisc",
+		"minimumPercent": 50,
+		"publisher":"MxGaming01",
+		"id":"107283227",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/ZxUPJHrgisc"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/W9B9sTvRcms"
 			}
 		],
 		"progresses":[

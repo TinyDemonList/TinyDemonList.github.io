@@ -2356,26 +2356,6 @@
 			"none"
 		]
 	},
-	"I hate timings":{
-		"name":"I hate timings",
-		"ytcode":"ZxUPJHrgisc",
-		"minimumPercent": 50,
-		"publisher":"MxGaming01",
-		"id":"107283227",
-		"list":[
-			{
-				"name":"MxGaming01",
-				"link":"https://youtu.be/ZxUPJHrgisc"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/W9B9sTvRcms"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"Ghost Wave II":{
 		"name":"Ghost Wave II",
 		"ytcode":"vTYVgOfA4s8",
@@ -2446,6 +2426,22 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=5e2cKWN-5KA"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Bloodbath":{
+		"name":"Bloodbath",
+		"ytcode":"9Dl4P2TYbB8",
+		"minimumPercent": 50,
+		"publisher":"Sneedle",
+		"id":"107217843",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/9Dl4P2TYbB8"
 			}
 		],
 		"progresses":[
