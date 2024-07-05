@@ -1111,6 +1111,26 @@
 			"none"
 		]
 	},
+	"The Cavern":{
+		"name":"The Cavern",
+		"ytcode":"H9tMFY-OJh4",
+		"minimumPercent": 50,
+		"publisher":"Eurikuj",
+		"id":"107281583",
+		"list":[
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=H9tMFY-OJh4"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/oc3bnNRumR0?si=r3Ymte9elzYCHBQt"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Glitched Wave":{
 		"name":"Glitched Wave",
 		"ytcode":"7AHNh8qwSw0",
@@ -1654,22 +1674,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/sqWT0YRb1Cg"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"The Cavern":{
-		"name":"The Cavern",
-		"ytcode":"H9tMFY-OJh4",
-		"minimumPercent": 50,
-		"publisher":"Eurikuj",
-		"id":"107281583",
-		"list":[
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=H9tMFY-OJh4"
 			}
 		],
 		"progresses":[
