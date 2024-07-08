@@ -68,6 +68,7 @@ function appendData(data) {
       if(i == 0){
         victor.innerHTML = `
         <h6>ID: ${level.id}</h6>
+        <h6>Creator Points: ${level.creatorpoints}</h6>
           <h5>Completions<br></h5>
           <h6> ${level.list[i].name} - <a href = "${level.list[i].link}" target = "_blank">${level.list[i].link}</h6>
         `;
