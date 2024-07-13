@@ -2684,6 +2684,34 @@
 		"progresses":[
 			"none"
 		]
+	},
+	"Bloodbath":{
+		"name":"Bloodbath",
+		"ytcode":"9Dl4P2TYbB8",
+		"minimumPercent": 50,
+		"publisher":"Sneedle",
+		"id":"107217843",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/9Dl4P2TYbB8"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"https://youtu.be/7_1MwBEHUdw"
+			},
+			{
+				"name":"Sneedle",
+				"link":"https://youtu.be/pl5MuRRbPnQ"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
 	}
 	
 }
