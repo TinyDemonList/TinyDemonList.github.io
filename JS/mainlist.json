@@ -200,6 +200,23 @@
 			"none"
 		]
 	},
+	"One":{
+		"name":"1",
+		"ytcode":"Yk2Y84skgVE",
+		"minimumPercent": 50,
+		"publisher":"tFluffy",
+		"id":"106890895",
+		"creatorpoints":"3",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/Yk2Y84skgVE"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Slaughterer II":{
 		"name":"Slaughterer II",
 		"ytcode":"U3ZP00KBx2c",
@@ -2675,34 +2692,6 @@
 			{
 				"name":"Freakybob",
 				"link":"https://www.youtube.com/watch?v=IcMd1ZxXGPI"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Bloodbath":{
-		"name":"Bloodbath",
-		"ytcode":"9Dl4P2TYbB8",
-		"minimumPercent": 50,
-		"publisher":"Sneedle",
-		"id":"107217843",
-		"list":[
-			{
-				"name":"MxGaming01",
-				"link":"https://youtu.be/9Dl4P2TYbB8"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"https://youtu.be/7_1MwBEHUdw"
-			},
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/pl5MuRRbPnQ"
 			},
 			{
 				"name":"Aelz",
