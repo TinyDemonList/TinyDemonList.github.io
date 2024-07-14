@@ -448,7 +448,9 @@
 			"the end",
 			"Silent wavestep",
 			"One",
-			"TDHell"
+			"TDHell",
+			"Doomsters",
+			"ZenosSins Chall III"
 		],
 		"progs":[
 				"none"
@@ -1410,7 +1412,8 @@
 	},
 	"natsumi":{
 		"levels":[
-			"pinny b day challenge"
+			"pinny b day challenge",
+			"ZenosSins Chall III"
 		],
 		"progs":[
 			"none"

@@ -1,4 +1,36 @@
 {
+	"Brad Garlinghouse Ch":{
+		"name":"Brad Garlinghouse Ch",
+		"ytcode":"grQi3cCfHM4",
+		"minimumPercent": 50,
+		"publisher":"Lexxxy",
+		"id":"95078199",
+		"list":[
+			{
+				"name":"Lexxxy",
+				"link":"https://www.youtube.com/watch?v=grQi3cCfHM4"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=jkiehkyA7gs"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=4jsfKFw-Cbc"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"here to suffer":{
 		"name":"here to suffer",
 		"ytcode":"hCmn3y0iF18",

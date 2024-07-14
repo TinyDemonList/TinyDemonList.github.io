@@ -173,6 +173,27 @@
 		]
 
 	},
+	"ZenosSins Chall III":{
+		"name":"ZenosSins Chall III",
+		"ytcode":"99ZlJuFDq4w",
+		"minimumPercent": 50,
+		"publisher":"natsumi",
+		"id":"107715843",
+		"creatorpoints":"4",
+		"list":[
+			{
+				"name":"natsumi",
+				"link":"https://youtu.be/99ZlJuFDq4w?si=BHw427TKXDLFgIEQ"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=sY3Y7jeicgY"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"My Last Stand":{
 		"name":"My Last Stand",
 		"ytcode":"WFaAavH7sGk",
@@ -2209,6 +2230,10 @@
 			{
 				"name":"bob",
 				"link":"https://www.youtube.com/watch?v=uwqyJcU2Otg"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/HGT8qkp0juw"
 			}
 		],
 		"progresses":[
@@ -2601,38 +2626,6 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=hhJv_3ZOijk"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Brad Garlinghouse Ch":{
-		"name":"Brad Garlinghouse Ch",
-		"ytcode":"grQi3cCfHM4",
-		"minimumPercent": 50,
-		"publisher":"Lexxxy",
-		"id":"95078199",
-		"list":[
-			{
-				"name":"Lexxxy",
-				"link":"https://www.youtube.com/watch?v=grQi3cCfHM4"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=jkiehkyA7gs"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=4jsfKFw-Cbc"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
 			}
 		],
 		"progresses":[
