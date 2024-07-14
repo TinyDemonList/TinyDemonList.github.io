@@ -1,4 +1,52 @@
 {
+	"You're So Defeated":{
+		"name":"You're So Defeated",
+		"ytcode":"ftQZOJh1SlI",
+		"minimumPercent": 50,
+		"publisher":"lightnn",
+		"id":"105832773",
+		"list":[
+			{
+				"name":"lightnn",
+				"link":"https://www.youtube.com/watch?v=ftQZOJh1SlI"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
+			},
+			{
+				"name":"Sneedle",
+				"link":"https://youtu.be/QuYaVNf8Nzc"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
+			},
+			{
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/Q0vXdbgwkhU"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=quI0Osvb3oU"
+			},
+			{
+				"name":"Fred Bylon",
+				"link":"https://www.youtube.com/watch?v=-OzkhJCPGoE"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=hhJv_3ZOijk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Brad Garlinghouse Ch":{
 		"name":"Brad Garlinghouse Ch",
 		"ytcode":"grQi3cCfHM4",
@@ -561,30 +609,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/j8LrcRImtZg"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"I hate timings":{
-		"name":"I hate timings",
-		"ytcode":"ZxUPJHrgisc",
-		"minimumPercent": 50,
-		"publisher":"MxGaming01",
-		"id":"107283227",
-		"list":[
-			{
-				"name":"MxGaming01",
-				"link":"https://youtu.be/ZxUPJHrgisc"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/W9B9sTvRcms"
-			},
-			{
-				"name":"Cinasek",
-				"link":"na"
 			}
 		],
 		"progresses":[

@@ -389,6 +389,23 @@
 			"none"
 		]
 	},
+	"I hate timings":{
+		"name":"I hate timings",
+		"ytcode":"d6lFBdr_8gk",
+		"minimumPercent": 50,
+		"publisher":"Zenos",
+		"id":"107329232",
+		"creatorpoints":"2",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/d6lFBdr_8gk?si=33YLn7NAwWjZ6lZT"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"bal 4":{
 		"name":"bal 4",
 		"ytcode":"ntrSldy5nNI",
@@ -2586,54 +2603,6 @@
 			{
 				"name":"Aelz",
 				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"You're So Defeated":{
-		"name":"You're So Defeated",
-		"ytcode":"ftQZOJh1SlI",
-		"minimumPercent": 50,
-		"publisher":"lightnn",
-		"id":"105832773",
-		"list":[
-			{
-				"name":"lightnn",
-				"link":"https://www.youtube.com/watch?v=ftQZOJh1SlI"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/QuYaVNf8Nzc"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
-			},
-			{
-				"name":"skurczybyk aeonpowietrze",
-				"link":"https://youtu.be/Q0vXdbgwkhU"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=quI0Osvb3oU"
-			},
-			{
-				"name":"Fred Bylon",
-				"link":"https://www.youtube.com/watch?v=-OzkhJCPGoE"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=hhJv_3ZOijk"
 			}
 		],
 		"progresses":[
