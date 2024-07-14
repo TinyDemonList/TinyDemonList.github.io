@@ -1528,5 +1528,13 @@
 		"progs":[
 			"none"
 		]
+	},
+	"bob":{
+		"levels":[
+			"Doomsters"
+		],
+		"progs":[
+			"none"
+		]
 	}
 }

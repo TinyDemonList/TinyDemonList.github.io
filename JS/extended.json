@@ -1,4 +1,48 @@
 {
+	"Ghost Wave II":{
+		"name":"Ghost Wave II",
+		"ytcode":"vTYVgOfA4s8",
+		"minimumPercent": 50,
+		"publisher":"VampireFlutist",
+		"id":"106061001",
+		"list":[
+			{
+				"name":"VampireFlutist",
+				"link":"https://youtu.be/vTYVgOfA4s8?si=kCWyxXw6rRdM3gs-"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=KBSj1Fb1m3Q"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"WcoolKid",
+				"link":"https://youtu.be/OtO9wABENPk?si=dADEekFO23T8JAuh"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/OzhiXe8y31A?si=pq7tJ0EhtFQAjV4i"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=hhJv_3ZOijk"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"No Room For Error":{
 		"name":"No Room For Error",
 		"ytcode":"fk_PfD6fgJY",
