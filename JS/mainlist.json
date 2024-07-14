@@ -670,6 +670,22 @@
 			"none"
 		]
 	},
+	"Mania":{
+		"name":"Mania",
+		"ytcode":"Y5_0wvbnH5c",
+		"minimumPercent": 50,
+		"publisher":"Fiesty",
+		"id":"107646435",
+		"list":[
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=Y5_0wvbnH5c"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Shartscapes":{
 		"name":"Shartscapes",
 		"ytcode":"Ko95DBdeXrI",
@@ -2613,42 +2629,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=4jsfKFw-Cbc"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"here to suffer":{
-		"name":"here to suffer",
-		"ytcode":"hCmn3y0iF18",
-		"minimumPercent": 50,
-		"publisher":"kowman",
-		"id":"105591603",
-		"list":[
-			{
-				"name":"kowman",
-				"link":"https://www.youtube.com/watch?v=_hCmn3y0iF18"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=Pdrx9PXpA9M"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=BR-5zp9CqyY"
 			},
 			{
 				"name":"Aelz",
