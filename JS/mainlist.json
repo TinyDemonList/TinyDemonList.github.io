@@ -16,21 +16,21 @@
 			"none"
 		]
 	},
-	"Skibidi toilet lore":{
-		"name":"Skibidi toilet lore",
-		"ytcode":"Gw6iw22U8e8",
+	"TDHell":{
+		"name":"TDHell",
+		"ytcode":"RumN70tDMVw",
 		"minimumPercent": 50,
-		"publisher":"Cinasek",
-		"id":"107018347",
-		"creatorpoints":"6",
+		"publisher":"Freakybob",
+		"id":"107726936",
+		"creatorpoints":"3",
 		"list":[
 			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/Gw6iw22U8e8"
+				"name":"Freakybob",
+				"link":"https://youtu.be/RumN70tDMVw"
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://youtu.be/LgJeJiGeivA"
+				"link":"https://youtu.be/v225fZ5zC8o"
 			}
 		],
 		"progresses":[
@@ -48,6 +48,27 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=V9uSAxKygx8"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Skibidi toilet lore":{
+		"name":"Skibidi toilet lore",
+		"ytcode":"Gw6iw22U8e8",
+		"minimumPercent": 50,
+		"publisher":"Cinasek",
+		"id":"107018347",
+		"creatorpoints":"6",
+		"list":[
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/Gw6iw22U8e8"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/LgJeJiGeivA"
 			}
 		],
 		"progresses":[
@@ -2660,54 +2681,6 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=hhJv_3ZOijk"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"No Room For Error":{
-		"name":"No Room For Error",
-		"ytcode":"fk_PfD6fgJY",
-		"minimumPercent": 50,
-		"publisher":"Jaiden1",
-		"id":"106466876",
-		"list":[
-			{
-				"name":"Jaiden1",
-				"link":"https://youtu.be/fk_PfD6fgJY?si=loRUiCvDTiHY1vsL"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=BtMr4JejGGI"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://www.youtube.com/watch?v=OXNL_vXG6rE"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
-			},
-			{
-				"name":"MxGaming01",
-				"link":"na"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=5e2cKWN-5KA"
-			},
-			{
-				"name":"Freakybob",
-				"link":"https://www.youtube.com/watch?v=IcMd1ZxXGPI"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
 			}
 		],
 		"progresses":[
