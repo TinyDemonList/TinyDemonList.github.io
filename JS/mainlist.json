@@ -996,42 +996,6 @@
 			"none"
 		]
 	},
-	"CVS Pharmacy":{
-		"name":"CVS Pharmacy",
-		"ytcode":"Wblu_TBDLsU",
-		"minimumPercent": 50,
-		"publisher":"Trilazer",
-		"id":"106654184",
-		"list":[
-			{
-				"name":"Trilazer",
-				"link":"https://youtu.be/Wblu_TBDLsU"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/9-HaAfuMToQ"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=ivZkfA4ooJE"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=cYfa-M78sic"
-			},
-			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/9NZZpVW_uJA?si=rEh7sDDMTcIcYehI"
-			},
-			{
-				"name":"Freakybob",
-				"link":"https://youtu.be/FBxAryKeFi4"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"easy challenge":{
 		"name":"easy challenge",
 		"ytcode":"tdjUHi3Rlm0",
@@ -1801,32 +1765,40 @@
 			"none"
 		]
 	},
-	"femboy reppelent":{
-		"name":"femboy reppelent",
-		"ytcode":"4yLekoObWVE",
+	"Femscapes":{
+		"name":"Femscapes",
+		"ytcode":"qJjnFYCV94Y",
 		"minimumPercent": 50,
-		"publisher":"skurczybyk aeonpowietrze",
-		"id":"106944268",
+		"publisher":"Lemon shark",
+		"id":"105976988",
 		"list":[
 			{
-				"name":"skurczybyk aeonpowietrze",
-				"link":"https://youtu.be/4yLekoObWVE"
+				"name":"Lemon Shark",
+				"link":"https://www.youtube.com/watch?v=qJjnFYCV94Y"
 			},
 			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=87TGMFborjY"
+				"name":"VampireFlutist",
+				"link":"na"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+			},
+			{
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=RfWYOQRZEok"
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://youtu.be/Yp6nvHqBr34"
+				"link":"https://youtu.be/oJFE-0AQjZY"
 			},
 			{
-				"name":"DaringDare910",
-				"link":"https://youtu.be/30_PVHs1Cy8?si=R2Khwm0q3oFtfTnM"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/Ea2LPifvefg"
+				"name":"Zenos",
+				"link":"https://youtu.be/nJt6c7LOG7o?si=mF32rtuyHdJ-ku8B"
 			}
 		],
 		"progresses":[
@@ -2331,6 +2303,42 @@
 			{
 				"name":"Aelz",
 				"link":"https://www.youtube.com/live/Ea2LPifvefg"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"CVS Pharmacy":{
+		"name":"CVS Pharmacy",
+		"ytcode":"Wblu_TBDLsU",
+		"minimumPercent": 50,
+		"publisher":"Trilazer",
+		"id":"106654184",
+		"list":[
+			{
+				"name":"Trilazer",
+				"link":"https://youtu.be/Wblu_TBDLsU"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/9-HaAfuMToQ"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://www.youtube.com/watch?v=ivZkfA4ooJE"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=cYfa-M78sic"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://youtu.be/9NZZpVW_uJA?si=rEh7sDDMTcIcYehI"
+			},
+			{
+				"name":"Freakybob",
+				"link":"https://youtu.be/FBxAryKeFi4"
 			}
 		],
 		"progresses":[
