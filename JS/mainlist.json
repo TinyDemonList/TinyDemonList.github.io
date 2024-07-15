@@ -1207,6 +1207,7 @@
 		"minimumPercent": 50,
 		"publisher":"epiccoolman66",
 		"id":"106886508",
+		"creatorpoints":"3",
 		"list":[
 			{
 				"name":"Sneedle",
@@ -1247,6 +1248,7 @@
 		"minimumPercent": 50,
 		"publisher":"notsomeone",
 		"id":"106700364",
+		"creatorpoints":"8",
 		"list":[
 			{
 				"name":"notsomeone",
@@ -1267,6 +1269,7 @@
 		"minimumPercent": 50,
 		"publisher":"Eurikuj",
 		"id":"107281583",
+		"creatorpoints":"3",
 		"list":[
 			{
 				"name":"Eurikuj",
@@ -1291,6 +1294,7 @@
 		"minimumPercent": 50,
 		"publisher":"MxGaming01",
 		"id":"107056050",
+		"creatorpoints":"2",
 		"list":[
 			{
 				"name":"MxGaming01",
@@ -1303,10 +1307,6 @@
 			{
 				"name":"Fiesty",
 				"link":"https://www.youtube.com/watch?v=pm6k0Mi7tVs"
-			},
-			{
-				"name":"Fiesty",
-				"link":"na"
 			},
 			{
 				"name":"tFluffy",
@@ -1327,6 +1327,7 @@
 		"minimumPercent": 50,
 		"publisher":"QwertyQwertz",
 		"id":"105670056",
+		"creatorpoints":"1",
 		"list":[
 			{
 				"name":"QwertyQwertz",
@@ -1359,6 +1360,7 @@
 		"minimumPercent": 50,
 		"publisher":"ThatPizzaGod",
 		"id":"106786578",
+		"creatorpoints":"1",
 		"list":[
 			{
 				"name":"ThatPizzaGod",
@@ -1395,6 +1397,7 @@
 		"minimumPercent": 50,
 		"publisher":"MxGaming01",
 		"id":"105647288",
+		"creatorpoints":"5",
 		"list":[
 			{
 				"name":"MxGaming01",
@@ -1428,6 +1431,7 @@
 		"minimumPercent": 50,
 		"publisher":"Dexxx071",
 		"id":"93342745",
+		"creatorpoints":"4",
 		"list":[
 			{
 				"name":"Dexxx071",
@@ -1452,6 +1456,7 @@
 		"minimumPercent": 50,
 		"publisher":"ThatPizzaGod",
 		"id":"106784080",
+		"creatorpoints":"2",
 		"list":[
 			{
 				"name":"ThatPizzaGod",
@@ -1480,6 +1485,7 @@
 		"minimumPercent": 50,
 		"publisher":"MarcelGD",
 		"id":"105826183",
+		"creatorpoints":"4",
 		"list":[
 			{
 				"name":"MarcelGD",
