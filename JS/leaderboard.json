@@ -1542,5 +1542,13 @@
 		"progs":[
 			"none"
 		]
+	},
+	"Ruby":{
+		"levels":[
+			"CVS Pharmacy"
+		],
+		"progs":[
+			"none"
+		]
 	}
 }
