@@ -9,12 +9,12 @@ fetch("/JS/extended.json")
     console.log(err);
   });
 function appendData(data) {
-  let passedFinalEpilogue = false;
+  let nothisispassed = false;
   let allLevels = document.getElementById("levels-container");
   let counter = 101;
   let removedCount = 0;
   for (const key in data) {
-    if(passedFinalEpilogue == true){
+    if(nothisispassed == true){
       let level = data[key];
       if(removedCount == 0){
         let header = document.createElement("p")
@@ -60,7 +60,7 @@ function appendData(data) {
         removedCount++;
     }else{
       let level = data[key];
-      if(key == "Final Epilogue") passedFinalEpilogue = true;
+      if(key == "no this is") nothisispassed = true;
       let column = document.createElement("div");
       column.setAttribute("class", "column");
       let div = document.createElement("div");
