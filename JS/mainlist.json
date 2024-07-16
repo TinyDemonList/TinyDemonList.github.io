@@ -16,27 +16,6 @@
 			"none"
 		]
 	},
-	"TDHell":{
-		"name":"TDHell",
-		"ytcode":"RumN70tDMVw",
-		"minimumPercent": 50,
-		"publisher":"Freakybob",
-		"id":"107726936",
-		"creatorpoints":"9",
-		"list":[
-			{
-				"name":"Freakybob",
-				"link":"https://youtu.be/RumN70tDMVw"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/v225fZ5zC8o"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"FML":{
 		"name":"FML",
 		"ytcode":"V9uSAxKygx8",
@@ -144,6 +123,27 @@
 			{
 				"name":"Aelz",
 				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"TDHell":{
+		"name":"TDHell",
+		"ytcode":"RumN70tDMVw",
+		"minimumPercent": 50,
+		"publisher":"Freakybob",
+		"id":"107726936",
+		"creatorpoints":"9",
+		"list":[
+			{
+				"name":"Freakybob",
+				"link":"https://youtu.be/RumN70tDMVw"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/v225fZ5zC8o"
 			}
 		],
 		"progresses":[
