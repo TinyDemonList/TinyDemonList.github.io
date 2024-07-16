@@ -103,7 +103,45 @@
 		"progresses":[
 			"none"
 		]
-		},
+	},
+	"TDHell":{
+		"name":"TDHell",
+		"ytcode":"RumN70tDMVw",
+		"minimumPercent": 50,
+		"publisher":"Freakybob",
+		"id":"107726936",
+		"creatorpoints":"9",
+		"list":[
+			{
+				"name":"Freakybob",
+				"link":"https://youtu.be/RumN70tDMVw"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/v225fZ5zC8o"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"SJD":{
+		"name":"SJD",
+		"ytcode":"r9nslT8EBcw",
+		"minimumPercent": 50,
+		"publisher":"Freakybob",
+		"id":"107829144",
+		"creatorpoints":"10",
+		"list":[
+			{
+				"name":"Freakybob",
+				"link":"https://youtu.be/r9nslT8EBcw"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"natsumio Challenge":{
 		"name":"natsumio Challenge",
 		"ytcode":"BnhSG4wpU7c",
@@ -400,44 +438,6 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=ntrSldy5nNI"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"SJD":{
-		"name":"SJD",
-		"ytcode":"r9nslT8EBcw",
-		"minimumPercent": 50,
-		"publisher":"Freakybob",
-		"id":"107829144",
-		"creatorpoints":"10",
-		"list":[
-			{
-				"name":"Freakybob",
-				"link":"https://youtu.be/r9nslT8EBcw"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"TDHell":{
-		"name":"TDHell",
-		"ytcode":"RumN70tDMVw",
-		"minimumPercent": 50,
-		"publisher":"Freakybob",
-		"id":"107726936",
-		"creatorpoints":"9",
-		"list":[
-			{
-				"name":"Freakybob",
-				"link":"https://youtu.be/RumN70tDMVw"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/v225fZ5zC8o"
 			}
 		],
 		"progresses":[
