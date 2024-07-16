@@ -885,31 +885,6 @@
 			"none"
 		]
 	},
-	"Averwave":{
-		"name":"Averwave",
-		"ytcode":"35P99az9lAw",
-		"minimumPercent": 50,
-		"publisher":"Supzix",
-		"id":"106362467",
-		"creatorpoints":"3",
-		"list":[
-			{
-				"name":"Supzix",
-				"link":"https://www.youtube.com/watch?v=35P99az9lAw"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=rCvfPv0-4e4"
-			},
-			{
-				"name":"Akurii",
-				"link":"https://youtu.be/4Jbur_6rTL4"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
 	"powerave":{
 		"name":"powerave",
 		"ytcode":"VXNf8I3b4Kk",
@@ -929,6 +904,31 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://www.youtube.com/watch?v=ivZkfA4ooJE"
+			},
+			{
+				"name":"Akurii",
+				"link":"https://youtu.be/4Jbur_6rTL4"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Averwave":{
+		"name":"Averwave",
+		"ytcode":"35P99az9lAw",
+		"minimumPercent": 50,
+		"publisher":"Supzix",
+		"id":"106362467",
+		"creatorpoints":"3",
+		"list":[
+			{
+				"name":"Supzix",
+				"link":"https://www.youtube.com/watch?v=35P99az9lAw"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=rCvfPv0-4e4"
 			},
 			{
 				"name":"Akurii",
