@@ -406,6 +406,23 @@
 			"none"
 		]
 	},
+	"SJD":{
+		"name":"SJD",
+		"ytcode":"r9nslT8EBcw",
+		"minimumPercent": 50,
+		"publisher":"Freakybob",
+		"id":"107829144",
+		"creatorpoints":"10",
+		"list":[
+			{
+				"name":"Freakybob",
+				"link":"https://youtu.be/r9nslT8EBcw"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"TDHell":{
 		"name":"TDHell",
 		"ytcode":"RumN70tDMVw",
@@ -2641,34 +2658,6 @@
 			{
 				"name":"codrn_gd",
 				"link":"na"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Jump Trials":{
-		"name":"Jump Trials",
-		"ytcode":"kKM3WREyjmo",
-		"minimumPercent": 50,
-		"publisher":"Robot_Man",
-		"id":"104723880",
-		"list":[
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/0eUWXB-hVEw?si=rmsZ4Qo_M7UbdsiT"
 			},
 			{
 				"name":"Aelz",
