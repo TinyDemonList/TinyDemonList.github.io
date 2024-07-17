@@ -113,7 +113,7 @@ async function display(thisuser) {
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
-      html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol><p>Progresses:</p><ol><p>none</p></ol>`
+      html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`
     });
   } catch (err) {
     console.error("Error displaying user data:", err);
