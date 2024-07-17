@@ -3,9 +3,6 @@
 		"levels":[
 			"Poobot",
 			"Pootra"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Quaoz":{
@@ -68,9 +65,6 @@
 			"Feelin A Party",
 			"Fear Of The Unknown",
 			"errorhouse"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Eurikuj":{
@@ -138,9 +132,6 @@
 			"Pootra",
 			"The Cavern",
 			"Glitched Wave"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"ScratchMan":{
@@ -198,9 +189,6 @@
 			"O M G",
 			"Seconds",
 			"final lolzman"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Lexxxy":{
@@ -208,9 +196,6 @@
 			"Two point too",
 			"My Flesh",
 			"Brad Garlinghouse Ch"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"QwertyQwertz":{
@@ -283,9 +268,6 @@
 			"Ghost Wave II",
 			"You're So Defeated",
 			"happy never clear"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Lantern":{
@@ -298,9 +280,6 @@
 			"Squidward Testickles",
 			"Dark Flames",
 			"Forty"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"tFluffy":{
@@ -469,9 +448,6 @@
 			"Jump Trials",
 			"Sigma Challenge",
 			"Cheese Pizza 3"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Cinasek":{
@@ -529,18 +505,12 @@
 			"LIMBO V99",
 			"Pappieris Challenge",
 			"Skibidi toilet lore"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"TechnoKaj":{
 		"levels":[
 			"CyclelolcyclE",
 			"Severus"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Ken Carson":{
@@ -556,9 +526,6 @@
 			"Blue Balls",
 			"Flibogogabgilab",
 			"Dexxx071s Meat"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Dexxx071":{
@@ -570,9 +537,6 @@
 			"SeaShellSellingSally",
 			"Cheese Pizza Sequel",
 			"I'll Cry Forever"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"kowman":{
@@ -598,9 +562,6 @@
 			"DeepCod Wave",
 			"no this is",
 			"Silent wavestep"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"MxGaming01":{
@@ -632,9 +593,6 @@
 			"Harrowing Corridor",
 			"Bloodbath",
 			"Sigma Challenge"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Wvsp":{
@@ -642,9 +600,6 @@
 			"Life Below",
 			"Silent Decode 2",
 			"Lavender Destroyed"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"YzGuysie":{
@@ -654,18 +609,12 @@
 			"Tesco Hard",
 			"Silent Decode 2",
 			"Unnamed 12"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Slinky":{
 		"levels":[
 			"Dean Pendry",
 			"Black Hole Sun"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"VampireFlutist":{
@@ -684,12 +633,6 @@
 			"Bolly",
 			"The Gamer Wave",
 			"Ghost Wave II"
-		],
-		"progs":[
-			{
-				"name":"Squidward Testickles",
-				"percent":64
-			}
 		]
 	},
 	"Fiesty":{
@@ -750,16 +693,6 @@
 			"Ghost Wave II",
 			"You're So Defeated",
 			"Mania"
-		],
-		"progs":[
-			{
-				"name":"Dean Pendry",
-				"percent":53
-			},
-			{
-				"name":"MXGaming Never Clear",
-				"percent":51
-			}
 		]
 	},
 	"Fred Bylon":{
@@ -792,18 +725,12 @@
 			"LOLZZ",
 			"Magnesia",
 			"L o l"
-		],
-		"progs":[
-				"none"
 		]
 	},
 	"Woldrickduckyson":{
 		"levels":[
 			"Fast Paced Death 3",
 			"celompetrec"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"lightnn":{
@@ -811,9 +738,6 @@
 			"Scissorphrenic",
 			"You're So Defeated",
 			"Inferno party"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"WcoolKid":{
@@ -835,9 +759,6 @@
 			"The Gamer Wave",
 			"Sigma Balls",
 			"Ghost Wave II"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Maxushii":{
@@ -845,9 +766,6 @@
 			"Happy Dashing III",
 			"FCBT",
 			"Flibogogabgilab"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"OMEGA.exe":{
@@ -855,9 +773,6 @@
 			"Seconds",
 			"Blue Balls",
 			"Flibogogabgilab"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Silent Clubstep":{
@@ -870,34 +785,22 @@
 			"Dexxx071s Meat",
 			"celompetrec",
 			"WAVIXSpam"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Lemon shark":{
 		"levels":[
 			"Femscapes"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"A Unicorn":{
 		"levels":[
 			"7yr olds only",
 			"Dexxx071s Meat"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Wysie":{
 		"levels":[
 			"Sigma Balls"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Garlic Bread":{
@@ -905,9 +808,6 @@
 			"I Have Depression",
 			"Sigma Balls",
 			"WAVIXSpam"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"meowthjr":{
@@ -917,9 +817,6 @@
 			"Femboy Paradise",
 			"Funni Chall",
 			"Femboy Forever"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"epic_juba":{
@@ -942,18 +839,12 @@
 			"AHHH",
 			"Silent wavestep",
 			"L o l"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"zany":{
 		"levels":[
 			"Am I Russian",
 			"Dexxx071s Meat"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Trilazer":{
@@ -961,18 +852,12 @@
 			"5 senconds fo swign",
 			"Blue Balls",
 			"CVS Pharmacy"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Spacer":{
 		"levels":[
 			"celompetrec",
 			"Blue Balls"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Vixity":{
@@ -980,17 +865,11 @@
 			"celompetrec",
 			"9 secs of straight F",
 			"Blue Balls"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Zedder":{
 		"levels":[
 			"Think About"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Epic GD":{
@@ -1004,9 +883,6 @@
 			"no this is",
 			"the end",
 			"LIMBO V99"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Zenos":{
@@ -1102,26 +978,17 @@
 			"happy never clear",
 			"pinny b day challenge",
 			"The Nightmare 2"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Aspect":{
 		"levels":[
 			"Bottom of the tdl"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Jaiden1":{
 		"levels":[
 			"No Room For Error",
 			"Harrowing Corridor"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Sneedle":{
@@ -1153,9 +1020,6 @@
 			"eyes open",
 			"5 senconds fo swign",
 			"Bolly"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"notsomeone":{
@@ -1178,9 +1042,6 @@
 			"Uno",
 			"Spagooo",
 			"Magnesia"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"DaringDare910":{
@@ -1227,17 +1088,11 @@
 			"Uno",
 			"LOLZZ",
 			"Happy Dashing III"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Npesta":{
 		"levels":[
 			"Bottom of the tdl"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"ThatPizzaGod":{
@@ -1251,17 +1106,11 @@
 			"Happy Dashing III",
 			"Cheese Pizza Sequel",
 			"Cheese Pizza 3"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"SpaceUK":{
 		"levels":[
 			"Think About"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"DeepStrider2":{
@@ -1269,9 +1118,6 @@
 			"The Gamer Wave",
 			"Unnamed 12",
 			"Mad Dash"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"edio":{
@@ -1282,9 +1128,6 @@
 			"Black Hole Sun",
 			"T Minor",
 			"FCBT"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Supzix":{
@@ -1294,9 +1137,6 @@
 			"Cheese Pizza Sequel",
 			"Averwave",
 			"Neverave"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"lolsman05":{
@@ -1305,9 +1145,6 @@
 			"Dexxx071s Meat",
 			"Bottom of the tdl",
 			"LOLZZ"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Dyln":{
@@ -1321,9 +1158,6 @@
 			"Club With No Step",
 			"FCBT",
 			"eyes open"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"PPCOOL":{
@@ -1333,9 +1167,6 @@
 			"The Nightmare 2",
 			"Cheese Pizza Sequel",
 			"Cheese Pizza 3"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"skurczybyk aeonpowietrze":{
@@ -1353,9 +1184,6 @@
 			"i love gd colon chal",
 			"Shitty",
 			"dyln challange"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Martin Cuber":{
@@ -1365,25 +1193,16 @@
 			"Bottom of the tdl",
 			"no this is",
 			"LIMBO V99"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"MarcelGD":{
 		"levels":[
 			"mg never clear"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"GDTomon":{
 		"levels":[
 			"Silent wavestep"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Chamso_155":{
@@ -1395,17 +1214,11 @@
 			"Chill Out",
 			"stalemate",
 			"Silent wavestep"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"cinder block":{
 		"levels":[
 			"Mad Dash"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Akurii":{
@@ -1422,9 +1235,6 @@
 			"First Location",
 			"The Eminence",
 			"EGOIST"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"TrickeryGD":{
@@ -1439,34 +1249,22 @@
 			"Bottom of the tdl",
 			"the end",
 			"no this is"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Llqne":{
 		"levels":[
 			"Dance"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"natsumi":{
 		"levels":[
 			"pinny b day challenge",
 			"ZenosSins Chall III"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"codrn_gd":{
 		"levels":[
 			"Zach Challenge"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"w4ves":{
@@ -1486,9 +1284,6 @@
 			"celompetrec",
 			"AHHH",
 			"Silent wavestep"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Freakybob":{
@@ -1519,9 +1314,6 @@
 			"The Gamer Wave",
 			"Spagooo",
 			"Funni Chall"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Aelz":{
@@ -1592,17 +1384,11 @@
 			"Cheese Pizza",
 			"Cheese Pizza Sequel",
 			"sakupen spam"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"bob":{
 		"levels":[
 			"Doomsters"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Ruby":{
@@ -1613,33 +1399,21 @@
 			"Silent wavestep",
 			"Club With No Step",
 			"exen never clear"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Purple Brick":{
 		"levels":[
 			"the end"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Smidegirl":{
 		"levels":[
 			"Dexxx071s Meat"
-		],
-		"progs":[
-			"none"
 		]
 	},
 	"Skadooosh_96":{
 		"levels":[
 			"no this is"
-		],
-		"progs":[
-			"none"
 		]
 	}
 }
