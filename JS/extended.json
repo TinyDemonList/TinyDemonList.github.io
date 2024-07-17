@@ -1612,6 +1612,22 @@
 			"none"
 		]
 	},
+	"Sigma Challenge":{
+		"name":"Sigma Challenge",
+		"ytcode":"na",
+		"minimumPercent": 50,
+		"publisher":"Sneedle",
+		"id":"107402237",
+		"list":[
+			{
+				"name":"MXGaming01",
+				"link":"na"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"eyes open":{
 		"name":"eyes open",
 		"ytcode":"KLJPzM1pzAo",
