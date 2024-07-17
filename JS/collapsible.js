@@ -17,5 +17,5 @@ try {
 }, 2000);
 }
 catch(err) {
-  throw "Bruh what a scam lol"
+  throw "Error"
 }
