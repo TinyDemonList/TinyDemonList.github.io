@@ -43,8 +43,7 @@ function appendDataTwo(dataTwo) {
   for (const key in dataTwo) {
     const person = dataTwo[key];
     const personLevels = processPersonLevels(person.levels);
-    const personProgs = processPersonProgs(person.progs);
-    const allBasePoints = calculateBasePoints(personLevels, personProgs);
+    const allBasePoints = calculateBasePoints(personLevels);
 
     const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
     allPersonArray.push({ name: key, score: totalScore, readorder: order });
@@ -63,26 +62,8 @@ function processPersonLevels(levels) {
   }).sort((a, b) => a.pos - b.pos);
 }
 
-function processPersonProgs(progs) {
-  if (progs[0] === "none") return [];
-
-  return progs.map(prog => {
-    const levelPosObj = levelPos.find(l => l.name === prog.name);
-    return { name: prog.name, percent: prog.percent, pos: levelPosObj ? levelPosObj.pos : 1 };
-  }).sort((a, b) => a.pos - b.pos);
-}
-
-function calculateBasePoints(levels, progs) {
+function calculateBasePoints(levels) {
   const basePoints = levels.map(level => calculatePoints(level.pos));
-
-  progs.forEach(prog => {
-    if (prog.pos > 50) return;
-    const basePoint = calculatePoints(prog.pos);
-    const levelReq = levelPos[prog.pos - 1].req;
-    const progPoints = basePoint * (Math.pow(5, ((prog.percent - levelReq) / (100 - levelReq))) / 10);
-    basePoints.push(progPoints);
-  });
-
   basePoints.sort((a, b) => b - a);
   console.log("Base Points:", basePoints);
   return basePoints;
@@ -130,11 +111,9 @@ async function display(thisuser) {
 
     const personLevels = processPersonLevels(person.levels);
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
-    const personProgs = processPersonProgs(person.progs);
-    const progressHtml = personProgs.map(prog => `<li class="playerlevelEntry">${prog.name} ${prog.percent}% (#${prog.pos})</li><br>`).join('');
 
     Swal.fire({
-      html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol><p>Progresses:</p><ol>${progressHtml || '<p>none</p>'}</ol>`
+      html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol><p>Progresses:</p><ol><p>none</p></ol>`
     });
   } catch (err) {
     console.error("Error displaying user data:", err);
