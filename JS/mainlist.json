@@ -104,6 +104,27 @@
 			"none"
 		]
 	},
+	"Fear Of The Unknown":{
+		"name":"Fear Of The Unknown",
+		"ytcode":"fCiGgjU_C3s",
+		"minimumPercent": 50,
+		"publisher":"Quaoz",
+		"id":"107902183",
+		"creatorpoints":"3",
+		"list":[
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/fCiGgjU_C3s?si=ydTOsvBYX6qf0WXj"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/25r8nXibA1s"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"SJD":{
 		"name":"SJD",
 		"ytcode":"r9nslT8EBcw",
@@ -2646,26 +2667,6 @@
 			{
 				"name":"ScratchMan",
 				"link":"https://youtu.be/cYQxvZuMvaI"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"Zach Challenge":{
-		"name":"Zach Challenge",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"Sneedle",
-		"id":"106651643",
-		"list":[
-			{
-				"name":"codrn_gd",
-				"link":"na"
 			},
 			{
 				"name":"Aelz",
