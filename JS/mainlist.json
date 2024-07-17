@@ -278,6 +278,19 @@
 			}
 		]
 	},
+	"Erected Pickle":{
+		"name":"Erected Pickle",
+		"ytcode":"tiEMLOP-aoc",
+		"publisher":"natsumi",
+		"id":"107074619",
+		"creatorpoints":"2",
+		"list":[
+			{
+				"name":"natsumi",
+				"link":"https://youtu.be/tiEMLOP-aoc?si=x3M7GbBbCnbb1nJR"
+			}
+		]
+	},
 	"DxstGD Challenge":{
 		"name":"Dxst Challenge",
 		"ytcode":"c4JKJuXnA1s",
@@ -2260,26 +2273,6 @@
 			{
 				"name":"Aelz",
 				"link":"https://www.youtube.com/live/Ea2LPifvefg"
-			}
-		]
-	},
-	"pinny b day challenge":{
-		"name":"pinny b day challenge",
-		"ytcode":"sxdYyAeaa5s",
-		"publisher":"natsumi",
-		"id":"106876089",
-		"list":[
-			{
-				"name":"natsumi",
-				"link":"https://youtu.be/sxdYyAeaa5s"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/t6tvxiGplwM"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/DO-H-loXo6c?si=g-qUyE85eaXvYKwH"
 			}
 		]
 	}
