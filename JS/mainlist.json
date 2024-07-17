@@ -1214,6 +1214,23 @@
 			"none"
 		]
 	},
+	"Gehennom":{
+		"name":"Gehennom",
+		"ytcode":"e9RqV-Rxvas",
+		"minimumPercent": 50,
+		"publisher":"Epic GD",
+		"id":"107891557",
+		"creatorpoints":"4",
+		"list":[
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/e9RqV-Rxvas"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"Fever Dream":{
 		"name":"Fever Dream",
 		"ytcode":"HOvNfHAsB98",
@@ -2647,30 +2664,6 @@
 			{
 				"name":"PPCOOL",
 				"link":"https://medal.tv/games/geometry-dash/clips/i7it1ADMDwEGfeJyy/d1337OxrbJOU?invite=cr-MSxuWjUsMjAwNTM1NzcxLA"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"dyln challange":{
-		"name":"dyln challange",
-		"ytcode":"aQZoeq-PbzM",
-		"minimumPercent": 50,
-		"publisher":"And More",
-		"id":"107187895",
-		"list":[
-			{
-				"name":"skurczybyk aeonpowietrze",
-				"link":"https://www.youtube.com/watch?v=aQZoeq-PbzM"
-			},
-			{
-				"name":"ScratchMan",
-				"link":"https://youtu.be/cYQxvZuMvaI"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
 			}
 		],
 		"progresses":[
