@@ -125,13 +125,30 @@
 			"none"
 		]
 	},
+	"errorhosue":{
+		"name":"errorhouse",
+		"ytcode":"ubCROt-af40",
+		"minimumPercent": 50,
+		"publisher":"Quaoz",
+		"id":"107324937",
+		"creatorpoints":"4",
+		"list":[
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/ubCROt-af40?si=6MO3gd-Gq2i5BEe5"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
 	"SJD":{
 		"name":"SJD",
 		"ytcode":"r9nslT8EBcw",
 		"minimumPercent": 50,
 		"publisher":"Freakybob",
 		"id":"107829144",
-		"creatorpoints":"10",
+		"creatorpoints":"9",
 		"list":[
 			{
 				"name":"Freakybob",
@@ -2648,22 +2665,6 @@
 			{
 				"name":"QwertyQwertz",
 				"link":"https://youtu.be/SsdspCTLVNo"
-			}
-		],
-		"progresses":[
-			"none"
-		]
-	},
-	"The Nightmare 2":{
-		"name":"The Nightmare 2",
-		"ytcode":"na",
-		"minimumPercent": 50,
-		"publisher":"PPCOOL",
-		"id":"106855352",
-		"list":[
-			{
-				"name":"PPCOOL",
-				"link":"https://medal.tv/games/geometry-dash/clips/i7it1ADMDwEGfeJyy/d1337OxrbJOU?invite=cr-MSxuWjUsMjAwNTM1NzcxLA"
 			}
 		],
 		"progresses":[
