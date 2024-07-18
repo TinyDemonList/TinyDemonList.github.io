@@ -16,6 +16,19 @@
 			}
 		]
 	},
+	"Scorching Fusilade":{
+		"name":"Scorching Fusilade",
+		"ytcode":"BOBrWhDkZiY",
+		"publisher":"Dexxx071",
+		"id":"107972471",
+		"creatorpoints":"8",
+		"list":[
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=BOBrWhDkZiY"
+			}
+		]
+	},
 	"FML":{
 		"name":"FML",
 		"ytcode":"V9uSAxKygx8",
@@ -2242,30 +2255,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://www.youtube.com/watch?v=QQDEs9kOR0I"
-			}
-		]
-	},
-	"Scissorphrenic":{
-		"name":"Scissorphrenic",
-		"ytcode":"S7PFqiA8VLM",
-		"publisher":"lightnn",
-		"id":"105856287",
-		"list":[
-			{
-				"name":"lightnn",
-				"link":"https://www.youtube.com/watch?v=S7PFqiA8VLM"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=9WZgn7RVlJM"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=qNMgJrmynbc"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/QBNn9K6833g?si=0gtGlDDUJWfL3WdU"
 			}
 		]
 	}
