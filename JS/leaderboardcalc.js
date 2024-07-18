@@ -71,8 +71,13 @@ function processPersonLevels(levels, posArray) {
   return levels.map(level => {
     const levelPosObj = posArray.find(l => l.name === level);
     return { name: level, pos: levelPosObj ? levelPosObj.pos : 1 };
-  }).sort((a, b) => a.pos - b.pos);
+  }).sort((a, b) => {
+    const posA = posArray.find(l => l.name === a.name)?.pos || 1;
+    const posB = posArray.find(l => l.name === b.name)?.pos || 1;
+    return posA - posB;
+  });
 }
+
 
 function calculateBasePoints(levels) {
   const basePoints = levels.map(level => calculatePoints(level.pos));
