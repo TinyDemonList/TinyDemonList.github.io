@@ -31,7 +31,7 @@ function appendData(data) {
         </div>
         <div class="title">
         <h2>${counter}. ${level.name} by ${level.publisher}</h2>
-        <h3>Victors: ${level.list.length} <br>Score: ${Math.round(100 * (50.0 / (Math.pow(Math.E, 0.01 * counter)) * Math.log((1 / (0.008 * counter))))) / 100}</h3>
+        <h3>Victors: ${level.list.length - 1} <br>Score: ${Math.round(100 * (50.0 / (Math.pow(Math.E, 0.01 * counter)) * Math.log((1 / (0.008 * counter))))) / 100}</h3>
         </div>
         </section>
         <hr/></button>
@@ -55,7 +55,7 @@ function appendData(data) {
        </div>
        <div class="title">
        <h2>${counter}. ${level.name} by ${level.publisher}</h2>
-       <h3>Victors: ${level.list.length} <br>Score: ${Math.round(100 * (50.0 / (Math.pow(Math.E, 0.01 * counter)) * Math.log((1 / (0.008 * counter))))) / 100}</h3>
+       <h3>Victors: ${level.list.length - 1} <br>Score: ${Math.round(100 * (50.0 / (Math.pow(Math.E, 0.01 * counter)) * Math.log((1 / (0.008 * counter))))) / 100}</h3>
        </div>
        </section>
        <hr/></button>

@@ -7,15 +7,18 @@
 		"list":[
 			{
 				"name":"Epic GD",
-				"link":"https://youtu.be/skg9dDKlBbo?si=ZJrzfIeR2qT9b1Ry"
+				"link":"https://youtu.be/skg9dDKlBbo?si=ZJrzfIeR2qT9b1Ry",
+				"time":"9.187"
 			},
             {
 				"name":"DaringDare910",
-				"link":"https://youtu.be/DK7S9xmwqe0?si=k2Eyf2SwW5bNbuRw"
+				"link":"https://youtu.be/DK7S9xmwqe0?si=k2Eyf2SwW5bNbuRw",
+				"time":"9.141"
 			},
             {
 				"name":"tFluffy",
-				"link":"https://youtu.be/vw7I045aw1s"
+				"link":"https://youtu.be/vw7I045aw1s",
+				"time":"6.587"
 			}
 		]
 	},
@@ -27,7 +30,8 @@
 		"list":[
 			{
 				"name":"Epic GD",
-				"link":"https://youtu.be/LIswkudg0BM?si=wkIHkclo5cwJv23b"
+				"link":"https://youtu.be/LIswkudg0BM?si=wkIHkclo5cwJv23b",
+				"time":"8.862"
 			}
 		]
 	}
