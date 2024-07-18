@@ -256,12 +256,25 @@
 			}
 		]
 	},
+	"Short King":{
+		"name":"Short King",
+		"ytcode":"rPqpqFOMj3E",
+		"publisher":"Zorillox",
+		"id":"107947729",
+		"creatorpoints":"5",
+		"list":[
+			{
+				"name":"Quaoz",
+				"link":"https://youtu.be/rPqpqFOMj3E?si=4XkZoxaZdqNGTzr5"
+			}
+		]
+	},
 	"One":{
 		"name":"1",
 		"ytcode":"Yk2Y84skgVE",
 		"publisher":"Silent Clubstep",
 		"id":"106890895",
-		"creatorpoints":"5",
+		"creatorpoints":"7",
 		"list":[
 			{
 				"name":"tFluffy",
@@ -2249,30 +2262,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://youtu.be/QBNn9K6833g?si=0gtGlDDUJWfL3WdU"
-			}
-		]
-	},
-	"Amar Schlecken":{
-		"name":"Amar Schlecken",
-		"ytcode":"0qRtUDBSUYg",
-		"publisher":"MxGaming01",
-		"id":"105704437",
-		"list":[
-			{
-				"name":"MxGaming01",
-				"link":"https://www.youtube.com/watch?v=0qRtUDBSUYg"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=Lq5fdvSMKS8"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/Ea2LPifvefg"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/oezFm1J0w8Q?si=HmLk0XitlLn5znKk"
 			}
 		]
 	}
