@@ -1,4 +1,5 @@
 const levelPos = [];
+const platformerPos = [];
 
 async function fetchJson(url) {
   const response = await fetch(url);
@@ -10,8 +11,11 @@ async function initializeData() {
   try {
     await fetchLevelList();
     await fetchMainList();
+    await fetchPlatformerLevelList();
     const dataTwo = await fetchJson("/JS/leaderboard.json");
-    appendDataTwo(dataTwo);
+    const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
+    appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
+    appendDataTwo(platformerData, "platformer-leaderboard", platformerPos);
     console.log("Initialization complete");
   } catch (err) {
     console.error("Error during initialization:", err);
@@ -34,15 +38,23 @@ async function fetchMainList() {
   console.log("Main list fetched");
 }
 
-function appendDataTwo(dataTwo) {
+async function fetchPlatformerLevelList() {
+  const dataFive = await fetchJson("/JS/platformer_levellist.json");
+  dataFive.levels.forEach((level, i) => {
+    platformerPos.push({ name: level, pos: i + 1, req: 100 });
+  });
+  console.log("Platformer level list fetched");
+}
+
+function appendDataTwo(data, leaderboardId, posArray) {
   const allPersonArray = [];
-  const leaderboard = document.getElementById("leaderboard");
+  const leaderboard = document.getElementById(leaderboardId);
   const div = document.createElement("div");
   let order = 0;
 
-  for (const key in dataTwo) {
-    const person = dataTwo[key];
-    const personLevels = processPersonLevels(person.levels);
+  for (const key in data) {
+    const person = data[key];
+    const personLevels = processPersonLevels(person.levels, posArray);
     const allBasePoints = calculateBasePoints(personLevels);
 
     const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
@@ -55,9 +67,9 @@ function appendDataTwo(dataTwo) {
   leaderboard.appendChild(div);
 }
 
-function processPersonLevels(levels) {
+function processPersonLevels(levels, posArray) {
   return levels.map(level => {
-    const levelPosObj = levelPos.find(l => l.name === level);
+    const levelPosObj = posArray.find(l => l.name === level);
     return { name: level, pos: levelPosObj ? levelPosObj.pos : 1 };
   }).sort((a, b) => a.pos - b.pos);
 }
@@ -109,7 +121,7 @@ async function display(thisuser) {
     const person = Object.values(dataTwo)[thisuser];
     if (!person) return;
 
-    const personLevels = processPersonLevels(person.levels);
+    const personLevels = processPersonLevels(person.levels, levelPos);
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
