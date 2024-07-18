@@ -71,11 +71,11 @@ function appendData(data) {
         <h6>ID: ${level.id}</h6>
         <h6>Creator Points: ${level.creatorpoints}</h6>
           <h5>Completions<br></h5>
-          <h6> Time: ${level.list[i].time} - <a href="${level.list[i].link}" target="_blank">${level.list[i].link}</a></h6>
+          <h6> (${level.list[i].time}s) ${level.list[i].name} - <a href="${level.list[i].link}" target="_blank">${level.list[i].link}</a></h6>
         `;
       } else {
         victor.innerHTML = `
-          <h6> ${level.list[i].name} - <a href="${level.list[i].link}" target="_blank">${level.list[i].link}</a></h6>
+          <h6> (${level.list[i].time}s) ${level.list[i].name} - <a href="${level.list[i].link}" target="_blank">${level.list[i].link}</a></h6>
         `;
       }
       listOfRecords.appendChild(victor);
