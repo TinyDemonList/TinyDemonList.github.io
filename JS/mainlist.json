@@ -444,6 +444,26 @@
 			}
 		]
 	},
+	"Rainbow Glitch":{
+		"name":"Rainbow Glitch",
+		"ytcode":"Qhn0gIfIPIA",
+		"publisher":"Fred Bylon",
+		"id":"105481592",
+		"list":[
+			{
+				"name":"Fred Bylon",
+				"link":"https://www.youtube.com/watch?v=Qhn0gIfIPIA"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=Udg7hSyADEo"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/VBpScvKX7m4?si=1G57IQ2fZHIEzzm-"
+			}
+		]
+	},
 	"Smiley Face":{
 		"name":"Smiley Face",
 		"ytcode":"TD09JNCpPJc",
@@ -478,6 +498,30 @@
 			{
 				"name":"Akurii",
 				"link":"https://youtu.be/3VBP6qY_oAE"
+			}
+		]
+	},
+	"Fast Paced Death 3":{
+		"name":"Fast Paced Death 3",
+		"ytcode":"7HDSQV21rqU",
+		"publisher":"Zedder",
+		"id":"105483604",
+		"list":[
+			{
+				"name":"Fred Bylon",
+				"link":"https://www.youtube.com/watch?v=7HDSQV21rqU"
+			},
+			{
+				"name":"woldrickduckyson",
+				"link":"na"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=rV2q9vsz7h4"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/Orbn4r4HR_s?si=FIbaxlSOCVetBIEc"
 			}
 		]
 	},
@@ -2191,50 +2235,6 @@
 			{
 				"name":"Ruby",
 				"link":"https://youtu.be/gXnxTVxg9Bk"
-			}
-		]
-	},
-	"Fast Paced Death 3":{
-		"name":"Fast Paced Death 3",
-		"ytcode":"7HDSQV21rqU",
-		"publisher":"Zedder",
-		"id":"105483604",
-		"list":[
-			{
-				"name":"Fred Bylon",
-				"link":"https://www.youtube.com/watch?v=7HDSQV21rqU"
-			},
-			{
-				"name":"woldrickduckyson",
-				"link":"na"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=rV2q9vsz7h4"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/Orbn4r4HR_s?si=FIbaxlSOCVetBIEc"
-			}
-		]
-	},
-	"Rainbow Glitch":{
-		"name":"Rainbow Glitch",
-		"ytcode":"Qhn0gIfIPIA",
-		"publisher":"Fred Bylon",
-		"id":"105481592",
-		"list":[
-			{
-				"name":"Fred Bylon",
-				"link":"https://www.youtube.com/watch?v=Qhn0gIfIPIA"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=Udg7hSyADEo"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/VBpScvKX7m4?si=1G57IQ2fZHIEzzm-"
 			}
 		]
 	},
