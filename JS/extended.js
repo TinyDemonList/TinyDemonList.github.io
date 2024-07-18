@@ -128,11 +128,11 @@ function appendData(data) {
     }
   }
   let thing = document.createElement("p")
-  thing.innerHTML = `<p class = "toTop" onclick = "topFunction()">To the top</p>`
-  ;
+  thing.innerHTML = `<p class = "toTop" onclick = "topFunction()">To the top</p>`;
   allLevels.appendChild(thing);
 }
+
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  console.log("To the top button clicked.");
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }

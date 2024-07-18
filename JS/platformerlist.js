@@ -91,6 +91,6 @@ function appendData(data) {
 }
 
 function topFunction() {
-    console.log("To the top button clicked.");
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  console.log("To the top button clicked.");
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
