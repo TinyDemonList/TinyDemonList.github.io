@@ -63,7 +63,7 @@ function appendDataTwo(data, leaderboardId, posArray) {
   }
 
   allPersonArray.sort((a, b) => b.score - a.score);
-  displayLeaderboard(allPersonArray, div);
+  displayLeaderboard(allPersonArray, div, leaderboardId.includes("platformer") ? "platformer" : "regular");
   leaderboard.appendChild(div);
 }
 
@@ -92,7 +92,7 @@ function calculatePoints(pos) {
   return points;
 }
 
-function displayLeaderboard(allPersonArray, div) {
+function displayLeaderboard(allPersonArray, div, type) {
   const zeroindex = allPersonArray.findIndex(person => person.score === 0);
   const maxIndex = zeroindex === -1 ? allPersonArray.length : zeroindex;
   let tiecount = 0;
@@ -109,19 +109,21 @@ function displayLeaderboard(allPersonArray, div) {
       tiecount++;
     }
 
-    const cursc = `display(${person.readorder})`;
+    const cursc = `display(${person.readorder}, '${type}')`;
     text.innerHTML = `<p class="trigger_popup_fricc" onclick="${cursc}"><b>${curRank}:</b> ${person.name} (${Math.round(person.score * 1000) / 1000} points)</p>`;
     div.appendChild(text);
   }
 }
 
-async function display(thisuser) {
+async function display(thisuser, type) {
   try {
-    const dataTwo = await fetchJson("/JS/leaderboard.json");
-    const person = Object.values(dataTwo)[thisuser];
+    const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
+    const data = await fetchJson(dataUrl);
+    const person = Object.values(data)[thisuser];
     if (!person) return;
 
-    const personLevels = processPersonLevels(person.levels, levelPos);
+    const posArray = type === "platformer" ? platformerPos : levelPos;
+    const personLevels = processPersonLevels(person.levels, posArray);
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
