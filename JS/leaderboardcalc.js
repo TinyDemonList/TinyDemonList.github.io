@@ -54,7 +54,7 @@ function appendDataTwo(data, leaderboardId, posArray) {
 
   for (const key in data) {
     const person = data[key];
-    const personLevels = processPersonLevels(person.levels, posArray);
+    const personLevels = processPersonLevels(person.levels, posArray, data[key].records || []);
     const allBasePoints = calculateBasePoints(personLevels);
 
     const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
@@ -67,10 +67,11 @@ function appendDataTwo(data, leaderboardId, posArray) {
   leaderboard.appendChild(div);
 }
 
-function processPersonLevels(levels, posArray) {
+function processPersonLevels(levels, posArray, records) {
   return levels.map(level => {
     const levelPosObj = posArray.find(l => l.name === level);
-    return { name: level, pos: levelPosObj ? levelPosObj.pos : 1 };
+    const isInRecords = records.includes(level); // Check if the level is in the records
+    return { name: level, pos: levelPosObj ? levelPosObj.pos : 1, isInRecords };
   }).sort((a, b) => {
     const posA = posArray.find(l => l.name === a.name)?.pos || 1;
     const posB = posArray.find(l => l.name === b.name)?.pos || 1;
@@ -78,21 +79,26 @@ function processPersonLevels(levels, posArray) {
   });
 }
 
-
 function calculateBasePoints(levels) {
-  const basePoints = levels.map(level => calculatePoints(level.pos));
+  const basePoints = levels.map(level => calculatePoints(level.pos, level.isInRecords));
   basePoints.sort((a, b) => b - a);
   console.log("Base Points:", basePoints);
   return basePoints;
 }
 
-function calculatePoints(pos) {
+function calculatePoints(pos, isInRecords) {
   let points;
   if (pos <= 100) {
     points = 50.0 / (Math.exp(0.01 * pos)) * Math.log(1 / (0.008 * pos));
   } else {
     points = 11.0 / (Math.exp(0.01 * pos));
   }
+  
+  // Add 10% extra points if the level is in the records
+  if (isInRecords) {
+    points *= 1.1; // Increase points by 10%
+  }
+  
   console.log(`Position: ${pos}, Points: ${points}`);
   return points;
 }
@@ -128,7 +134,7 @@ async function display(thisuser, type) {
     if (!person) return;
 
     const posArray = type === "platformer" ? platformerPos : levelPos;
-    const personLevels = processPersonLevels(person.levels, posArray);
+    const personLevels = processPersonLevels(person.levels, posArray, person.records || []);
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({

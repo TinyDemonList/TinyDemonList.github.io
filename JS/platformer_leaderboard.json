@@ -8,51 +8,67 @@
     "DaringDare910":{
 		"levels":[
 			"Cradles",
-			"Pick a Way",
 			"My Cat To Death"
+		],
+		"records":[
+			"Pick a Way"
 		]
 	},
     "tFluffy":{
 		"levels":[
-			"Cradles",
+		],
+		"records":[
 			"Pick a Way",
+			"summit",
 			"The Farts Evil Needl",
-			"My Cat To Death",
-			"summit"
+			"Cradles",
+			"My Cat To Death"
 		]
 	},
     "Zenos":{
 		"levels":[
 			"Cradles",
-			"Pick a Way",
 			"The Farts Evil Needl"
+		],
+		"records":[
+			"Pick a Way"
 		]
 	},
     "aelz":{
 		"levels":[
 			"Cradles",
 			"Pick a Way",
-			"The Farts Evil Needl",
+			"The Farts Evil Needl"
+		],
+		"records":[
 			"the sfw needle"
 		]
 	},
     "ScratchMan":{
 		"levels":[
-			"The Other Side",
-			"Pick a Way",
 			"Cradles",
 			"My Cat To Death"
+		],
+		"records":[
+			"The Other Side",
+			"Pick a Way"
 		]
 	},
 	"LustreGD":{
 		"levels":[
 			"Cradles"
+		],
+		"records":[
+			
 		]
 	},
 	"WcoolKid":{
 		"levels":[
 			"My Cat To Death",
 			"Cradles"
+		],
+		"records":[
+			
 		]
 	},
 	"kowman10":{
@@ -60,6 +76,9 @@
 			"Cradles",
 			"Pick a Way",
 			"My Cat To Death"
+		],
+		"records":[
+			
 		]
 	},
 	"Quaoz":{
@@ -67,6 +86,9 @@
 			"My Cat To Death",
 			"Cradles",
 			"Pick a Way"
+		],
+		"records":[
+			
 		]
 	}
 }
