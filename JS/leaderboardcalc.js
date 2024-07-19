@@ -54,7 +54,7 @@ function appendDataTwo(data, leaderboardId, posArray) {
 
   for (const key in data) {
     const person = data[key];
-    const personLevels = processPersonLevels(person.levels, person.records, posArray, leaderboardId.includes("platformer"));
+    const personLevels = processPersonLevels(person.levels, person.records || [], posArray, leaderboardId.includes("platformer"));
     const allBasePoints = calculateBasePoints(personLevels);
 
     const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
@@ -137,7 +137,7 @@ async function display(thisuser, type) {
     if (!person) return;
 
     const posArray = type === "platformer" ? platformerPos : levelPos;
-    const personLevels = processPersonLevels(person.levels, person.records, posArray, type === "platformer");
+    const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
