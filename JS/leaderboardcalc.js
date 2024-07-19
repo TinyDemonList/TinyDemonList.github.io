@@ -27,7 +27,7 @@ async function fetchLevelList() {
   dataThree.levels.forEach((level, i) => {
     levelPos.push({ name: level, pos: i + 1, req: 100 });
   });
-  console.log("Level list fetched");
+  console.log("Level list fetched:", levelPos);
 }
 
 async function fetchMainList() {
@@ -35,7 +35,7 @@ async function fetchMainList() {
   Object.values(dataFour).slice(0, 51).forEach((level, index) => {
     levelPos[index].req = level.minimumPercent;
   });
-  console.log("Main list fetched");
+  console.log("Main list fetched:", levelPos);
 }
 
 async function fetchPlatformerLevelList() {
@@ -43,7 +43,7 @@ async function fetchPlatformerLevelList() {
   dataFive.levels.forEach((level, i) => {
     platformerPos.push({ name: level, pos: i + 1, req: 100 });
   });
-  console.log("Platformer level list fetched");
+  console.log("Platformer level list fetched:", platformerPos);
 }
 
 function appendDataTwo(data, leaderboardId, posArray) {
@@ -101,7 +101,7 @@ function calculatePoints(pos, isPlatformer, isInRecords) {
   if (isPlatformer && isInRecords) {
     points *= 1.1; // Add 10% extra points for platformer levels in the "records" section
   }
-  console.log(`Position: ${pos}, Points: ${points}`);
+  console.log(`Position: ${pos}, Points: ${points}, isPlatformer: ${isPlatformer}, isInRecords: ${isInRecords}`);
   return points;
 }
 
@@ -126,6 +126,7 @@ function displayLeaderboard(allPersonArray, div, type) {
     text.innerHTML = `<p class="trigger_popup_fricc" onclick="${cursc}"><b>${curRank}:</b> ${person.name} (${Math.round(person.score * 1000) / 1000} points)</p>`;
     div.appendChild(text);
   }
+  console.log("Leaderboard displayed for type:", type);
 }
 
 async function display(thisuser, type) {
@@ -142,6 +143,7 @@ async function display(thisuser, type) {
     Swal.fire({
       html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`
     });
+    console.log("Displayed user data for:", person.name);
   } catch (err) {
     console.error("Error displaying user data:", err);
   }
