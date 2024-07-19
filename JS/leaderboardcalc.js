@@ -54,7 +54,7 @@ function appendDataTwo(data, leaderboardId, posArray) {
 
   for (const key in data) {
     const person = data[key];
-    const personLevels = processPersonLevels(person.levels, posArray, data[key].records || []);
+    const personLevels = processPersonLevels(person.levels, person.records, posArray, leaderboardId.includes("platformer"));
     const allBasePoints = calculateBasePoints(personLevels);
 
     const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
@@ -67,11 +67,16 @@ function appendDataTwo(data, leaderboardId, posArray) {
   leaderboard.appendChild(div);
 }
 
-function processPersonLevels(levels, posArray, records) {
-  return levels.map(level => {
-    const levelPosObj = posArray.find(l => l.name === level);
-    const isInRecords = records.includes(level); // Check if the level is in the records
-    return { name: level, pos: levelPosObj ? levelPosObj.pos : 1, isInRecords };
+function processPersonLevels(levels, records, posArray, isPlatformer) {
+  const allLevels = [...levels, ...records.map(record => ({ name: record, isInRecords: true }))];
+  return allLevels.map(level => {
+    const levelPosObj = posArray.find(l => l.name === level.name || l.name === level);
+    return { 
+      name: level.name || level, 
+      pos: levelPosObj ? levelPosObj.pos : 1,
+      isInRecords: level.isInRecords || false,
+      isPlatformer: isPlatformer 
+    };
   }).sort((a, b) => {
     const posA = posArray.find(l => l.name === a.name)?.pos || 1;
     const posB = posArray.find(l => l.name === b.name)?.pos || 1;
@@ -80,25 +85,22 @@ function processPersonLevels(levels, posArray, records) {
 }
 
 function calculateBasePoints(levels) {
-  const basePoints = levels.map(level => calculatePoints(level.pos, level.isInRecords));
+  const basePoints = levels.map(level => calculatePoints(level.pos, level.isPlatformer, level.isInRecords));
   basePoints.sort((a, b) => b - a);
   console.log("Base Points:", basePoints);
   return basePoints;
 }
 
-function calculatePoints(pos, isInRecords) {
+function calculatePoints(pos, isPlatformer, isInRecords) {
   let points;
   if (pos <= 100) {
     points = 50.0 / (Math.exp(0.01 * pos)) * Math.log(1 / (0.008 * pos));
   } else {
     points = 11.0 / (Math.exp(0.01 * pos));
   }
-  
-  // Add 10% extra points if the level is in the records
-  if (isInRecords) {
-    points *= 1.1; // Increase points by 10%
+  if (isPlatformer && isInRecords) {
+    points *= 1.1; // Add 10% extra points for platformer levels in the "records" section
   }
-  
   console.log(`Position: ${pos}, Points: ${points}`);
   return points;
 }
@@ -134,7 +136,7 @@ async function display(thisuser, type) {
     if (!person) return;
 
     const posArray = type === "platformer" ? platformerPos : levelPos;
-    const personLevels = processPersonLevels(person.levels, posArray, person.records || []);
+    const personLevels = processPersonLevels(person.levels, person.records, posArray, type === "platformer");
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
