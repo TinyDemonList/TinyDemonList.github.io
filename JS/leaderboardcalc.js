@@ -48,7 +48,7 @@ async function fetchMainList() {
 }
 
 async function fetchPlatformerLevelList() {
-  const dataFive = await fetchJson("/JS/platformer_levellist.json");
+  const dataFive = await fetchJson("/JS/platformerlist.json");
   dataFive.levels.forEach((level, i) => {
     platformerPos.push({ name: level, pos: i + 1, req: 100 });
   });
@@ -58,7 +58,7 @@ async function fetchPlatformerLevelList() {
 async function fetchAllLevelDetails() {
   try {
     const extendedData = await fetchJson("/JS/extended.json");
-    const platformerData = await fetchJson("/JS/platformer_list.json");
+    const platformerData = await fetchJson("/JS/platformerlist.json");
     const mainData = await fetchJson("/JS/mainlist.json");
 
     extendedLevels = Object.values(extendedData).map(level => ({
