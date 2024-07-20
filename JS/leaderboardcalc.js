@@ -157,10 +157,18 @@ function displayLeaderboard(allPersonArray, div, type) {
 }
 
 function calculateCreatorPoints(levelsMade, posArray) {
-  return levelsMade.reduce((totalPoints, levelName) => {
+  let totalPoints = 0;
+  levelsMade.forEach(levelName => {
     const level = posArray.find(l => l.name === levelName);
-    return totalPoints + (level ? level.creatorPoints : 0);
-  }, 0);
+    if (level) {
+      console.log(`Level: ${levelName}, Creator Points: ${level.creatorPoints}`);
+      totalPoints += level.creatorPoints;
+    } else {
+      console.warn(`Level ${levelName} not found in posArray`);
+    }
+  });
+  console.log(`Total Creator Points for levels ${levelsMade}: ${totalPoints}`);
+  return totalPoints;
 }
 
 async function fetchCreatorPointsLeaderboard() {
@@ -222,7 +230,7 @@ function displayCreatorPointsLeaderboard(sortedData) {
   leaderboard.appendChild(div);
 }
 
-async function display(thisuser, type) {
+function display(thisuser, type) {
   try {
     const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
     const data = await fetchJson(dataUrl);
@@ -231,6 +239,8 @@ async function display(thisuser, type) {
 
     const posArray = type === "platformer" ? platformerPos : levelPos;
     const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
+
+    console.log(`Person levels: ${JSON.stringify(personLevels)}`);
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos}, ${level.creatorPoints} points)</li><br>`).join('');
 
     Swal.fire({
