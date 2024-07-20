@@ -255,7 +255,7 @@ async function display(thisuser, type) {
     const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
 
     console.log(`Person levels: ${JSON.stringify(personLevels)}`);
-    const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos}, ${level.creatorPoints} points)</li><br>`).join('');
+    const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
       html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`
