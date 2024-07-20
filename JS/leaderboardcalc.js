@@ -55,7 +55,11 @@ async function fetchExtendedList() {
   Object.values(data).forEach(level => {
     const index = levelPos.findIndex(l => l.name === level.name);
     if (index !== -1) {
-      levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0;
+      const points = parseInt(level.creatorpoints) || 0;
+      levelPos[index].creatorPoints = points;
+      console.log(`Updated ${level.name} in levelPos with ${points} creator points`);
+    } else {
+      console.warn(`Level ${level.name} not found in levelPos`);
     }
   });
   console.log("Extended list fetched and updated:", levelPos);
@@ -66,7 +70,11 @@ async function fetchPlatformerList() {
   Object.values(data).forEach(level => {
     const index = platformerPos.findIndex(l => l.name === level.name);
     if (index !== -1) {
-      platformerPos[index].creatorPoints = parseInt(level.creatorpoints) || 0;
+      const points = parseInt(level.creatorpoints) || 0;
+      platformerPos[index].creatorPoints = points;
+      console.log(`Updated ${level.name} in platformerPos with ${points} creator points`);
+    } else {
+      console.warn(`Level ${level.name} not found in platformerPos`);
     }
   });
   console.log("Platformer list fetched and updated:", platformerPos);
