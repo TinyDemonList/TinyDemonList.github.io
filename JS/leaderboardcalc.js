@@ -16,6 +16,7 @@ async function initializeData() {
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
     appendDataTwo(platformerData, "platformer-leaderboard", platformerPos);
+    await fetchCreatorPointsLeaderboard(); // Fetch and display creator points leaderboard
     console.log("Initialization complete");
   } catch (err) {
     console.error("Error during initialization:", err);
@@ -25,7 +26,7 @@ async function initializeData() {
 async function fetchLevelList() {
   const dataThree = await fetchJson("/JS/levellist.json");
   dataThree.levels.forEach((level, i) => {
-    levelPos.push({ name: level, pos: i + 1, req: 100 });
+    levelPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 });
   });
   console.log("Level list fetched:", levelPos);
 }
@@ -34,6 +35,7 @@ async function fetchMainList() {
   const dataFour = await fetchJson("/JS/mainlist.json");
   Object.values(dataFour).slice(0, 51).forEach((level, index) => {
     levelPos[index].req = level.minimumPercent;
+    levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0; // Extract creator points
   });
   console.log("Main list fetched:", levelPos);
 }
@@ -41,7 +43,7 @@ async function fetchMainList() {
 async function fetchPlatformerLevelList() {
   const dataFive = await fetchJson("/JS/platformer_levellist.json");
   dataFive.levels.forEach((level, i) => {
-    platformerPos.push({ name: level, pos: i + 1, req: 100 });
+    platformerPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 }); // Initialize creator points
   });
   console.log("Platformer level list fetched:", platformerPos);
 }
@@ -99,7 +101,7 @@ function calculatePoints(pos, isPlatformer, isInRecords) {
     points = 11.0 / (Math.exp(0.01 * pos));
   }
   if (isPlatformer && isInRecords) {
-    points *= 1.1; // Add 10% extra points for platformer levels in the "records" section
+    points *= 1.1;
   }
   console.log(`Position: ${pos}, Points: ${points}, isPlatformer: ${isPlatformer}, isInRecords: ${isInRecords}`);
   return points;
@@ -127,6 +129,65 @@ function displayLeaderboard(allPersonArray, div, type) {
     div.appendChild(text);
   }
   console.log("Leaderboard displayed for type:", type);
+}
+
+function calculateCreatorPoints(levelsMade, posArray) {
+  return levelsMade.reduce((totalPoints, levelName) => {
+    const level = posArray.find(l => l.name === levelName);
+    return totalPoints + (level ? level.creatorPoints : 0);
+  }, 0);
+}
+
+async function fetchCreatorPointsLeaderboard() {
+  const regularData = await fetchJson("/JS/leaderboard.json");
+  const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
+
+  const creatorPointsData = {};
+
+  for (const user in regularData) {
+    const levelsMade = regularData[user]['Levels Made'] || [];
+    const totalPoints = calculateCreatorPoints(levelsMade, levelPos);
+    creatorPointsData[user] = totalPoints;
+  }
+
+  for (const user in platformerData) {
+    const levelsMade = platformerData[user]['Levels Made'] || [];
+    const totalPoints = calculateCreatorPoints(levelsMade, platformerPos);
+    if (creatorPointsData[user]) {
+      creatorPointsData[user] += totalPoints;
+    } else {
+      creatorPointsData[user] = totalPoints;
+    }
+  }
+
+  const sortedCreatorPoints = Object.entries(creatorPointsData)
+    .map(([name, points]) => ({ name, points }))
+    .sort((a, b) => b.points - a.points);
+
+  displayCreatorPointsLeaderboard(sortedCreatorPoints);
+}
+
+function displayCreatorPointsLeaderboard(sortedData) {
+  const leaderboard = document.getElementById("creator-points-leaderboard");
+  const div = document.createElement("div");
+  let order = 0;
+  let tiecount = 0;
+  let curRank = 0;
+
+  sortedData.forEach((entry, index) => {
+    if (index === 0 || entry.points !== sortedData[index - 1].points) {
+      curRank += tiecount + 1;
+      tiecount = 0;
+    } else {
+      tiecount++;
+    }
+
+    const text = document.createElement("p");
+    text.innerHTML = `<p><b>${curRank}:</b> ${entry.name} (${Math.round(entry.points * 100) / 100} points)</p>`;
+    div.appendChild(text);
+  });
+
+  leaderboard.appendChild(div);
 }
 
 async function display(thisuser, type) {
