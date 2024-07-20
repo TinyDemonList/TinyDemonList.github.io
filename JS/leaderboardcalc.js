@@ -37,9 +37,12 @@ async function fetchLevelList() {
 
 async function fetchMainList() {
   const dataFour = await fetchJson("/JS/mainlist.json");
-  Object.values(dataFour).slice(0, 51).forEach((level, index) => {
-    levelPos[index].req = level.minimumPercent;
-    levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0; // Extract creator points
+  Object.values(dataFour).forEach(level => {
+    const index = levelPos.findIndex(l => l.name === level.name);
+    if (index !== -1) {
+      levelPos[index].req = level.minimumPercent || 100; // Ensure there's a fallback
+      levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0;
+    }
   });
   console.log("Main list fetched:", levelPos);
 }
@@ -47,25 +50,41 @@ async function fetchMainList() {
 async function fetchPlatformerLevelList() {
   const dataFive = await fetchJson("/JS/platformer_levellist.json");
   dataFive.levels.forEach((level, i) => {
-    platformerPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 }); // Initialize creator points
+    platformerPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 });
   });
   console.log("Platformer level list fetched:", platformerPos);
 }
 
 async function fetchExtendedList() {
-  const extendedData = await fetchJson("/JS/extended.json");
-  extendedData.levels.forEach(level => {
-    extendedLevels.push({ name: level, creatorPoints: parseInt(extendedData[level].creatorpoints) || 0 });
-  });
-  console.log("Extended levels fetched:", extendedLevels);
+  try {
+    const extendedData = await fetchJson("/JS/extended.json");
+    
+    Object.keys(extendedData).forEach(level => {
+      if (level !== "levels") { // Skip the 'levels' key itself
+        const creatorPoints = parseInt(extendedData[level].creatorpoints) || 0;
+        extendedLevels.push({ name: level, creatorPoints });
+      }
+    });
+    console.log("Extended levels fetched:", extendedLevels);
+  } catch (error) {
+    console.error("Error fetching extended levels:", error);
+  }
 }
 
 async function fetchPlatformerExtendedList() {
-  const platformerExtendedData = await fetchJson("/JS/platformerlist.json");
-  platformerExtendedData.levels.forEach(level => {
-    platformerExtendedLevels.push({ name: level, creatorPoints: parseInt(platformerExtendedData[level].creatorpoints) || 0 });
-  });
-  console.log("Platformer extended levels fetched:", platformerExtendedLevels);
+  try {
+    const platformerExtendedData = await fetchJson("/JS/platformerlist.json");
+    
+    Object.keys(platformerExtendedData).forEach(level => {
+      if (level !== "levels") { // Skip the 'levels' key itself
+        const creatorPoints = parseInt(platformerExtendedData[level].creatorpoints) || 0;
+        platformerExtendedLevels.push({ name: level, creatorPoints });
+      }
+    });
+    console.log("Platformer extended levels fetched:", platformerExtendedLevels);
+  } catch (error) {
+    console.error("Error fetching platformer extended levels:", error);
+  }
 }
 
 function appendDataTwo(data, leaderboardId, posArray) {
@@ -125,30 +144,6 @@ function calculatePoints(pos, isPlatformer, isInRecords) {
   }
   console.log(`Position: ${pos}, Points: ${points}, isPlatformer: ${isPlatformer}, isInRecords: ${isInRecords}`);
   return points;
-}
-
-function displayLeaderboard(allPersonArray, div, type) {
-  const zeroindex = allPersonArray.findIndex(person => person.score === 0);
-  const maxIndex = zeroindex === -1 ? allPersonArray.length : zeroindex;
-  let tiecount = 0;
-  let curRank = 0;
-
-  for (let i = 0; i < maxIndex; i++) {
-    const person = allPersonArray[i];
-    const text = document.createElement("p");
-
-    if (i === 0 || person.score !== allPersonArray[i - 1].score) {
-      curRank += tiecount + 1;
-      tiecount = 0;
-    } else {
-      tiecount++;
-    }
-
-    const cursc = `display(${person.readorder}, '${type}')`;
-    text.innerHTML = `<p class="trigger_popup_fricc" onclick="${cursc}"><b>${curRank}:</b> ${person.name} (${Math.round(person.score * 1000) / 1000} points)</p>`;
-    div.appendChild(text);
-  }
-  console.log("Leaderboard displayed for type:", type);
 }
 
 function calculateCreatorPoints(levelsMade, posArray, extendedLevels, platformerExtendedLevels) {
