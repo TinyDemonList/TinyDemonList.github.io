@@ -10,10 +10,10 @@ async function fetchJson(url) {
 async function initializeData() {
   try {
     await fetchLevelList();
-    await fetchMainList();
+    await fetchMainList(); // Ensure this updates creator points correctly
     await fetchPlatformerLevelList();
-    await fetchExtendedList();
-    await fetchPlatformerList();
+    await fetchExtendedList(); // Ensure these updates are applied correctly
+    await fetchPlatformerList(); // Ensure these updates are applied correctly
     const dataTwo = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
@@ -25,6 +25,8 @@ async function initializeData() {
   }
 }
 
+
+
 async function fetchLevelList() {
   const dataThree = await fetchJson("/JS/levellist.json");
   dataThree.levels.forEach((level, i) => {
@@ -35,12 +37,17 @@ async function fetchLevelList() {
 
 async function fetchMainList() {
   const dataFour = await fetchJson("/JS/mainlist.json");
-  Object.values(dataFour).slice(0, 51).forEach((level, index) => {
-    levelPos[index].req = level.minimumPercent;
-    levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0;
+  levelPos.forEach(levelPosObj => {
+    const levelData = dataFour[levelPosObj.name];
+    if (levelData) {
+      levelPosObj.req = levelData.minimumPercent || 100;
+      levelPosObj.creatorPoints = parseInt(levelData.creatorpoints) || 0; // Extract creator points
+      console.log(`Updated ${levelPosObj.name} with ${levelPosObj.creatorPoints} creator points`);
+    }
   });
-  console.log("Main list fetched:", levelPos);
+  console.log("Main list fetched and updated:", levelPos);
 }
+
 
 async function fetchPlatformerLevelList() {
   const dataFive = await fetchJson("/JS/platformer_levellist.json");
@@ -67,18 +74,16 @@ async function fetchExtendedList() {
 
 async function fetchPlatformerList() {
   const data = await fetchJson("/JS/platformerlist.json");
-  Object.values(data).forEach(level => {
-    const index = platformerPos.findIndex(l => l.name === level.name);
-    if (index !== -1) {
-      const points = parseInt(level.creatorpoints) || 0;
-      platformerPos[index].creatorPoints = points;
-      console.log(`Updated ${level.name} in platformerPos with ${points} creator points`);
-    } else {
-      console.warn(`Level ${level.name} not found in platformerPos`);
+  platformerPos.forEach(platformerPosObj => {
+    const levelData = data[platformerPosObj.name];
+    if (levelData) {
+      platformerPosObj.creatorPoints = parseInt(levelData.creatorpoints) || 0; // Extract creator points
+      console.log(`Updated ${platformerPosObj.name} with ${platformerPosObj.creatorPoints} creator points`);
     }
   });
   console.log("Platformer list fetched and updated:", platformerPos);
 }
+
 
 function appendDataTwo(data, leaderboardId, posArray) {
   const allPersonArray = [];
@@ -178,6 +183,7 @@ function calculateCreatorPoints(levelsMade, posArray) {
   console.log(`Total Creator Points for levels ${levelsMade}: ${totalPoints}`);
   return totalPoints;
 }
+
 
 async function fetchCreatorPointsLeaderboard() {
   try {
