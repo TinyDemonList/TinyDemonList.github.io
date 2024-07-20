@@ -65,7 +65,7 @@
 		]
 	},
 	"shat lava":{
-		"name":"shat lave",
+		"name":"shat lava",
 		"ytcode":"fdVd9eqjD7Y",
 		"publisher":"Dyln",
 		"id":"108026267",
@@ -74,6 +74,19 @@
 				"name":"tFluffy",
 				"link":"https://youtu.be/fdVd9eqjD7Y",
 				"time":"4.608"
+			}
+		]
+	},
+	"lobotomy bounce":{
+		"name":"lobotomy bounce",
+		"ytcode":"zGq-nHtYQxE",
+		"publisher":"kowman10",
+		"id":"108022044",
+		"list":[
+			{
+				"name":"kowman10",
+				"link":"https://m.youtube.com/watch?v=zGq-nHtYQxE",
+				"time":"6.150"
 			}
 		]
 	},
