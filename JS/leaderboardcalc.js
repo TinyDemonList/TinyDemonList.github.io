@@ -12,13 +12,13 @@ async function initializeData() {
     await fetchLevelList();
     await fetchMainList();
     await fetchPlatformerLevelList();
-    await fetchExtendedList(); // Fetch and process extended list
-    await fetchPlatformerList(); // Fetch and process platformer list
+    await fetchExtendedList();
+    await fetchPlatformerList();
     const dataTwo = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
     appendDataTwo(platformerData, "platformer-leaderboard", platformerPos);
-    await fetchCreatorPointsLeaderboard(); // Fetch and display creator points leaderboard
+    await fetchCreatorPointsLeaderboard();
     console.log("Initialization complete");
   } catch (err) {
     console.error("Error during initialization:", err);
@@ -37,7 +37,7 @@ async function fetchMainList() {
   const dataFour = await fetchJson("/JS/mainlist.json");
   Object.values(dataFour).slice(0, 51).forEach((level, index) => {
     levelPos[index].req = level.minimumPercent;
-    levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0; // Extract creator points
+    levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0;
   });
   console.log("Main list fetched:", levelPos);
 }
@@ -45,7 +45,7 @@ async function fetchMainList() {
 async function fetchPlatformerLevelList() {
   const dataFive = await fetchJson("/JS/platformer_levellist.json");
   dataFive.levels.forEach((level, i) => {
-    platformerPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 }); // Initialize creator points
+    platformerPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 });
   });
   console.log("Platformer level list fetched:", platformerPos);
 }
@@ -55,7 +55,7 @@ async function fetchExtendedList() {
   Object.values(data).forEach(level => {
     const index = levelPos.findIndex(l => l.name === level.name);
     if (index !== -1) {
-      levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0; // Update creator points
+      levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0;
     }
   });
   console.log("Extended list fetched and updated:", levelPos);
@@ -66,7 +66,7 @@ async function fetchPlatformerList() {
   Object.values(data).forEach(level => {
     const index = platformerPos.findIndex(l => l.name === level.name);
     if (index !== -1) {
-      platformerPos[index].creatorPoints = parseInt(level.creatorpoints) || 0; // Update creator points
+      platformerPos[index].creatorPoints = parseInt(level.creatorpoints) || 0;
     }
   });
   console.log("Platformer list fetched and updated:", platformerPos);
@@ -101,7 +101,8 @@ function processPersonLevels(levels, records, posArray, isPlatformer) {
       name: level.name || level, 
       pos: levelPosObj ? levelPosObj.pos : 1,
       isInRecords: level.isInRecords || false,
-      isPlatformer: isPlatformer 
+      isPlatformer: isPlatformer,
+      creatorPoints: levelPosObj ? levelPosObj.creatorPoints : 0
     };
   }).sort((a, b) => {
     const posA = posArray.find(l => l.name === a.name)?.pos || 1;
@@ -190,7 +191,7 @@ async function fetchCreatorPointsLeaderboard() {
     // Sort and filter creator points
     const sortedCreatorPoints = Object.entries(creatorPointsData)
       .map(([name, points]) => ({ name, points }))
-      .filter(entry => entry.points > 0) // Filter out users with 0 creator points
+      .filter(entry => entry.points > 0)
       .sort((a, b) => b.points - a.points);
 
     displayCreatorPointsLeaderboard(sortedCreatorPoints);
@@ -230,7 +231,7 @@ async function display(thisuser, type) {
 
     const posArray = type === "platformer" ? platformerPos : levelPos;
     const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
-    const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
+    const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos}, ${level.creatorPoints} points)</li><br>`).join('');
 
     Swal.fire({
       html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`
