@@ -2,7 +2,11 @@
 	"Epic GD":{
 		"levels":[
 			"Cradles",
-			"Pick a Way"
+			"Pick a Way",
+			"Blue"
+		],
+		"records":[
+			
 		],
 		"Levels Made":[
 			"Cradles",
@@ -66,7 +70,8 @@
 		],
 		"records":[
 			"The Other Side",
-			"Pick a Way"
+			"Pick a Way",
+			"Blue"
 		],
 		"Levels Made":[
 			"The Other Side"
