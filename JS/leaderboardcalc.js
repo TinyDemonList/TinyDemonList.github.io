@@ -201,7 +201,7 @@ async function display(thisuser, type) {
     if (!person) return;
 
     const posArray = type === "platformer" ? platformerPos : levelPos;
-    const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
+    const personLevels = processPersonLevels(person.levels || [], person.records || [], posArray, type === "platformer");
     const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
@@ -220,7 +220,7 @@ async function displayCreator(thisuser) {
     const person = Object.values(data)[thisuser];
     if (!person) return;
 
-    const creatorLevelsHtml = person["Levels Made"].map(level => `<li class="playerlevelEntry">${level}</li><br>`).join('');
+    const creatorLevelsHtml = (person["Levels Made"] || []).map(level => `<li class="playerlevelEntry">${level}</li><br>`).join('');
 
     Swal.fire({
       html: `<p>Levels Made:</p><ol>${creatorLevelsHtml || '<p>none</p>'}</ol>`
