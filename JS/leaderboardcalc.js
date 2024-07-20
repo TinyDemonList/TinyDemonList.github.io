@@ -1,6 +1,5 @@
 const levelPos = [];
 const platformerPos = [];
-const creatorPoints = {};
 
 async function fetchJson(url) {
   const response = await fetch(url);
@@ -13,7 +12,6 @@ async function initializeData() {
     await fetchLevelList();
     await fetchMainList();
     await fetchPlatformerLevelList();
-    await fetchExtendedList();
     const dataTwo = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
@@ -25,67 +23,27 @@ async function initializeData() {
 }
 
 async function fetchLevelList() {
-  try {
-    const dataThree = await fetchJson("/JS/extended.json");
-    for (const key in dataThree) {
-      if (dataThree.hasOwnProperty(key)) {
-        levelPos.push({ name: key, pos: dataThree[key].position, req: 100 });
-      }
-    }
-    console.log("Level list fetched");
-  } catch (err) {
-    console.error("Error fetching level list:", err);
-  }
+  const dataThree = await fetchJson("/JS/levellist.json");
+  dataThree.levels.forEach((level, i) => {
+    levelPos.push({ name: level, pos: i + 1, req: 100 });
+  });
+  console.log("Level list fetched");
 }
 
 async function fetchMainList() {
-  try {
-    const dataFour = await fetchJson("/JS/mainlist.json");
-    for (const key in dataFour) {
-      if (dataFour.hasOwnProperty(key)) {
-        const level = dataFour[key];
-        levelPos.push({ name: key, pos: level.position, req: 100 });
-      }
-    }
-    console.log("Main list fetched");
-  } catch (err) {
-    console.error("Error fetching main list:", err);
-  }
+  const dataFour = await fetchJson("/JS/mainlist.json");
+  Object.values(dataFour).slice(0, 51).forEach((level, index) => {
+    levelPos[index].req = level.minimumPercent;
+  });
+  console.log("Main list fetched");
 }
 
 async function fetchPlatformerLevelList() {
-  try {
-    const dataFive = await fetchJson("/JS/platformerlist.json");
-    if (!dataFive) {
-      throw new Error("Platformer level data is missing.");
-    }
-
-    platformerPos.length = 0;
-    let index = 1;
-    for (const key in dataFive) {
-      if (dataFive.hasOwnProperty(key)) {
-        platformerPos.push({ name: key, pos: index, req: 100 });
-        index++;
-      }
-    }
-    console.log("Platformer level list fetched");
-  } catch (err) {
-    console.error("Error fetching platformer level list:", err);
-  }
-}
-
-async function fetchExtendedList() {
-  try {
-    const dataSix = await fetchJson("/JS/extended.json");
-    for (const key in dataSix) {
-      if (dataSix.hasOwnProperty(key)) {
-        creatorPoints[key] = parseInt(dataSix[key].creatorpoints, 10);
-      }
-    }
-    console.log("Extended list fetched");
-  } catch (err) {
-    console.error("Error fetching extended list:", err);
-  }
+  const dataFive = await fetchJson("/JS/platformerlist.json");
+  dataFive.levels.forEach((level, i) => {
+    platformerPos.push({ name: level, pos: i + 1, req: 100 });
+  });
+  console.log("Platformer level list fetched");
 }
 
 function appendDataTwo(data, leaderboardId, posArray) {
@@ -95,14 +53,13 @@ function appendDataTwo(data, leaderboardId, posArray) {
   let order = 0;
 
   for (const key in data) {
-    if (data.hasOwnProperty(key)) {
-      const person = data[key];
-      const personLevels = processPersonLevels(person.levels, posArray);
-      const allBasePoints = calculateBasePoints(personLevels);
-      const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
-      allPersonArray.push({ name: key, score: totalScore, readorder: order });
-      order++;
-    }
+    const person = data[key];
+    const personLevels = processPersonLevels(person.levels, posArray);
+    const allBasePoints = calculateBasePoints(personLevels);
+
+    const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
+    allPersonArray.push({ name: key, score: totalScore, readorder: order });
+    order++;
   }
 
   allPersonArray.sort((a, b) => b.score - a.score);
@@ -122,7 +79,10 @@ function processPersonLevels(levels, posArray) {
 }
 
 function calculateBasePoints(levels) {
-  const basePoints = levels.map(level => calculatePoints(level.pos));
+  const basePoints = levels.map(level => {
+    const points = calculatePoints(level.pos);
+    return isNaN(points) ? 0 : points; // Ensure points are numeric
+  });
   basePoints.sort((a, b) => b - a);
   console.log("Base Points:", basePoints);
   return basePoints;
