@@ -1,5 +1,6 @@
 const levelPos = [];
 const platformerPos = [];
+const levelDetails = [];
 
 async function fetchJson(url) {
   const response = await fetch(url);
@@ -12,10 +13,12 @@ async function initializeData() {
     await fetchLevelList();
     await fetchMainList();
     await fetchPlatformerLevelList();
+    await fetchExtendedList();
     const dataTwo = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
     appendDataTwo(platformerData, "platformer-leaderboard", platformerPos);
+    appendCreatorPointsLeaderboard(dataTwo, platformerData);
     console.log("Initialization complete");
   } catch (err) {
     console.error("Error during initialization:", err);
@@ -44,6 +47,14 @@ async function fetchPlatformerLevelList() {
     platformerPos.push({ name: level, pos: i + 1, req: 100 });
   });
   console.log("Platformer level list fetched:", platformerPos);
+}
+
+async function fetchExtendedList() {
+  const dataExtended = await fetchJson("/JS/extended.json");
+  dataExtended.levels.forEach(level => {
+    levelDetails.push({ name: level.name, creatorPoints: level.creatorpoints });
+  });
+  console.log("Extended list fetched:", levelDetails);
 }
 
 function appendDataTwo(data, leaderboardId, posArray) {
@@ -129,6 +140,59 @@ function displayLeaderboard(allPersonArray, div, type) {
   console.log("Leaderboard displayed for type:", type);
 }
 
+function appendCreatorPointsLeaderboard(data, platformerData) {
+  const allPersonArray = [];
+  const leaderboard = document.getElementById("creator-points-leaderboard");
+  const div = document.createElement("div");
+  let order = 0;
+
+  const combinedData = { ...data, ...platformerData };
+
+  for (const key in combinedData) {
+    const person = combinedData[key];
+    const creatorPoints = calculateCreatorPoints(person["Levels Made"]);
+    allPersonArray.push({ name: key, score: creatorPoints, readorder: order });
+    order++;
+  }
+
+  allPersonArray.sort((a, b) => b.score - a.score);
+  displayCreatorPointsLeaderboard(allPersonArray, div);
+  leaderboard.appendChild(div);
+}
+
+function calculateCreatorPoints(levelsMade) {
+  if (!levelsMade || levelsMade.length === 0) return 0;
+
+  return levelsMade.reduce((sum, levelName) => {
+    const levelDetail = levelDetails.find(detail => detail.name === levelName);
+    return sum + (levelDetail ? levelDetail.creatorPoints : 0);
+  }, 0);
+}
+
+function displayCreatorPointsLeaderboard(allPersonArray, div) {
+  const zeroindex = allPersonArray.findIndex(person => person.score === 0);
+  const maxIndex = zeroindex === -1 ? allPersonArray.length : zeroindex;
+  let tiecount = 0;
+  let curRank = 0;
+
+  for (let i = 0; i < maxIndex; i++) {
+    const person = allPersonArray[i];
+    const text = document.createElement("p");
+
+    if (i === 0 || person.score !== allPersonArray[i - 1].score) {
+      curRank += tiecount + 1;
+      tiecount = 0;
+    } else {
+      tiecount++;
+    }
+
+    const cursc = `displayCreator(${person.readorder})`;
+    text.innerHTML = `<p class="trigger_popup_fricc" onclick="${cursc}"><b>${curRank}:</b> ${person.name} (${Math.round(person.score * 1000) / 1000} points)</p>`;
+    div.appendChild(text);
+  }
+  console.log("Creator Points Leaderboard displayed");
+}
+
 async function display(thisuser, type) {
   try {
     const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
@@ -146,6 +210,24 @@ async function display(thisuser, type) {
     console.log("Displayed user data for:", person.name);
   } catch (err) {
     console.error("Error displaying user data:", err);
+  }
+}
+
+async function displayCreator(thisuser) {
+  try {
+    const dataUrl = "/JS/leaderboard.json";
+    const data = await fetchJson(dataUrl);
+    const person = Object.values(data)[thisuser];
+    if (!person) return;
+
+    const creatorLevelsHtml = person["Levels Made"].map(level => `<li class="playerlevelEntry">${level}</li><br>`).join('');
+
+    Swal.fire({
+      html: `<p>Levels Made:</p><ol>${creatorLevelsHtml || '<p>none</p>'}</ol>`
+    });
+    console.log("Displayed creator data for:", person.name);
+  } catch (err) {
+    console.error("Error displaying creator data:", err);
   }
 }
 
