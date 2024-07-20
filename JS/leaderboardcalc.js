@@ -1,5 +1,7 @@
 const levelPos = [];
 const platformerPos = [];
+const extendedLevels = [];
+const platformerExtendedLevels = [];
 
 async function fetchJson(url) {
   const response = await fetch(url);
@@ -12,6 +14,8 @@ async function initializeData() {
     await fetchLevelList();
     await fetchMainList();
     await fetchPlatformerLevelList();
+    await fetchExtendedList();
+    await fetchPlatformerExtendedList();
     const dataTwo = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
@@ -46,6 +50,22 @@ async function fetchPlatformerLevelList() {
     platformerPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 }); // Initialize creator points
   });
   console.log("Platformer level list fetched:", platformerPos);
+}
+
+async function fetchExtendedList() {
+  const extendedData = await fetchJson("/JS/extended.json");
+  extendedData.levels.forEach(level => {
+    extendedLevels.push({ name: level, creatorPoints: parseInt(extendedData[level].creatorpoints) || 0 });
+  });
+  console.log("Extended levels fetched:", extendedLevels);
+}
+
+async function fetchPlatformerExtendedList() {
+  const platformerExtendedData = await fetchJson("/JS/platformerlist.json");
+  platformerExtendedData.levels.forEach(level => {
+    platformerExtendedLevels.push({ name: level, creatorPoints: parseInt(platformerExtendedData[level].creatorpoints) || 0 });
+  });
+  console.log("Platformer extended levels fetched:", platformerExtendedLevels);
 }
 
 function appendDataTwo(data, leaderboardId, posArray) {
@@ -131,10 +151,16 @@ function displayLeaderboard(allPersonArray, div, type) {
   console.log("Leaderboard displayed for type:", type);
 }
 
-function calculateCreatorPoints(levelsMade, posArray) {
+function calculateCreatorPoints(levelsMade, posArray, extendedLevels, platformerExtendedLevels) {
   return levelsMade.reduce((totalPoints, levelName) => {
     const level = posArray.find(l => l.name === levelName);
-    return totalPoints + (level ? level.creatorPoints : 0);
+    const extendedLevel = extendedLevels.find(l => l.name === levelName);
+    const platformerExtendedLevel = platformerExtendedLevels.find(l => l.name === levelName);
+
+    return totalPoints + 
+      (level ? level.creatorPoints : 0) + 
+      (extendedLevel ? extendedLevel.creatorPoints : 0) + 
+      (platformerExtendedLevel ? platformerExtendedLevel.creatorPoints : 0);
   }, 0);
 }
 
@@ -146,13 +172,13 @@ async function fetchCreatorPointsLeaderboard() {
 
   for (const user in regularData) {
     const levelsMade = regularData[user]['Levels Made'] || [];
-    const totalPoints = calculateCreatorPoints(levelsMade, levelPos);
+    const totalPoints = calculateCreatorPoints(levelsMade, levelPos, extendedLevels, platformerExtendedLevels);
     creatorPointsData[user] = totalPoints;
   }
 
   for (const user in platformerData) {
     const levelsMade = platformerData[user]['Levels Made'] || [];
-    const totalPoints = calculateCreatorPoints(levelsMade, platformerPos);
+    const totalPoints = calculateCreatorPoints(levelsMade, platformerPos, extendedLevels, platformerExtendedLevels);
     if (creatorPointsData[user]) {
       creatorPointsData[user] += totalPoints;
     } else {
@@ -162,6 +188,7 @@ async function fetchCreatorPointsLeaderboard() {
 
   const sortedCreatorPoints = Object.entries(creatorPointsData)
     .map(([name, points]) => ({ name, points }))
+    .filter(entry => entry.points > 0) // Filter out users with 0 creator points
     .sort((a, b) => b.points - a.points);
 
   displayCreatorPointsLeaderboard(sortedCreatorPoints);
