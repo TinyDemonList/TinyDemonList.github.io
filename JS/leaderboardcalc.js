@@ -51,10 +51,14 @@ async function fetchPlatformerLevelList() {
 
 async function fetchExtendedList() {
   const dataExtended = await fetchJson("/JS/extended.json");
-  dataExtended.levels.forEach(level => {
-    levelDetails.push({ name: level.name, creatorPoints: level.creatorpoints });
-  });
-  console.log("Extended list fetched:", levelDetails);
+  if (dataExtended.levels && Array.isArray(dataExtended.levels)) {
+    dataExtended.levels.forEach(level => {
+      levelDetails.push({ name: level.name, creatorPoints: level.creatorpoints });
+    });
+    console.log("Extended list fetched:", levelDetails);
+  } else {
+    console.error("Error: 'levels' property is missing or not an array in extended.json");
+  }
 }
 
 function appendDataTwo(data, leaderboardId, posArray) {
@@ -207,7 +211,7 @@ async function display(thisuser, type) {
     Swal.fire({
       html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`
     });
-    console.log("Displayed user data for:", person.name);
+    console.log("Displayed data for:", person.name);
   } catch (err) {
     console.error("Error displaying user data:", err);
   }
