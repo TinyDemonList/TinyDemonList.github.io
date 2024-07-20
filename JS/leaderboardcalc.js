@@ -25,8 +25,6 @@ async function initializeData() {
   }
 }
 
-
-
 async function fetchLevelList() {
   const dataThree = await fetchJson("/JS/levellist.json");
   dataThree.levels.forEach((level, i) => {
@@ -47,7 +45,6 @@ async function fetchMainList() {
   });
   console.log("Main list fetched and updated:", levelPos);
 }
-
 
 async function fetchPlatformerLevelList() {
   const dataFive = await fetchJson("/JS/platformer_levellist.json");
@@ -83,7 +80,6 @@ async function fetchPlatformerList() {
   });
   console.log("Platformer list fetched and updated:", platformerPos);
 }
-
 
 function appendDataTwo(data, leaderboardId, posArray) {
   const allPersonArray = [];
@@ -184,7 +180,6 @@ function calculateCreatorPoints(levelsMade, posArray) {
   return totalPoints;
 }
 
-
 async function fetchCreatorPointsLeaderboard() {
   try {
     const regularData = await fetchJson("/JS/leaderboard.json");
@@ -237,8 +232,7 @@ function displayCreatorPointsLeaderboard(sortedData) {
     }
 
     const text = document.createElement("p");
-    const userName = entry.name;
-    text.innerHTML = `<p><b>${curRank}:</b> <a href="#" onclick="showLevelsMade('${userName}', '${entry.type}')">${userName}</a> (${Math.round(entry.points * 100) / 100} points)</p>`;
+    text.innerHTML = `<p><b>${curRank}:</b> ${entry.name} (${Math.round(entry.points * 100) / 100} points)</p>`;
     div.appendChild(text);
   });
 
@@ -256,43 +250,16 @@ async function display(thisuser, type) {
     const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
 
     console.log(`Person levels: ${JSON.stringify(personLevels)}`);
-    const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos}, ${level.creatorPoints} points)</li><br>`).join('');
+    const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos}, ${level.creatorPoints} points)</li>`).join('<br>');
 
     Swal.fire({
-      html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`
+      title: person.name,
+      html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`,
+      icon: 'info'
     });
     console.log("Displayed user data for:", person.name);
   } catch (err) {
     console.error("Error displaying user data:", err);
-  }
-}
-
-async function showLevelsMade(userName, type) {
-  try {
-    const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
-    const data = await fetchJson(dataUrl);
-    const person = data[userName];
-    if (!person) {
-      console.error(`No data found for user: ${userName}`);
-      return;
-    }
-
-    const posArray = type === "platformer" ? platformerPos : levelPos;
-    const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
-
-    const completedLevelsHtml = personLevels.map(level => 
-      `<li class="playerlevelEntry">${level.name} (#${level.pos}, ${level.creatorPoints} points)</li><br>`
-    ).join('');
-
-    Swal.fire({
-      title: `${userName}'s Levels Made`,
-      html: `<ol>${completedLevelsHtml || '<li>No levels made</li>'}</ol>`,
-      icon: 'info'
-    });
-
-    console.log(`Displayed levels made by: ${userName}`);
-  } catch (err) {
-    console.error("Error displaying levels made:", err);
   }
 }
 
