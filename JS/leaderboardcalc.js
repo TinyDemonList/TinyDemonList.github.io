@@ -211,7 +211,6 @@ async function fetchCreatorPointsLeaderboard() {
 function displayCreatorPointsLeaderboard(sortedData) {
   const leaderboard = document.getElementById("creator-points-leaderboard");
   const div = document.createElement("div");
-  let order = 0;
   let tiecount = 0;
   let curRank = 0;
 
@@ -235,13 +234,12 @@ async function display(thisuser, type) {
   try {
     const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
     const data = await fetchJson(dataUrl);
-    const person = Object.values(data)[thisuser];
+    const person = Object.keys(data)[thisuser];
     if (!person) return;
 
+    const personData = data[person];
     const posArray = type === "platformer" ? platformerPos : levelPos;
-    const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
-
-    const levelsMade = person['Levels Made'] || [];
+    const levelsMade = personData['Levels Made'] || [];
     const createdLevelsHtml = levelsMade.map(levelName => {
       const level = posArray.find(l => l.name === levelName);
       const levelPosText = level ? ` (#${level.pos})` : '';
@@ -252,7 +250,7 @@ async function display(thisuser, type) {
     Swal.fire({
       html: `<p>Created levels:</p><ol>${createdLevelsHtml || '<p>none</p>'}</ol>`
     });
-    console.log("Displayed user data for:", person.name);
+    console.log("Displayed user data for:", person);
   } catch (err) {
     console.error("Error displaying user data:", err);
   }
