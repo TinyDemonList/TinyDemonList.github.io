@@ -98,7 +98,9 @@ function appendDataTwo(data, leaderboardId, posArray) {
   for (const key in data) {
     const person = data[key];
     const personLevels = processPersonLevels(person.levels, posArray);
-    const allBasePoints = calculateBasePoints(personLevels, posArray);
+    
+    // Pass the records to the calculateBasePoints function
+    const allBasePoints = calculateBasePoints(personLevels, posArray, person.records || []);
 
     const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
     allPersonArray.push({ name: key, score: totalScore, readorder: order });
@@ -121,13 +123,20 @@ function processPersonLevels(levels, posArray) {
   });
 }
 
-function calculateBasePoints(levels, posArray) {
+function calculateBasePoints(levels, posArray, records) {
   return levels.map(level => {
     const levelData = posArray.find(l => l.name === level.name) || {};
     let points = calculatePoints(level.pos);
-    if (levelData.creatorpoints) {
-      points += points * 0.10; // Add 10% extra points for platformer records
+    
+    // Add 10% bonus for levels in records
+    if (records.includes(level.name)) {
+      points += points * 0.10; // Add 10% extra points
     }
+    
+    if (levelData.creatorpoints) {
+      points += points * 0.10; // Add another 10% extra points for creator points
+    }
+    
     return points;
   }).sort((a, b) => b - a);
 }
