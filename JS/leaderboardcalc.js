@@ -12,6 +12,8 @@ async function initializeData() {
     await fetchLevelList();
     await fetchMainList();
     await fetchPlatformerLevelList();
+    await fetchExtendedList(); // Fetch and process extended list
+    await fetchPlatformerList(); // Fetch and process platformer list
     const dataTwo = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
@@ -46,6 +48,28 @@ async function fetchPlatformerLevelList() {
     platformerPos.push({ name: level, pos: i + 1, req: 100, creatorPoints: 0 }); // Initialize creator points
   });
   console.log("Platformer level list fetched:", platformerPos);
+}
+
+async function fetchExtendedList() {
+  const data = await fetchJson("/JS/extended.json");
+  Object.values(data).forEach(level => {
+    const index = levelPos.findIndex(l => l.name === level.name);
+    if (index !== -1) {
+      levelPos[index].creatorPoints = parseInt(level.creatorpoints) || 0; // Update creator points
+    }
+  });
+  console.log("Extended list fetched and updated:", levelPos);
+}
+
+async function fetchPlatformerList() {
+  const data = await fetchJson("/JS/platformerlist.json");
+  Object.values(data).forEach(level => {
+    const index = platformerPos.findIndex(l => l.name === level.name);
+    if (index !== -1) {
+      platformerPos[index].creatorPoints = parseInt(level.creatorpoints) || 0; // Update creator points
+    }
+  });
+  console.log("Platformer list fetched and updated:", platformerPos);
 }
 
 function appendDataTwo(data, leaderboardId, posArray) {
@@ -194,7 +218,6 @@ function displayCreatorPointsLeaderboard(sortedData) {
     div.appendChild(text);
   });
 
-  leaderboard.innerHTML = ''; // Clear previous leaderboard
   leaderboard.appendChild(div);
 }
 
