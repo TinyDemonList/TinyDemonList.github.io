@@ -89,15 +89,7 @@ function appendDataTwo(data, leaderboardId, posArray) {
   }
 
   allPersonArray.sort((a, b) => b.score - a.score);
-
-  // Create leaderboard items with click events
-  allPersonArray.forEach((person, index) => {
-    const text = document.createElement("p");
-    const cursc = `display(${index}, '${leaderboardId.includes("platformer") ? "platformer" : "regular"}')`;
-    text.innerHTML = `<p class="trigger_popup_fricc" onclick="${cursc}"><b>${index + 1}:</b> ${person.name} (${Math.round(person.score * 1000) / 1000} points)</p>`;
-    div.appendChild(text);
-  });
-
+  displayLeaderboard(allPersonArray, div, leaderboardId.includes("platformer") ? "platformer" : "regular");
   leaderboard.appendChild(div);
 }
 
@@ -109,8 +101,7 @@ function processPersonLevels(levels, records, posArray, isPlatformer) {
       name: level.name || level, 
       pos: levelPosObj ? levelPosObj.pos : 1,
       isInRecords: level.isInRecords || false,
-      isPlatformer: isPlatformer,
-      creatorPoints: levelPosObj ? levelPosObj.creatorPoints : 0
+      isPlatformer: isPlatformer 
     };
   }).sort((a, b) => {
     const posA = posArray.find(l => l.name === a.name)?.pos || 1;
@@ -203,16 +194,16 @@ async function fetchCreatorPointsLeaderboard() {
       .sort((a, b) => b.points - a.points);
 
     displayCreatorPointsLeaderboard(sortedCreatorPoints);
-  } catch (err) {
-    console.error("Error fetching creator points leaderboard:", err);
+  } catch (error) {
+    console.error("Error fetching creator points leaderboard:", error);
   }
 }
 
 function displayCreatorPointsLeaderboard(sortedData) {
   const leaderboard = document.getElementById("creator-points-leaderboard");
   const div = document.createElement("div");
-  let tiecount = 0;
   let curRank = 0;
+  let tiecount = 0;
 
   sortedData.forEach((entry, index) => {
     if (index === 0 || entry.points !== sortedData[index - 1].points) {
@@ -234,23 +225,17 @@ async function display(thisuser, type) {
   try {
     const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
     const data = await fetchJson(dataUrl);
-    const person = Object.keys(data)[thisuser];
+    const person = Object.values(data)[thisuser];
     if (!person) return;
 
-    const personData = data[person];
     const posArray = type === "platformer" ? platformerPos : levelPos;
-    const levelsMade = personData['Levels Made'] || [];
-    const createdLevelsHtml = levelsMade.map(levelName => {
-      const level = posArray.find(l => l.name === levelName);
-      const levelPosText = level ? ` (#${level.pos})` : '';
-      const creatorPointsText = level ? ` (${level.creatorPoints} points)` : '';
-      return `<li class="playerlevelEntry">${levelName}${levelPosText}${creatorPointsText}</li><br>`;
-    }).join('');
+    const personLevels = processPersonLevels(person.levels, person.records || [], posArray, type === "platformer");
+    const completedLevelsHtml = personLevels.map(level => `<li class="playerlevelEntry">${level.name} (#${level.pos})</li><br>`).join('');
 
     Swal.fire({
-      html: `<p>Created levels:</p><ol>${createdLevelsHtml || '<p>none</p>'}</ol>`
+      html: `<p>Completed levels:</p><ol>${completedLevelsHtml || '<p>none</p>'}</ol>`
     });
-    console.log("Displayed user data for:", person);
+    console.log("Displayed user data for:", person.name);
   } catch (err) {
     console.error("Error displaying user data:", err);
   }
