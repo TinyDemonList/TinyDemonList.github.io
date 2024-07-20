@@ -50,14 +50,25 @@ async function fetchPlatformerLevelList() {
 }
 
 async function fetchExtendedList() {
-  const dataExtended = await fetchJson("/JS/extended.json");
-  if (dataExtended.levels && Array.isArray(dataExtended.levels)) {
-    dataExtended.levels.forEach(level => {
-      levelDetails.push({ name: level.name, creatorPoints: level.creatorpoints });
+  try {
+    const extendedData = await fetchJson("/JS/extended.json");
+    Object.values(extendedData).forEach(level => {
+      levelDetails.push({ name: level.name, creatorPoints: parseInt(level.creatorpoints, 10) });
     });
+
+    const platformerData = await fetchJson("/JS/platformerlist.json");
+    Object.values(platformerData).forEach(level => {
+      levelDetails.push({ name: level.name, creatorPoints: parseInt(level.creatorpoints, 10) });
+    });
+
+    const mainListData = await fetchJson("/JS/mainlist.json");
+    Object.values(mainListData).forEach(level => {
+      levelDetails.push({ name: level.name, creatorPoints: parseInt(level.creatorpoints, 10) });
+    });
+
     console.log("Extended list fetched:", levelDetails);
-  } else {
-    console.error("Error: 'levels' property is missing or not an array in extended.json");
+  } catch (err) {
+    console.error("Error fetching extended data:", err);
   }
 }
 
@@ -69,7 +80,7 @@ function appendDataTwo(data, leaderboardId, posArray) {
 
   for (const key in data) {
     const person = data[key];
-    const personLevels = processPersonLevels(person.levels, person.records || [], posArray, leaderboardId.includes("platformer"));
+    const personLevels = processPersonLevels(person.levels || [], person.records || [], posArray, leaderboardId.includes("platformer"));
     const allBasePoints = calculateBasePoints(personLevels);
 
     const totalScore = allBasePoints.reduce((sum, currentValue) => sum + currentValue, 0);
