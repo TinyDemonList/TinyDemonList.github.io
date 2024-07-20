@@ -230,7 +230,7 @@ function displayCreatorPointsLeaderboard(sortedData) {
   leaderboard.appendChild(div);
 }
 
-function display(thisuser, type) {
+async function display(thisuser, type) {
   try {
     const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
     const data = await fetchJson(dataUrl);
