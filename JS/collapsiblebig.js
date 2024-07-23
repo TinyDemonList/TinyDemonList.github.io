@@ -4,7 +4,6 @@ try {
   setTimeout(function(){
   for (let i = 0; i < 100; i++) {
   coll2[i].addEventListener("click", function() {
-
     this.classList.toggle("active");
     let content = this.nextElementSibling;
     if (content.style.maxHeight){

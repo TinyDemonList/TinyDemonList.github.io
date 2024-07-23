@@ -1,19 +1,17 @@
 const levelPos = [];
 const platformerPos = [];
-
 async function fetchJson(url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`Failed to fetch ${url}`);
   return response.json();
 }
-
 async function initializeData() {
   try {
     await fetchLevelList();
-    await fetchMainList(); // Ensure this updates creator points correctly
+    await fetchMainList();
     await fetchPlatformerLevelList();
-    await fetchExtendedList(); // Ensure these updates are applied correctly
-    await fetchPlatformerList(); // Ensure these updates are applied correctly
+    await fetchExtendedList();
+    await fetchPlatformerList();
     const dataTwo = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
     appendDataTwo(dataTwo, "regular-leaderboard", levelPos);
@@ -24,9 +22,6 @@ async function initializeData() {
     console.error("Error during initialization:", err);
   }
 }
-
-
-
 async function fetchLevelList() {
   const dataThree = await fetchJson("/JS/levellist.json");
   dataThree.levels.forEach((level, i) => {
@@ -34,7 +29,6 @@ async function fetchLevelList() {
   });
   console.log("Level list fetched:", levelPos);
 }
-
 async function fetchMainList() {
   const dataFour = await fetchJson("/JS/mainlist.json");
   levelPos.forEach(levelPosObj => {
@@ -47,8 +41,6 @@ async function fetchMainList() {
   });
   console.log("Main list fetched and updated:", levelPos);
 }
-
-
 async function fetchPlatformerLevelList() {
   const dataFive = await fetchJson("/JS/platformer_levellist.json");
   dataFive.levels.forEach((level, i) => {
@@ -56,7 +48,6 @@ async function fetchPlatformerLevelList() {
   });
   console.log("Platformer level list fetched:", platformerPos);
 }
-
 async function fetchExtendedList() {
   const data = await fetchJson("/JS/extended.json");
   Object.values(data).forEach(level => {
@@ -71,7 +62,6 @@ async function fetchExtendedList() {
   });
   console.log("Extended list fetched and updated:", levelPos);
 }
-
 async function fetchPlatformerList() {
   const data = await fetchJson("/JS/platformerlist.json");
   platformerPos.forEach(platformerPosObj => {
@@ -83,14 +73,11 @@ async function fetchPlatformerList() {
   });
   console.log("Platformer list fetched and updated:", platformerPos);
 }
-
-
 function appendDataTwo(data, leaderboardId, posArray) {
   const allPersonArray = [];
   const leaderboard = document.getElementById(leaderboardId);
   const div = document.createElement("div");
   let order = 0;
-
   for (const key in data) {
     const person = data[key];
     const personLevels = processPersonLevels(person.levels, person.records || [], posArray, leaderboardId.includes("platformer"));
@@ -100,12 +87,10 @@ function appendDataTwo(data, leaderboardId, posArray) {
     allPersonArray.push({ name: key, score: totalScore, readorder: order });
     order++;
   }
-
   allPersonArray.sort((a, b) => b.score - a.score);
   displayLeaderboard(allPersonArray, div, leaderboardId.includes("platformer") ? "platformer" : "regular");
   leaderboard.appendChild(div);
 }
-
 function processPersonLevels(levels, records, posArray, isPlatformer) {
   const allLevels = [...levels, ...records.map(record => ({ name: record, isInRecords: true }))];
   return allLevels.map(level => {
@@ -123,7 +108,6 @@ function processPersonLevels(levels, records, posArray, isPlatformer) {
     return posA - posB;
   });
 }
-
 function calculateBasePoints(levels) {
   const basePoints = levels.map(level => calculatePoints(level.pos, level.isPlatformer, level.isInRecords));
   basePoints.sort((a, b) => b - a);
@@ -144,13 +128,11 @@ function calculatePoints(pos, isPlatformer, isInRecords) {
   console.log(`Position: ${pos}, Points: ${points}, isPlatformer: ${isPlatformer}, isInRecords: ${isInRecords}`);
   return points;
 }
-
 function displayLeaderboard(allPersonArray, div, type) {
   const zeroindex = allPersonArray.findIndex(person => person.score === 0);
   const maxIndex = zeroindex === -1 ? allPersonArray.length : zeroindex;
   let tiecount = 0;
   let curRank = 0;
-
   for (let i = 0; i < maxIndex; i++) {
     const person = allPersonArray[i];
     const text = document.createElement("p");
@@ -161,14 +143,12 @@ function displayLeaderboard(allPersonArray, div, type) {
     } else {
       tiecount++;
     }
-
     const cursc = `display(${person.readorder}, '${type}')`;
     text.innerHTML = `<p class="trigger_popup_fricc" onclick="${cursc}"><b>${curRank}:</b> ${person.name} (${Math.round(person.score * 1000) / 1000} points)</p>`;
     div.appendChild(text);
   }
   console.log("Leaderboard displayed for type:", type);
 }
-
 function calculateCreatorPoints(levelsMade, posArray) {
   let totalPoints = 0;
   levelsMade.forEach(levelName => {
@@ -183,23 +163,16 @@ function calculateCreatorPoints(levelsMade, posArray) {
   console.log(`Total Creator Points for levels ${levelsMade}: ${totalPoints}`);
   return totalPoints;
 }
-
-
 async function fetchCreatorPointsLeaderboard() {
   try {
     const regularData = await fetchJson("/JS/leaderboard.json");
     const platformerData = await fetchJson("/JS/platformer_leaderboard.json");
-
     const creatorPointsData = {};
-
-    // Calculate creator points for regular leaderboard
     for (const user in regularData) {
       const levelsMade = regularData[user]['Levels Made'] || [];
       const totalPoints = calculateCreatorPoints(levelsMade, levelPos);
       creatorPointsData[user] = totalPoints;
     }
-
-    // Calculate creator points for platformer leaderboard
     for (const user in platformerData) {
       const levelsMade = platformerData[user]['Levels Made'] || [];
       const totalPoints = calculateCreatorPoints(levelsMade, platformerPos);
@@ -209,8 +182,6 @@ async function fetchCreatorPointsLeaderboard() {
         creatorPointsData[user] = totalPoints;
       }
     }
-
-    // Sort and filter creator points
     const sortedCreatorPoints = Object.entries(creatorPointsData)
       .map(([name, points]) => ({ name, points }))
       .filter(entry => entry.points > 0)
@@ -221,7 +192,6 @@ async function fetchCreatorPointsLeaderboard() {
     console.error("Error fetching creator points leaderboard:", error);
   }
 }
-
 function displayCreatorPointsLeaderboard(sortedData) {
   const leaderboard = document.getElementById("creator-points-leaderboard");
   const div = document.createElement("div");
@@ -243,7 +213,6 @@ function displayCreatorPointsLeaderboard(sortedData) {
 
   leaderboard.appendChild(div);
 }
-
 async function display(thisuser, type) {
   try {
     const dataUrl = type === "platformer" ? "/JS/platformer_leaderboard.json" : "/JS/leaderboard.json";
@@ -265,5 +234,4 @@ async function display(thisuser, type) {
     console.error("Error displaying user data:", err);
   }
 }
-
 initializeData();

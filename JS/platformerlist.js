@@ -8,7 +8,6 @@ fetch("/JS/platformerlist.json")
   .catch(function (err) {
     console.log(err);
   });
-
 function appendData(data) {
   let allLevels = document.getElementById("levels-container");
   let counter = 1;
@@ -61,7 +60,6 @@ function appendData(data) {
        <hr/></button>
     `;
     }
-    // List of records
     let listOfRecords = document.createElement("div");
     listOfRecords.setAttribute("class", "content");
     for (let i = 0; i < level.list.length; i++) {
@@ -90,7 +88,6 @@ function appendData(data) {
   thing.innerHTML = `<p class="toTop" onclick="topFunction()">To the top</p>`;
   allLevels.appendChild(thing);
 }
-
 function topFunction() {
   console.log("To the top button clicked.");
   window.scrollTo({ top: 0, behavior: 'smooth' });

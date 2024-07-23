@@ -80,7 +80,6 @@ $(window).on("load resize", function () {
     var collapse = $(elem);
     var content = collapse.find(".js-collapse-content");
     var arrow = collapse.find(".arrow");
-
     arrow.parent().click(function () {
       if (!collapse.hasClass("js-sliding")) {
         collapse.addClass("js-sliding");
@@ -117,7 +116,6 @@ $(window).on("load resize", function () {
     var elem = $(elem);
     var attr = elem.data("attr");
     var value = elem.data("attr-value");
-
     if (elem.attr(attr) != value) elem.attr(attr, value);
   });
 });
