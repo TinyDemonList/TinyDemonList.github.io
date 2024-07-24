@@ -1,4 +1,25 @@
 {
+	"Bruh is Calling":{
+		"name":"Bruh is Calling",
+		"ytcode":"na",
+		"publisher":"Cinasek",
+		"id":"75474342",
+		"creatorpoints":"1",
+		"list":[
+			{
+				"name":"Cinasek",
+				"link":"na"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=I7CSqXkLxJA"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=QQDEs9kOR0I"
+			}
+		]
+	},
 	"Scissorphrenic":{
 		"name":"Scissorphrenic",
 		"ytcode":"S7PFqiA8VLM",
