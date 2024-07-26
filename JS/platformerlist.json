@@ -24,6 +24,16 @@
 				"name":"ScratchMan",
 				"link":"https://youtu.be/PinwQQ1l2Qc",
 				"time":"7.091"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/58y8kOyjG9k",
+				"time":"6.079"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/yFeBmCIouaI",
+				"time":"5.612"
 			}
 		]
 	},
@@ -102,22 +112,22 @@
 				"link":"https://youtu.be/skg9dDKlBbo?si=ZJrzfIeR2qT9b1Ry",
 				"time":"9.187"
 			},
-            {
+            		{
 				"name":"DaringDare910",
 				"link":"https://youtu.be/nEmUeMUW6rk?si=JCzo0ZZ5515dm3c2",
 				"time":"7.279"
 			},
-            {
+            		{
 				"name":"tFluffy",
 				"link":"https://youtu.be/AMiQSx_n1i4",
 				"time":"6.487"
 			},
-            {
+            		{
 				"name":"Zenos",
 				"link":"https://youtu.be/5bLjG06wHbo?si=PyXASCa4cnUAsM9F",
 				"time":"6.570"
 			},
-            {
+            		{
 				"name":"aelz",
 				"link":"https://www.youtube.com/live/iie9zhoIY2g",
 				"time":"8.979"
@@ -151,6 +161,11 @@
 				"name":"lightnn",
 				"link":"https://youtu.be/w8xmN9GOHVM?si=GEzP6g_q5GdDh5_C",
 				"time":"9.241"
+			},
+			{
+				"name":"Sneedle",
+				"link":"na",
+				"time":"9.295"
 			}
 		]
 	},
@@ -183,8 +198,8 @@
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://youtu.be/qRfwd-o9HfU",
-				"time":"6.341"
+				"link":"https://www.youtube.com/watch?v=yFeBmCIouaI",
+				"time":"6.279"
 			},
 			{
 				"name":"kowman10",
@@ -215,17 +230,17 @@
 				"link":"https://youtu.be/LIswkudg0BM?si=wkIHkclo5cwJv23b",
 				"time":"8.862"
 			},
-            {
+            		{
 				"name":"tFluffy",
 				"link":"https://youtu.be/-yfncnGw9tQ",
 				"time":"8.091"
 			},
-            {
+            		{
 				"name":"Zenos",
 				"link":"https://youtu.be/tuMYgauv5II?si=nLvMYbKTBm2Bxuxx",
 				"time":"8.091"
 			},
-            {
+            		{
 				"name":"aelz",
 				"link":"https://www.youtube.com/live/iie9zhoIY2g",
 				"time":"8.279"
@@ -279,6 +294,16 @@
 				"link":"https://youtu.be/xxSOgYARqJg?si=qaIsOVAKyLlXQRTX",
 				"time":"1.837"
 			}
+			{
+				"name":"TrickeryGD",
+				"link":"https://www.youtube.com/watch?v=fNnn7rPCszM",
+				"time":"1.837"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=TvWDvtCAOgg",
+				"time":"1.836"
+			}
 		]
 	},
 	"Bottom of the PDL":{
@@ -297,7 +322,18 @@
 				"name":"DaringDare910",
 				"link":"https://youtu.be/BIAOPB8Bujg?si=pv31D9fKM5-19FoO",
 				"time":"0.050"
+			},
+			{
+				"name":"Epic GD",
+				"link":"na",
+				"time":"0.050"
+			},
+			{
+				"name":"epiccoolman66",
+				"link":"na",
+				"time":"0.625"
 			}
+			
 		]
 	}
 }
