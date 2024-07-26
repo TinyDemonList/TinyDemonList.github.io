@@ -37,7 +37,9 @@
 			"The Farts Evil Needl",
 			"Cradles",
 			"My Cat To Death",
-			"shat lava"
+			"shat lava",
+			"The Other Side",
+			"Blue"
 		],
 		"Levels Made":[
 
@@ -47,7 +49,8 @@
 		"levels":[
 			"Cradles",
 			"The Farts Evil Needl",
-			"My Cat To Death"
+			"My Cat To Death",
+			"The Other Side"
 		],
 		"records":[
 			"Pick a Way",
@@ -140,6 +143,17 @@
 		],
 		"Levels Made":[
 			"Bottom of the PDL"
+		]
+	},
+	"TrickeryGD":{
+		"levels":[
+			"Blue"
+		],
+		"records":[
+
+		],
+		"Levels Made":[
+
 		]
 	}
 }
