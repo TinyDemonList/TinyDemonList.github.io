@@ -949,6 +949,27 @@
 			}
 		]
 	},
+	"Sakupenlike":{
+		"name":"Sakupenlike",
+		"ytcode":"YFMIYRbQoGE",
+		"publisher":"Fred Bylon",
+		"id":"106588556",
+		"creatorpoints":"4",
+		"list":[
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/YFMIYRbQoGE?si=vYUpPRfhD78naHhw"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=aMccSfpVxhQ"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/ltwYUvSgw_0"
+			}
+		]
+	},
 	"powerave":{
 		"name":"powerave",
 		"ytcode":"VXNf8I3b4Kk",
