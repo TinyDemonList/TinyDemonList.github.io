@@ -67,7 +67,7 @@ async function fetchPlatformerList() {
   platformerPos.forEach(platformerPosObj => {
     const levelData = data[platformerPosObj.name];
     if (levelData) {
-      platformerPosObj.creatorPoints = parseInt(levelData.creatorpoints) || 0; // Extract creator points
+      platformerPosObj.creatorPoints = parseInt(levelData.creatorpoints) || 0;
       console.log(`Updated ${platformerPosObj.name} with ${platformerPosObj.creatorPoints} creator points`);
     }
   });
