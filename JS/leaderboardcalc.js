@@ -35,7 +35,7 @@ async function fetchMainList() {
     const levelData = dataFour[levelPosObj.name];
     if (levelData) {
       levelPosObj.req = levelData.minimumPercent || 100;
-      levelPosObj.creatorPoints = parseInt(levelData.creatorpoints) || 0; // Extract creator points
+      levelPosObj.creatorPoints = parseInt(levelData.creatorpoints) || 0;
       console.log(`Updated ${levelPosObj.name} with ${levelPosObj.creatorPoints} creator points`);
     }
   });
