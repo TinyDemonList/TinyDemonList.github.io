@@ -54,7 +54,9 @@
 		],
 		"records":[
 			"Pick a Way",
-			"Blue"
+			"Blue",
+			"Bottom of the PDL",
+			"lobotomy bounce"
 		]
 	},
     "aelz":{
@@ -108,10 +110,11 @@
 		"levels":[
 			"Cradles",
 			"Pick a Way",
-			"My Cat To Death"
+			"My Cat To Death",
+			"lobotomy bounce"
 		],
 		"records":[
-			"lobotomy bounce"
+			
 		]
 	},
 	"Quaoz":{
@@ -158,6 +161,19 @@
 		],
 		"records":[
 
+		]
+	},
+	"Fiesty":{
+		"levels":[
+			"Bottom of the PDL",
+			"Blue",
+			"Pick a Way",
+			"Cradles",
+			"My Cat To Death",
+			"lobotomy bounce"
+		],
+		"records":[
+			
 		]
 	}
 }
