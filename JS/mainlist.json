@@ -164,6 +164,23 @@
 			}
 		]
 	},
+	"TDHell":{
+		"name":"TDHell",
+		"ytcode":"RumN70tDMVw",
+		"publisher":"Freakybob",
+		"id":"107726936",
+		"creatorpoints":"9",
+		"list":[
+			{
+				"name":"Freakybob",
+				"link":"https://youtu.be/RumN70tDMVw"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/v225fZ5zC8o"
+			}
+		]
+	},
 	"Antivirus":{
 		"name":"Antivirus",
 		"ytcode":"XGLMTpDTv-8",
@@ -200,23 +217,6 @@
 			{
 				"name":"Zenos",
 				"link":"https://youtu.be/qLh6FkJTMpw?si=_wcopn7wfmIzGhMJ"
-			}
-		]
-	},
-	"TDHell":{
-		"name":"TDHell",
-		"ytcode":"RumN70tDMVw",
-		"publisher":"Freakybob",
-		"id":"107726936",
-		"creatorpoints":"9",
-		"list":[
-			{
-				"name":"Freakybob",
-				"link":"https://youtu.be/RumN70tDMVw"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/v225fZ5zC8o"
 			}
 		]
 	},
