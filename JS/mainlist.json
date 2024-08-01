@@ -139,23 +139,6 @@
 			}
 		]
 	},
-	"TDHell":{
-		"name":"TDHell",
-		"ytcode":"RumN70tDMVw",
-		"publisher":"Freakybob",
-		"id":"107726936",
-		"creatorpoints":"9",
-		"list":[
-			{
-				"name":"Freakybob",
-				"link":"https://youtu.be/RumN70tDMVw"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/v225fZ5zC8o"
-			}
-		]
-	},
 	"natsumio Challenge":{
 		"name":"natsumio Challenge",
 		"ytcode":"BnhSG4wpU7c",
@@ -196,6 +179,23 @@
 			{
 				"name":"tFluffy",
 				"link":"https://www.youtube.com/watch?v=4E2uuOTIpO0"
+			}
+		]
+	},
+	"TDHell":{
+		"name":"TDHell",
+		"ytcode":"RumN70tDMVw",
+		"publisher":"Freakybob",
+		"id":"107726936",
+		"creatorpoints":"9",
+		"list":[
+			{
+				"name":"Freakybob",
+				"link":"https://youtu.be/RumN70tDMVw"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/v225fZ5zC8o"
 			}
 		]
 	},
