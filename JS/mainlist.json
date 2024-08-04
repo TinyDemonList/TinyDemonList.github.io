@@ -1074,23 +1074,6 @@
 			}
 		]
 	},
-	"easy challenge":{
-		"name":"easy challenge",
-		"ytcode":"tdjUHi3Rlm0",
-		"publisher":"Ken Carson",
-		"id":"105794774",
-		"creatorpoints":"4",
-		"list":[
-			{
-				"name":"Ken Carson",
-				"link":"https://www.youtube.com/watch?v=tdjUHi3Rlm0"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=zRtSjGSdKR0"
-			}
-		]
-	},
 	"My Meat":{
 		"name":"My Meat",
 		"ytcode":"na",
@@ -2038,6 +2021,23 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/Wg9ITNWm5VM"
+			}
+		]
+	},
+	"easy challenge":{
+		"name":"easy challenge",
+		"ytcode":"tdjUHi3Rlm0",
+		"publisher":"Ken Carson",
+		"id":"105794774",
+		"creatorpoints":"4",
+		"list":[
+			{
+				"name":"Ken Carson",
+				"link":"https://www.youtube.com/watch?v=tdjUHi3Rlm0"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=zRtSjGSdKR0"
 			}
 		]
 	},
