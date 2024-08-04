@@ -2210,44 +2210,28 @@
 			}
 		]
 	},
-	"Tesco Hard":{
-		"name":"Tesco Hard",
-		"ytcode":"lWRuhpiaE2c",
-		"publisher":"Fiesty",
-		"id":"104889533",
-		"creatorpoints":"1",
+	"Inconspicuous Maze":{
+		"name":"Inconspicuous Maze",
+		"ytcode":"ttOivOdlcf8",
+		"publisher":"ScratchMan",
+		"id":"105755697",
+		"creatorpoints":"3",
 		"list":[
 			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=lWRuhpiaE2c"
+				"name":"ScratchMan",
+				"link":"https://www.youtube.com/watch?v=ttOivOdlcf8"
 			},
 			{
-				"name":"Dexxx071",
-				"link":"na"
-			},
-			{
-				"name":"YzGuyzie",
-				"link":"na"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://youtu.be/5OQKWd--2B4"
+				"name":"DaringDare910",
+				"link":"https://youtu.be/4PrTaLccSjk?si=V0EOtW9FQ5-mZQSn"
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=CQaAKlA15Ok"
+				"link":"https://www.youtube.com/watch?v=2512pbqXAvM"
 			},
 			{
 				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=NDI_Ch1UMfA"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/Ea2LPifvefg"
-			},
-			{
-				"name":"Bazinged Dolphin 1936",
-				"link":"https://youtu.be/dO1cIJy-gUM"
+				"link":"https://youtu.be/4mP-JC8YXRA?si=UcSYvhX9jW_VKcyC"
 			}
 		]
 	},
