@@ -1434,6 +1434,23 @@
 			}
 		]
 	},
+	"Sigma Challenge":{
+		"name":"Sigma Challenge",
+		"ytcode":"na",
+		"publisher":"Sneedle",
+		"id":"107402237",
+		"creatorpoints":"2",
+		"list":[
+			{
+				"name":"MXGaming01",
+				"link":"na"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/tT0pJFc6yYQ"
+			}
+		]
+	},
 	"femboy reppelent":{
 		"name":"femboy reppelent",
 		"ytcode":"4yLekoObWVE",
@@ -1925,23 +1942,6 @@
 			{
 				"name":"Aelz",
 				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
-			}
-		]
-	},
-	"Sigma Challenge":{
-		"name":"Sigma Challenge",
-		"ytcode":"na",
-		"publisher":"Sneedle",
-		"id":"107402237",
-		"creatorpoints":"2",
-		"list":[
-			{
-				"name":"MXGaming01",
-				"link":"na"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/tT0pJFc6yYQ"
 			}
 		]
 	},
