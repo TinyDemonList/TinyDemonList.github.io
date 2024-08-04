@@ -376,32 +376,36 @@
 			}
 		]
 	},
-	"Jump Trials":{
-		"name":"Jump Trials",
-		"ytcode":"kKM3WREyjmo",
-		"publisher":"Robot_Man",
-		"id":"104723880",
+	"Cheese Pizza Sequel":{
+		"name":"Cheeze Pizza Sequel",
+		"ytcode":"PsJZt_C1hSw",
+		"publisher":"ThatPizzaGod",
+		"id":"106786578",
 		"creatorpoints":"1",
 		"list":[
 			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
+				"name":"ThatPizzaGod",
+				"link":"https://www.youtube.com/watch?v=PsJZt_C1hSw"
 			},
 			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/0eUWXB-hVEw?si=rmsZ4Qo_M7UbdsiT"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+				"name":"Supzix",
+				"link":"https://youtu.be/TR766Pt-A-0"
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://youtu.be/ZtxTnXHT-Ow"
+				"link":"https://youtu.be/FyK_7_d-vzM"
+			},
+			{
+				"name":"Dexxx071",
+				"link":"na"
+			},
+			{
+				"name":"PPCOOL",
+				"link":"https://medal.tv/games/geometry-dash/clips/i9kJSYoAbWrIn0NZP/d1337kZzfBjL?invite=cr-MSxYQjUsMjAwNTM1NzcxLA"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/Ea2LPifvefg"
 			}
 		]
 	},
