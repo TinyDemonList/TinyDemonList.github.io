@@ -1701,44 +1701,32 @@
 			}
 		]
 	},
-	"Shitty":{
-		"name":"Shitty",
-		"ytcode":"6qDguPtiupc",
-		"publisher":"MxGaming01",
-		"id":"106978121",
-		"creatorpoints":"2",
+	"Plastic Straw Turtle":{
+		"name":"Plastic Straw Turtle",
+		"ytcode":"9QIkpA4ym-A",
+		"publisher":"Eurikuj",
+		"id":"90246747",
+		"creatorpoints":"4",
 		"list":[
 			{
-				"name":"MxGaming01",
-				"link":"https://youtu.be/6qDguPtiupc"
+				"name":"Eurikuj",
+				"link":"https://www.youtube.com/watch?v=9QIkpA4ym-A"
 			},
 			{
-				"name":"skurczybyk aeonpowietrze",
-				"link":"https://youtu.be/tNeTE0KV4lM"
+				"name":"QwertyQwertz",
+				"link":"na"
 			},
 			{
-				"name":"DaringDare910",
-				"link":"https://www.youtube.com/watch?v=A3vs3cmY264"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=87TGMFborjY"
-			},
-			{
-				"name":"Sneedle",
-				"link":"https://youtu.be/wERvSWLAFT4?si=-I8zKv0eEkl3UTd1"
-			},
-			{
-				"name":"Aelz",
-				"link":"https://www.youtube.com/live/Ea2LPifvefg"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/ZtxTnXHT-Ow"
+				"name":"Cinasek",
+				"link":"https://youtu.be/xXgAYMEzcPg"
 			},
 			{
 				"name":"Zenos",
-				"link":"https://youtu.be/rActSR6JI7o"
+				"link":"https://www.youtube.com/watch?v=UwQNXOa42n8"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/j8LrcRImtZg"
 			}
 		]
 	},
