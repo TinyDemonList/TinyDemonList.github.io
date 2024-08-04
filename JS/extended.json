@@ -667,44 +667,40 @@
 			}
 		]
 	},
-	"Lavender Destroyed":{
-		"name":"Lavender Destroyed",
+	"Rizzler Funk":{
+		"name":"Rizzler Funk",
 		"ytcode":"na",
-		"publisher":"Epic GD",
-		"id":"105577135",
-		"creatorpoints":"7",
+		"publisher":"PPCOOL",
+		"id":"106862561",
+		"creatorpoints":"5",
 		"list":[
 			{
-				"name":"Wvsp",
-				"link":"na"
+				"name":"PPCOOL",
+				"link":"https://medal.tv/games/geometry-dash/clips/i7mVjxns5amtWLzn5/d1337kZB2oAL?invite=cr-MSxMN2ksMjAwNTM1NzcxLA"
 			},
 			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=STRWWADQWjQ"
-			},
-			{
-				"name":"Quaoz",
-				"link":"https://youtu.be/UBGtNYg2LO4?si=3eJ3g5vYNTlWHSU5"
-			},
-			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/gxKvAo0Kl3k?si=b1LIHAR76PmTEfcl"
-			},
-			{
-				"name":"Fiesty",
-				"link":"https://www.youtube.com/watch?v=FvuY2dZ7Mcg"
-			},
-			{
-				"name":"Eurikuj",
-				"link":"https://www.youtube.com/watch?v=RfWYOQRZEok"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=w0W7qVn9MBU"
+				"name":"ScratchMan",
+				"link":"https://www.youtube.com/watch?v=3rK5PBoPUXM"
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://youtu.be/KW2StKUhqHs"
+				"link":"https://youtu.be/TNVN4jDmB34"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
+			},
+			{
+				"name":"Chamso_155",
+				"link":"https://www.youtube.com/watch?v=FsZZZdb7jYU"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/Ea2LPifvefg"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=hYeGbof0HHo"
 			}
 		]
 	},
