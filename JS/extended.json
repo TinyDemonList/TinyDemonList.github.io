@@ -802,32 +802,36 @@
 			}
 		]
 	},
-	"Epileptic Fun":{
-		"name":"Epileptic Fun",
-		"ytcode":"aI8XEfPMwxI",
-		"publisher":"kowman",
-		"id":"105753689",
-		"creatorpoints":"2",
+	"fwaeh":{
+		"name":"fwaeh",
+		"ytcode":"xNNoIGI4DOQ",
+		"publisher":"Ken Carson",
+		"id":"106863458",
+		"creatorpoints":"3",
 		"list":[
 			{
-				"name":"kowman",
-				"link":"https://www.youtube.com/watch?v=aI8XEfPMwxI"
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/xNNoIGI4DOQ"
 			},
 			{
-				"name":"Cinasek",
-				"link":"https://youtu.be/xXgAYMEzcPg"
-			},
-			{
-				"name":"QwertyQwertz",
-				"link":"https://www.youtube.com/watch?v=yj1BY0aohBI"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/0BpooDs7094?si=q8NJ9CvhkAA4H8_T"
+				"name":"MxGaming01",
+				"link":"https://youtu.be/6r7wv1fYbH0"
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://youtu.be/j8LrcRImtZg"
+				"link":"https://youtu.be/U3GJ4_R0uFI"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/Ea2LPifvefg"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=_tyQung2a7o"
 			}
 		]
 	},
