@@ -119,24 +119,32 @@
 			}
 		]
 	},
-	"Bruh is Calling":{
-		"name":"Bruh is Calling",
-		"ytcode":"na",
-		"publisher":"Cinasek",
-		"id":"75474342",
+	"lolsman06":{
+		"name":"lolsman06",
+		"ytcode":"pj734CqlI4g",
+		"publisher":"skurczybyk aeonpowietrze",
+		"id":"106848790",
 		"creatorpoints":"1",
 		"list":[
 			{
-				"name":"Cinasek",
-				"link":"na"
+				"name":"skurczybyk aeonpowietrze",
+				"link":"https://youtu.be/pj734CqlI4g"
+			},
+			{
+				"name":"MxGaming01",
+				"link":"https://youtu.be/bqEdpY4y2qE"
+			},
+			{
+				"name":"DaringDare910",
+				"link":"https://www.youtube.com/watch?v=lPqB3UrqhXQ"
+			},
+			{
+				"name":"Fiesty",
+				"link":"https://www.youtube.com/watch?v=87TGMFborjY"
 			},
 			{
 				"name":"tFluffy",
-				"link":"https://www.youtube.com/watch?v=I7CSqXkLxJA"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://www.youtube.com/watch?v=QQDEs9kOR0I"
+				"link":"https://youtu.be/-X3N2ArTX20"
 			}
 		]
 	},
