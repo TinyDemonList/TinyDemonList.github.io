@@ -1,25 +1,4 @@
 {
-	"VSB":{
-		"name":"VSB",
-		"ytcode":"BMzBWQxCdoM",
-		"publisher":"MXGaming01",
-		"id":"107975671",
-		"creatorpoints":"2",
-		"list":[
-			{
-				"name":"MXGaming01",
-				"link":"https://youtu.be/BMzBWQxCdoM"
-			},
-			{
-				"name":"Zenos",
-				"link":"https://youtu.be/javpa35H8N8?si=98llRRe-T9hcMpr8"
-			},
-			{
-				"name":"tFluffy",
-				"link":"https://youtu.be/X3DqmN0z1_I"
-			}
-		]
-	},
 	"T":{
 		"name":"T",
 		"ytcode":"M1zsaK3vWss",
@@ -508,6 +487,27 @@
 			{
 				"name":"Zenos",
 				"link":"https://youtu.be/e_3ogUcDLcQ"
+			}
+		]
+	},
+	"VSB":{
+		"name":"VSB",
+		"ytcode":"BMzBWQxCdoM",
+		"publisher":"MXGaming01",
+		"id":"107975671",
+		"creatorpoints":"2",
+		"list":[
+			{
+				"name":"MXGaming01",
+				"link":"https://youtu.be/BMzBWQxCdoM"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/javpa35H8N8?si=98llRRe-T9hcMpr8"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/X3DqmN0z1_I"
 			}
 		]
 	},
