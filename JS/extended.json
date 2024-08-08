@@ -1,4 +1,66 @@
 {
+	"Slash":{
+		"name":"Slash",
+		"ytcode":"M0xLcfOsESQ",
+		"publisher":"Fred Bylon and Callum",
+		"id":"106727338",
+		"creatorpoints":"8",
+		"list":[
+			{
+				"name":"Fred Bylon",
+				"link":"https://youtu.be/M0xLcfOsESQ"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=MK882pV6kBo"
+			},
+			{
+				"name":"ScratchMan",
+				"link":"https://youtu.be/Eca25orhwCs"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://youtu.be/heMzcyftvIM?si=ts6eornI1JRPnCBd"
+			}
+		]
+	},
+	"I Have Depression":{
+		"name":"I Have Depression",
+		"ytcode":"MSdqKldZiz4",
+		"publisher":"Garlic Bread",
+		"id":"105569722",
+		"creatorpoints":"1",
+		"list":[
+			{
+				"name":"Garlic Bread",
+				"link":"https://www.youtube.com/watch?v=MSdqKldZiz4"
+			},
+			{
+				"name":"YzGuysie",
+				"link":"https://www.youtube.com/watch?v=9CpW-T3f_Q8"
+			},
+			{
+				"name":"QwertyQwertz",
+				"link":"https://youtu.be/5OQKWd--2B4"
+			},
+			{
+				"name":"edio",
+				"link":"https://youtu.be/B-fm8MVP6sE?si=smjodpkXPtSfTu23"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://www.youtube.com/watch?v=2MX3nSDHSeU"
+			},
+			{
+				"name":"Eurikuj",
+				"link":"na"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=yiEBIkMi44I"
+			}
+		]
+	},
 	"Grandma Pickles Cell":{
 		"name":"Grandma Pickles Cell",
 		"ytcode":"3IztcFT8Ass",
