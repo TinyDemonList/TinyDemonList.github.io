@@ -1,4 +1,29 @@
 {
+	"I snare your soul":{
+		"name":"I snare your soul",
+		"ytcode":"cPSAf31Avtk",
+		"publisher":"MxGaming01",
+		"id":"106873882",
+		"creatorpoints":"4",
+		"list":[
+			{
+				"name":"MxGaming01",
+				"link":"https://www.youtube.com/watch?v=cPSAf31Avtk"
+			},
+			{
+				"name":"tFluffy",
+				"link":"https://youtu.be/sqWT0YRb1Cg"
+			},
+			{
+				"name":"Aelz",
+				"link":"https://www.youtube.com/live/Ea2LPifvefg"
+			},
+			{
+				"name":"Zenos",
+				"link":"https://www.youtube.com/watch?v=WsHEb0H5Yo0"
+			}
+		]
+	},
 	"Slash":{
 		"name":"Slash",
 		"ytcode":"M0xLcfOsESQ",
