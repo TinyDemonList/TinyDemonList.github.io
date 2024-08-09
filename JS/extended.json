@@ -812,6 +812,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://youtu.be/P-BZSt9iKD8?si=LCSKtyAH0xEOAJXd"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -992,6 +996,10 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/j8LrcRImtZg"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -1017,6 +1025,10 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/j8LrcRImtZg"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -1050,6 +1062,10 @@
 			{
 				"name":"tFluffy",
 				"link":"https://youtu.be/j8LrcRImtZg"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -1321,6 +1337,10 @@
 			{
 				"name":"Bazinged Dolphin 1936",
 				"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -1538,6 +1558,10 @@
 			{
 				"name":"Zenos",
 				"link":"https://youtu.be/G_Bx5JDnBbY"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -1718,6 +1742,10 @@
 			{
 				"name":"Aelz",
 				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -1812,6 +1840,10 @@
 			{
 				"name":"Aelz",
 				"link":"https://www.youtube.com/live/m1hIgEO7iwM"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -2081,6 +2113,10 @@
 			{
 				"name":"Bazinged Dolphin 1936",
 				"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -2484,6 +2520,10 @@
 			{
 				"name":"Bazinged Dolphin 1936",
 				"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -2541,6 +2581,10 @@
 			{
 				"name":"Bazinged Dolphin 1936",
 				"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -2671,6 +2715,10 @@
 			{
 				"name":"Bazinged Dolphin 1936",
 				"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -2894,6 +2942,10 @@
 			{
 				"name":"Bazinged Dolphin 1936",
 				"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
+			},
+			{
+				"name":"Fiesty",
+				"link":"na"
 			}
 		]
 	},
@@ -4201,10 +4253,14 @@
 			"name":"notsomeone",
 			"link":"https://youtu.be/j3jjQlexOlg"
 		},
-			{
-				"name":"Bazinged Dolphin 1936",
-				"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
-			}
+		{
+			"name":"Bazinged Dolphin 1936",
+			"link":"https://www.youtube.com/watch?v=F3-Wzi25VOw"
+		},
+	    	{
+			"name":"Fiesty",
+			"link":"na"
+		}
     ]
 },
 "no this is":{
